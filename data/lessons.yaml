@@ -2,108 +2,71 @@ lessons:
   - title: '<span class="fake-header-table">Fundamentals of Economic Development</span>'
     header: True
 
-  - title: "1.1 — The Big Questions"
-    slides: "1.1-slides"
-    content: "1.1-content"
+  - title: "1.1 — Choosing in Groups"
 
-  - title: "1.2 — Measuring Development"
-    slides: "1.2-slides"
-    content: "1.2-content"
+  - title: "1.2 — Externalities and Bargaining"
 
-  - title: "1.3 — Why Development Matters"
-    slides: "1.3-slides"
-    content: "1.3-content"
+  - title: "1.3 — Property Rights"
 
-  - title: "1.4 — Can We Plan an Economy?"
-    slides: "1.4-slides"
-    content: "1.4-content"
+  - title: "1.4 — Public Goods and Collective Action"
 
-  - title: "1.5 — The Socialist Calculation Debate"
-    content: "1.5-content"
-    slides: "1.5-slides"
+  - title: "1.5 — Efficiency and Justice"
 
-  - title: '<span class="fake-header-table">Models of Economic Development</span>'
+  - title: '<span class="fake-header-table">Constitutional Political Economy</span>'
     header: True
 
-  - title: "2.1 — The Microeconomics of Development I: Division of Labor"
-    content: "2.1-content"
-    slides: "2.1-slides"
-    
-  - title: "2.2 — The Microeconomics of Development II: Markets & Prices"
-    content: "2.2-content"
-    slides: "2.2-slides"
+  - title: "2.1 — Politics as Constraints"
 
-  - title: "2.3 — The Macroeconomics of Development I: Classical Growth Theory"
-    content: "2.3-content"
-    slides: "2.3-slides"
-    
-  - title: "2.4 — The Macroeconomics of Development II: Exogenous Growth Theory"
-    content: "2.4-content"
-    slides: "2.4-slides"
-    
-  - title: "2.5 — The Macroeconomics of Development III: Endogenous Growth Theory"
-    content: "2.5-content"
-    slides: "2.5-slides"
+  - title: "2.2 — Beyond the Reach of Majorities"
 
-  - title: '<span class="fake-header-table">Policies & Exogenous Factors</span>'
+  - title: "2.3 — The Optimal Decision Rule"
   
-  - title: "3.1 — Foreign Aid I: Growth Regressions, Program Evaluation & Aid Theory"
-    content: "3.1-content"
-    slides: "3.1-slides"
+  - title: "2.4 — The Status Quo & Constitutional Change"
     
-  - title: "3.2 — Foreign Aid II: How Effective Is/Was Aid?"
-    content: "3.2-content"
-    slides: "3.2-slides"
-    
-  - title: "3.3 — Geography I: the Diamond Hypothesis"
-    content: "3.3-content"
-    slides: "3.3-slides"
-    
-  - title: "3.4 — Geography II: The Curse of Resources & the Reversal of Fortune"
-    content: "3.4-content"
-    slides: "3.4-slides"
-
-  - title: '<i class="fas fa-laptop-code"></i> **Short Paper 1** due Thurs Oct 28'
-    assignment: "01-short-paper"
-    
-  - title: '<span class="fake-header-table">Institutions and Political Economy</span>'
-    header: True
-
-  - title: "4.1 — Introduction to Political Economy"
-    content: "4.1-content"
-    slides: "4.1-slides"
-
-  - title: "4.2 — The Pre-modern Malthusian Economy"
-    content: "4.2-content"
-    slides: "4.2-slides"
-
-  - title: "4.3 — Limited Access Orders & The Natural State"
-    content: "4.3-content"
-    slides: "4.3-slides"
-    
-  - title: "4.4 — Selectorate Model & The Violence Trap"
-    content: "4.4-content"
-    slides: "4.4-slides"
-    
-  - title: '<span class="fake-header-table">Escaping the Malthusian Trap & the Road to the Industrial Revolution</span>'
-    header: True
-
-  - title: '5.1 — Feudalism'
-    content: "5.1-content"
-    slides: "5.1-slides"
+  - title: '<span class="fake-header-table">The Institutions of Representative Democracy</span>'
   
-  - title: '5.2 — Escaping Feudalism, and Mercantilism'
-    content: "5.2-content"
-    slides: "5.2-slides"
+  - title: "3.1 — Voting I: Preference Aggregation & Cycling"
     
-  - title: '5.3 — Origins of Liberal Democracy in Western Europe'
-    slides: "5.3-slides"
+  - title: "3.2 — Voting II: Ignorance and Irrationality"
+    
+  - title: "3.3 — Voting III: Democracy<sup>2</sup>"
+    
+  - title: "3.4 — Interest Groups"
+  
+  - title: "3.5 — Legislators"
+  
+  - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam**'
+    assignment: "midterm-exam"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Short Paper 2** due Mon Dec 6'
-    assignment: "02-short-paper"
+  - title: "3.6 — Bureaucracy"
+  
+  - title: "3.7 — The Rise of the Administrative State"
+  
+  - title: "3.8 — Federalism"
+  
+  - title: "3.9 — Exit, Voice, and Loyalty"
+  
+  - title: '<span class="fake-header-table">Applications, Proposals, and Insights</span>'
+    header: True
 
-  - title: '<i class="fas fa-laptop-code"></i> **Country Profile** due Dec 2'
-    assignment: "country-profile"
+  - title: "4.1 — Is Our Politics Not “Corrupt” Enough?"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Final Exam** due Tues Dec 14'
+  - title: "4.2 — Preference Falsification"
+
+  - title: "4.3 — The Revolt of the Public"
+    
+  - title: "4.4 — Taxation"
+    
+  - title: "4.5 — Commoon Ownership Self-Assessed Tax"
+  
+  - title: "4.6 — Universal Basic Income"
+  
+  - title: "4.7 — Governance on the Blockchain"
+  
+  - title: "4.8 — Policy Responses to Covid-19"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Policy Paper**'
+    assignment: "policy-paper"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Final Exam**'
     assignment: "final-exam"
