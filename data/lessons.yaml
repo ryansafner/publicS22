@@ -1,0 +1,109 @@
+lessons:
+  - title: '<span class="fake-header-table">Fundamentals of Economic Development</span>'
+    header: True
+
+  - title: "1.1 — The Big Questions"
+    slides: "1.1-slides"
+    content: "1.1-content"
+
+  - title: "1.2 — Measuring Development"
+    slides: "1.2-slides"
+    content: "1.2-content"
+
+  - title: "1.3 — Why Development Matters"
+    slides: "1.3-slides"
+    content: "1.3-content"
+
+  - title: "1.4 — Can We Plan an Economy?"
+    slides: "1.4-slides"
+    content: "1.4-content"
+
+  - title: "1.5 — The Socialist Calculation Debate"
+    content: "1.5-content"
+    slides: "1.5-slides"
+
+  - title: '<span class="fake-header-table">Models of Economic Development</span>'
+    header: True
+
+  - title: "2.1 — The Microeconomics of Development I: Division of Labor"
+    content: "2.1-content"
+    slides: "2.1-slides"
+    
+  - title: "2.2 — The Microeconomics of Development II: Markets & Prices"
+    content: "2.2-content"
+    slides: "2.2-slides"
+
+  - title: "2.3 — The Macroeconomics of Development I: Classical Growth Theory"
+    content: "2.3-content"
+    slides: "2.3-slides"
+    
+  - title: "2.4 — The Macroeconomics of Development II: Exogenous Growth Theory"
+    content: "2.4-content"
+    slides: "2.4-slides"
+    
+  - title: "2.5 — The Macroeconomics of Development III: Endogenous Growth Theory"
+    content: "2.5-content"
+    slides: "2.5-slides"
+
+  - title: '<span class="fake-header-table">Policies & Exogenous Factors</span>'
+  
+  - title: "3.1 — Foreign Aid I: Growth Regressions, Program Evaluation & Aid Theory"
+    content: "3.1-content"
+    slides: "3.1-slides"
+    
+  - title: "3.2 — Foreign Aid II: How Effective Is/Was Aid?"
+    content: "3.2-content"
+    slides: "3.2-slides"
+    
+  - title: "3.3 — Geography I: the Diamond Hypothesis"
+    content: "3.3-content"
+    slides: "3.3-slides"
+    
+  - title: "3.4 — Geography II: The Curse of Resources & the Reversal of Fortune"
+    content: "3.4-content"
+    slides: "3.4-slides"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Short Paper 1** due Thurs Oct 28'
+    assignment: "01-short-paper"
+    
+  - title: '<span class="fake-header-table">Institutions and Political Economy</span>'
+    header: True
+
+  - title: "4.1 — Introduction to Political Economy"
+    content: "4.1-content"
+    slides: "4.1-slides"
+
+  - title: "4.2 — The Pre-modern Malthusian Economy"
+    content: "4.2-content"
+    slides: "4.2-slides"
+
+  - title: "4.3 — Limited Access Orders & The Natural State"
+    content: "4.3-content"
+    slides: "4.3-slides"
+    
+  - title: "4.4 — Selectorate Model & The Violence Trap"
+    content: "4.4-content"
+    slides: "4.4-slides"
+    
+  - title: '<span class="fake-header-table">Escaping the Malthusian Trap & the Road to the Industrial Revolution</span>'
+    header: True
+
+  - title: '5.1 — Feudalism'
+    content: "5.1-content"
+    slides: "5.1-slides"
+  
+  - title: '5.2 — Escaping Feudalism, and Mercantilism'
+    content: "5.2-content"
+    slides: "5.2-slides"
+    
+  - title: '5.3 — Origins of Liberal Democracy in Western Europe'
+    slides: "5.3-slides"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Short Paper 2** due Mon Dec 6'
+    assignment: "02-short-paper"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Country Profile** due Dec 2'
+    assignment: "country-profile"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Final Exam** due Tues Dec 14'
+    assignment: "final-exam"
