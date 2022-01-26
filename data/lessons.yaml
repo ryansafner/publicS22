@@ -1,29 +1,38 @@
 lessons:
-  - title: '<span class="fake-header-table">Fundamentals of Economic Development</span>'
+  - title: '<span class="fake-header-table">Problems Requiring Collective Action</span>'
     header: True
 
   - title: "1.1 — Choosing in Groups"
+    content: "1.1-content"
+    slides: "1.1-slides"
 
   - title: "1.2 — Externalities and Bargaining"
+    content: "1.2-content"
 
   - title: "1.3 — Property Rights"
 
-  - title: "1.4 — Public Goods and Collective Action"
-
-  - title: "1.5 — Efficiency and Justice"
-
-  - title: '<span class="fake-header-table">Constitutional Political Economy</span>'
-    header: True
-
-  - title: "2.1 — Politics as Constraints"
-
-  - title: "2.2 — Beyond the Reach of Majorities"
-
-  - title: "2.3 — The Optimal Decision Rule"
+  - title: "1.4 — Public Goods and Club Goods"
   
-  - title: "2.4 — The Status Quo & Constitutional Change"
+  - title: "1.5 — The Commons"
+  
+  - title: "1.6 — Profit Seeking and Rent Seeking"
+
+  - title: "1.7 — Justice, and Efficiency as a Normative Goal"
+
+  - title: '<span class="fake-header-table">Constitutional Political Economy and the State</span>'
+    header: True
+  
+  - title: "2.1 — Constituting a Group"
+
+  - title: "2.2 — Liberalism I: Politics as Constraints"
+
+  - title: "2.3 — Liberalism II: Beyond the Reach of Majorities"
+
+  - title: "2.4 — The Optimal Decision Rule"
+  
+  - title: "2.5 — The Status Quo & Constitutional Change"
     
-  - title: '<span class="fake-header-table">The Institutions of Representative Democracy</span>'
+  - title: '<span class="fake-header-table">The Institutions of Liberal Democracy</span>'
   
   - title: "3.1 — Voting I: Preference Aggregation & Cycling"
     
@@ -40,30 +49,30 @@ lessons:
 
   - title: "3.6 — Bureaucracy"
   
-  - title: "3.7 — The Rise of the Administrative State"
-  
-  - title: "3.8 — Federalism"
-  
-  - title: "3.9 — Exit, Voice, and Loyalty"
+  - title: "3.7 — Federalism"
   
   - title: '<span class="fake-header-table">Applications, Proposals, and Insights</span>'
     header: True
 
-  - title: "4.1 — Is Our Politics Not “Corrupt” Enough?"
+  - title: "4.1 — Exit, Voice, and Loyalty"
 
-  - title: "4.2 — Preference Falsification"
+  - title: "4.2 — The Rise of the Administrative State"
+  
+  - title: "4.3 — Is Our Politics Not “Corrupt” Enough?"
 
-  - title: "4.3 — The Revolt of the Public"
+  - title: "4.4 — Preference Falsification"
+
+  - title: "4.5 — The Revolt of the Public"
     
-  - title: "4.4 — Taxation"
+  - title: "4.6 — Taxation"
     
-  - title: "4.5 — Commoon Ownership Self-Assessed Tax"
+  - title: "4.7 — Commoon Ownership Self-Assessed Tax"
   
-  - title: "4.6 — Universal Basic Income"
+  - title: "4.8 — Universal Basic Income"
   
-  - title: "4.7 — Governance on the Blockchain"
+  - title: "4.9 — Governance on the Blockchain"
   
-  - title: "4.8 — Policy Responses to Covid-19"
+  - title: "4.10 — Policy Responses to Covid-19"
 
   - title: '<i class="fas fa-laptop-code"></i> **Policy Paper**'
     assignment: "policy-paper"

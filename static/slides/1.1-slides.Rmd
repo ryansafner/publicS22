@@ -1,7 +1,7 @@
 ---
-title: "1.1 — The Big Questions"
-subtitle: "ECON 317 • Economic Development • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/devF21"><i class="fa fa-github fa-fw"></i>ryansafner/devF21</a><br> <a href="https://devF21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>devF21.classes.ryansafner.com</a><br>'
+title: "1.1 — Choosing in Groups"
+subtitle: "ECON 410 • Public Economics • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/publicS22"><i class="fa fa-github fa-fw"></i>ryansafner/publicS22</a><br> <a href="https://publicS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>publicS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
@@ -50,13 +50,18 @@ theme_slides <- theme_light() +
 
 ```
 
+```{r}
+library(wbstats)
+library(fredr)
+fredr_set_key("9100cdf3c862283007d8c83ce02059e6")
+```
+
 class: inverse
 
 # Outline
 
-### [The Big Questions](#)
-### ["Development Economics" as a Field of Economics](#)
-### [Residues of 20th Century Geopolitics in Development](#)
+### [Review: The Benefits of Markets](#)
+### [When We Must Choose in Groups](#)
 ### [About This Course](#)
 
 ---
@@ -128,561 +133,787 @@ My face without a mask, 2021
 
 
 .center[
-![:scale 100%](../images/milescollage.png)
+![:scale 100%](../images/miles_collage_s2022.png)
 ]
 
 And why I wear a mask.
 ---
 
-# The "Great Fact" I
-
-<iframe src="https://ourworldindata.org/grapher/maddison-data-gdp-per-capita-in-2011us-single-benchmark" loading="lazy" style="width: 100%; height: 500px; border: 0px none;"></iframe>
-
-.source[Source: [Our World in Data: Economic Growth](https://ourworldindata.org/economic-growth)]
-
----
-
-# The "Great Fact" II
-
-<iframe src="https://ourworldindata.org/grapher/average-real-gdp-per-capita-across-countries-and-regions" loading="lazy" style="width: 100%; height: 500px; border: 0px none;"></iframe>
-
-.source[Source: [Our World in Data: Economic Growth](https://ourworldindata.org/economic-growth)]
-
----
-
-# Self-Sufficiency...and Poverty 
-
-.center[
-![:scale 70%](../images/peasants1.jpg)
-]
-
----
-
-# Where We ALL Began
-
-.left-column[
-.center[
-![:scale 85%](../images/mccloskey.jpg)
-
-Dierdre N. McCloskey
-
-1942-
-]
-]
-
-.right-column[
-.smallest[
-Two centuries ago the world’s economy stood at the present level of Chad or Bangladesh. In those good old days of 1800...the average human consumed in modern-day prices...roughly $3 a day, give or take a dollar or two...The only people much better off than the $3 average were lords or bishops or some few of the merchants. It had been this way for all of history, and for that matter all of pre-history. With her $3, the typical denizen of the earth could eat a few pounds of potatoes, a little milk, very occasionally a scrap of meat. A wool shawl. A year or two of elementary education, if exceptionally lucky. At birth she had a 50-50 chance of dying before she was 30 years old. Perhaps she was a cheerful sort, and was "happy" with illiteracy, disease, superstition, periodic starvation, and lack of prospects. After all, she had her family and faith and community, which interfered with every choice she made. But anyway she was desperately poor, and narrowly limited in human scope. (pp. 11-12)
-]
-
-
-.source[McCloskey, Diedre N, 2010, *The Bourgeois Dignity: Why Economics Can't Explain the Modern World*, Chicago IL: University of Chicago Press]
-]
----
-
-# Complete Interdependence...and Prosperity 
-
-.center[
-![:scale 90%](../images/modernworld.jpg)
-]
-
----
-
-# We've Come SO Far
-
-
-.left-column[
-.center[
-![:scale 85%](../images/mccloskey.jpg)
-
-Dierdre N. McCloskey
-
-1942-
-]
-]
+# Public Economics
 
 .right-column[
 
-.smallest[
-> [Today] the world supports more than six-and-a-half times more people...the average person today earns and consumes almost ten times more goods and services than in 1800. Real income per person in the world has recently been doubling every generation, and is accelerating. Starvation worldwide therefore is at an all-time low, and falling. Literacy and life expectancy are at all-time highs, and rising. Liberty is spreading. Slavery is retreating, as is a patriarchy enslaving of women. In the richer countries, such as Norway, the average person earns fully 45 times more than in 1800, a startling $137 a day. The environment - a concern of a well-to-do bourgeoisie - is in such rich places improving. (pp. 11-12)
+- .hi[How do we choose in groups?]
+  - Going to dinner together
+  - Electing a president of the United States
+
+- .hi[“Public choice”]: application of .hi-purple[economic tools] to the study of .hi-purple[politics]
+  - “Non-market decision-making”
 ]
-
-.source[McCloskey, Diedre N, 2010, *The Bourgeois Dignity: Why Economics Can't Explain the Modern World*, Chicago IL: University of Chicago Press]
-]
----
-
-# The Greatest Reduction of Poverty in Human History I
-
-.center[
-![:scale 60%](../images/theendofpoverty.png)
-]
-
-.source[Source: [Our World in Data: Extreme Poverty](https://ourworldindata.org/extreme-poverty)]
-
----
-
-# The Greatest Reduction of Poverty in Human History II
-
-.center[
-![:scale 60%](../images/theendofpoverty2.png)
-]
-
-.source[Source: [Our World in Data: Extreme Poverty](https://ourworldindata.org/extreme-poverty)]
-
----
-
-# The Big Question I
-
-.center[
-![:scale 85%](../images/gdppercap2015.png)
-]
-
-.source[[Map Source](http://i.imgur.com/3GJJ8b0.png); [IMF Data & Interactive Map](https://data.worldbank.org/indicator/ny.gdp.pcap.cd?type=shaded&view=map)]
-
----
-
-# The Big Question II
-
-.center[
-![:scale 67%](../images/gdpdensity.png)
-]
-
-.source[Gallup, J. L., J. D. Sachs, and A. D. Mellinger, 1999, "Geography and Economic Development," *International Regional Science Review* 22(2):179-224; [Land of Maps](https://landofmaps.com/2015/02/18/world-gdp-density/)]
-
----
-
-# The Big Question III
-
-.center[
-![:scale 65%](../images/populationdensity.png)
-]
-
-.source[Gallup, J. L., J. D. Sachs, and A. D. Mellinger, 1999; [Wikipedia](https://en.wikipedia.org/wiki/File:World_population_density_1994_-_with_equator.png); [A Great Interactive Version](http://luminocity3d.org/WorldPopDen/)]
-
----
-
-# Asking the Big Questions 
 
 .left-column[
+
 .center[
-![:scale 80%](../images/smith.png)
-
-Adam Smith
-
-1723-1790
+![](https://www.dropbox.com/s/6g428kr267v1rxu/roundtable.jpg?raw=1)
 ]
 ]
-.right-column[
-
-> The greatest improvement in the productive powers of labour, and the greater part of the skill, dexterity, and judgment with which it is any where directed, or applied, seem to have been the effects of the division of labour. (Book I, Chapter I)
-
-]
-
-.source[Smith, Adam, 1776, *An Enquiry into the Nature and Causes of the Wealth of Nations*]
 
 ---
 
-# Asking the Big Questions II
+# Economics as a *Way of Thinking*
 
-.left-column[
-.center[
-![:scale 80%](../images/smith.png)
+.pull-left[
 
-Adam Smith
-
-1723-1790
+- Economics is a .hi[way of thinking] based on a few core ideas:
 ]
-]
-.right-column[
-
-> The natural effort of every individual to better his own condition...is so powerful, that it is alone, and without any assistance, not only capable of carrying on the society to wealth and prosperity, but of surmounting a hundred impertinent obstructions with which the folly of human laws too often encumbers its operations. (Book IV, Chapter V)
-
-]
-
-.source[Smith, Adam, 1776, *An Enquiry into the Nature and Causes of the Wealth of Nations*]
 
 ---
 
-# Asking the Big Questions III
+# Economics as a *Way of Thinking*
 
-.left-column[
+.pull-left[
+
+- Economics is a .hi[way of thinking] based on a few core ideas:
+
+- .hi-purple[People respond to incentives]
+    - Money, punishment, taxes and subsidies, risk of injury, reputation, profits, sex, effort, morals
+
+]
+
+.pull-right[
+
 .center[
-![:scale 80%](../images/smith.png)
-
-Adam Smith
-
-1723-1790
+![:scale 70%](https://www.dropbox.com/s/wp97bsk0yni31k9/incentive2.jpg?raw=1)
 ]
 ]
-.right-column[
 
-> Little else is requisite to carry a state to the highest degree of opulence from the lowest barbarism, but peace, easy taxes, and a tolerable administration of justice: all the rest being brought about by the natural course of things.
+---
+
+# Economics as a *Way of Thinking*
+
+.pull-left[
+
+- Economics is a .hi[way of thinking] based on a few core ideas:
+
+- .hi-purple[People respond to incentives]
+    - Money, punishment, taxes and subsidies, risk of injury, reputation, profits, sex, effort, morals
+
+- .hi-purple[Environments adjust until they are in equilibrium]
+    - People make adjustments until their choices are optimal given others’ actions
+]
+
+.pull-right[
+
+.center[
+![:scale 70%](https://www.dropbox.com/s/wp97bsk0yni31k9/incentive2.jpg?raw=1)
+
+![:scale 70%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+]
+
+---
+
+# Optimization and Equilibrium
+
+.pull-left[
+- If people can *learn* and *change* their behavior, they will always switch to a higher-valued option
+
+- If there are no alternatives that are better, people are at an .hi[optimum]
+
+- If **everyone** is at an optimum, the system is in .hi[equilibrium]
+]
+
+.pull-right[
+.center[
+![:scale 70%](https://www.dropbox.com/s/wp97bsk0yni31k9/incentive2.jpg?raw=1)
+
+![:scale 70%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+]
+
+---
+
+# The Two Major Models of Economics as a "Science"
+
+.pull-left[
+
+## Optimization
+
+- Agents have .hi[objectives] they value
+
+- Agents face .hi[constraints]
+
+- Make .hi[tradeoffs] to maximize objectives within constraints
+
+.center[
+![](https://www.dropbox.com/s/qvr240t5j6t3arm/optimize.jpeg?raw=1)
+]
+]
+
+--
+
+.pull-right[
+
+## Equilibrium
+
+- Agents .hi[compete] with others over **scarce** resources
+
+- Agents .hi[adjust] behaviors based on prices
+
+- .hi[Stable outcomes] when adjustments stop
+
+.center[
+![](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
 
 ]
 
-.source[Lecture in 1755, quoted in Dugald Stewart, *Account Of The Life And Writings Of Adam Smith LLD*, Section IV, 25.]
+---
+
+# Economics Is Broader Than You Think
+
+.center[
+![:scale 82%](https://www.dropbox.com/s/bqb48eg20ld6li9/cooleconbooks.png?raw=1)
+]
+
+
 
 ---
 
 class: inverse, center, middle
 
-# "Development Economics" as a Field of Economics
+# Review: The Benefits of Markets
 
 ---
 
-# "Development Economics" as a Field (c. 1945-Present)
+# Economics
 
 .pull-left[
+- **Economics** begins with .hi[interaction] between *multiple* people
+
+- Recognizing .hi-purple[mutual gains from cooperation]
+  - Specialization
+  - Exchange
+  - Team production
+]
+
+.pull-right[
+.center[
+![:scale 60%](https://www.dropbox.com/s/geifybigwffpzru/exchange2.png?raw=1)
+]
+]
+
+---
+
+# The Origins of Exchange I
+
+.pull-left[
+- Why do we trade?
+
+- .hi[Resources are in the wrong place!]
+
+- People have *better* uses of resources than they are currently being used! 
+
+]
+
+.pull-right[
+.center[
+![:scale 100%](https://www.dropbox.com/s/2ld8qe9p0mjak0b/exchange.png?raw=1)
+]
+]
+
+---
+
+# The Origins of Exchange II
+
+.pull-left[
+- *Why* are resources in the wrong place?
+
+- .hi[We have the same stuff but different preferences]
+
+
+]
+
+.pull-right[
+.center[
+![:scale 65%](https://www.dropbox.com/s/pj6s1y20c3qfyfc/boxlunch.jpg?raw=1)
+
+![:scale 65%](https://www.dropbox.com/s/pj6s1y20c3qfyfc/boxlunch.jpg?raw=1)
+
+]
+]
+
+---
+
+# The Origins of Exchange III
+
+.pull-left[
+- *Why* are resources in the wrong place?
+
+- .hi[We have different stuff and same/different preferences]
+
+]
+
+.pull-right[
+.center[
+![:scale 40%](https://www.dropbox.com/s/vcqojr6k058e8hl/3apples.jpg?raw=1)
+
+![:scale 50%](https://www.dropbox.com/s/xvjphzlwechgip6/3oranges.jpg?raw=1)
+
+]
+]
+
+---
+
+# Transaction Costs and Exchange I
+
+.pull-left[
+- But .hi[Transaction costs] make exchange costly!
+  - .hi-purple[Search costs]
+  - .hi-purple[Bargaining costs]
+  - .hi-purple[Enforcement costs]
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/r9swgigquy9m6g2/transactionscosts.JPG?raw=1)
+]
+]
+
+---
+
+# Transaction Costs and Exchange II
+
+.pull-left[
+- With high transaction costs, resources **cannot** be traded
+
+- Resources **cannot** be moved to higher-valued uses
+
+- If other people value goods higher than their current owners, resources are **inefficiently** used!
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/r9swgigquy9m6g2/transactionscosts.JPG?raw=1)
+]
+]
+
+---
+
+# Social Problems that Markets Solve Well 
+
+.pull-left[
+- **Problem 1**: Resources have multiple uses and are rivalrous
+
+- **Problem 2**: Different people have different subjective valuations for uses of resources
+
+- **It is inefficient (immoral?) to use a resource in a way that prevents someone else who values it more from using it!**
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/mh8owncbsm2lqkv/tugofwar.png?raw=1)
+]
+]
+
+---
+
+# Social Problems that Markets Solve Well I
+
+.pull-left[
+
+- .hi[Markets] are institutions that facilitate voluntary *impersonal* exchange and reduce transaction costs
+
+- **Prices** measure **opportunity cost** of a particular use of a resource
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/lmabz8rai4klokf/markets2.jpg?raw=1)
+]
+]
+
+---
+
+# Social Problems that Markets Solve Well II
+
+.pull-left[
+- .hi[Property rights] provide a pattern of ownership
+
+- .hi[Prices] give us information about how to use scarce resources
+
+- .hi[Profits] incentivize production and .hi[Losses] discipline waste
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/lmabz8rai4klokf/markets2.jpg?raw=1)
+]
+]
+
+---
+
+# Prices are Signals
+
+.pull-left[
+.center[
+![](../images/moneysignal.jpg)
+]
+]
+
+.pull-right[
 .smallest[
-- United Nations Monetary and Financial Conference aka "Bretton Woods" (1944)
+- .hi-purple[Markets are social *processes* that generate information via prices]
 
-- Create the international monetary and financial order post-WWII, promote free trade and monetary stability
+- .hi-purple[Prices are never "given"], prices .hi-purple[emerge] dynamically from negotiation and market decisions of entrepreneurs and consumers
 
-- Created a system of fixed currency exchange rates pegged to (initially gold, later just the U.S. dollar)
-    - This collapsed by the early 1970s, and today exchange rates are freely "floating"
+- **Competition**: is a .hi-purple[discovery process] which *discovers* what consumer preferences are and what technologies are lowest cost, and how to allocate resources accordingly
 
-- Created key international organizations...
-]
-]
-.pull-right[
-
-.center[
-![](../images/brettonwoods3.jpg)
 ]
 ]
 
 ---
 
-# "Development Economics" as a Field (c. 1945-Present)
+# The Social Functions of Prices I
 
 .pull-left[
 
-- International Bank for Reconstruction and Development (IBRD) aka ".shout[the World Bank]"
-    - Offers loans to developing countries
-
-- .shout[International Monetary Fund (IMF)]
-    - Reduce poverty around the world; assist countries with balance of payments/financial crises
-
+.center[
+![:scale 100%](../images/platinum.jpg)
+]
 ]
 
 .pull-right[
-
-.center[
-![](../images/worldbankimf.jpg)
-]
-]
-
----
-
-# "Development Economics" as a Field (c. 1945-Present)
-
-.pull-left[
-
-- 1947: General Agreement on Tariffs and Trade (GATT)
-    - to promote international trade by reducing or eliminating trade barriers (e.g. tariffs, quotas, etc) between countries
-
-- Replaced by the World Trade Organization (WTO) in 1995 administered by the U.N.
-]
-
-.pull-right[
-
-.center[
-![](../images/gatt.jpg)
-
-![](../images/wto.jpg)
-]
-]
-
----
-
-# "Development Economics" as a Field (c. 1945-Present)
-
-.center[
-![z:scale 90%](../images/wtomembers.png)
-
-WTO .green[members], .blue[members dually-represented by the E.U.], .yellow[Observers], .red[Non-members] ([Wikipedia](http://en.wikipedia.org/wiki/World_Trade_Organization))
-]
-
----
-
-# The "Development Community" I
-
-.right-column[
-.smallest[
-- 1948: Organisation for European Economic Co-operation (OECD) to administer the U.S. Marshall Plan to rebuild war-torn Europe
-    - initially only Europe-oriented and European members
-    - helped in early stages of ultimately creating European Free Trade Area, European Economic Community, European Union
-- 1961: Organization for Economic Co-operation and Development (OECD)
-
-> ...an international organisation that works to build better policies for better lives. Our goal is to shape policies that foster prosperity, equality, opportunity and well-being for all...we work on establishing international norms and finding evidence-based solutions to a range of social, economic and environmental challenges...we provide a unique forum and knowledge hub for data and analysis, exchange of experiences, best-practice sharing, and advice on public policies and global standard-setting. ([OECD website](http://www.oecd.org/about/))
-
-]
-]
-.left-column[
-
-.center[
-![](../images/oecd.png)
-]
-]
-
----
-
-# The "Development Community" II
-
-.center[
-![:scale 80%](../images/oecdmembers.png)
-
-OECD members, founding States in darker blue ([Wikipedia](https://en.wikipedia.org/wiki/OECD))
-
-]
-
----
-
-# NGOs
-
-.center[
-![:scale 75%](../images/ngos.png)
-]
-
----
-
-class: inverse, center, middle
-
-# Residues of 20<sup>th</sup> Century Geopolitics in Development
-
----
-
-# Development and Colonial Legacies I
-
-.center[
-![:scale 90%](../images/colonies1945.png)
-
-Western colonial empires at the end of WWII ([Wikipedia](https://en.wikipedia.org/wiki/Cold_War#/media/File:Colonization_1945.png))
-]
-
----
-
-# Development and Colonial Legacies I
-
-.pull-left[
-
-- Breakup of British and French empires create independent States from 1950s-1980s
-
-- Some outright wars
-    - Between colony and colonizer: Algeria, French-Indochina/Vietnam, Falklands
-    - Between rival groups across colonies: Arab-Israeli War, Indo-Pakistani Wars
-    - Civil Wars in poorly-designed new States in Africa
-
-]
-
-.pull-right[
-
-.center[
-![:scale 90%](../images/britishdecolonizationofafrica.png)
-]
-]
-
----
-
-# Development and Colonial Legacies II
-
-.pull-left[
-.smallest[
-- Postcolonialism in literature in culture of many former colonies
-    - Search for own national identity, nationalist/populist leaders
-    - Opposition of mother country's culture, racism
-
-- New countries need to develop, but
-    - Does "development" or "modernization" mean "Westernization?"
-
-- Often combined with Marxism
-
-]
-]
-.pull-right[
-
-.center[
-![:scale 70%](../images/orientalism.jpg)
-
-]
-]
-
----
-
-# Development and Colonial Legacies III
-
-.center[
-![:scale 50%](../images/nassersukarnonehrunkrumah.jpg)
-
-Gamal Abdel Nasser (Egypt), Sukarno (Indonesia), Jawaharlal Nehru (India), Kwame Nkrumah (Ghana)
-]
-
----
-
-# Development and Colonial Legacies IV
-
-.pull-left[
-
-- There is still a lot of connection between former colonies and mother countries
-
-- Research shows a very strong influence on path of economic development
-
-- Was colonization and imperialism *all good/bad*? 
-
-]
-
-.pull-right[
-
-.center[
-![:scale 100%](../images/postcolonialconnections.png)
-]
-]
-
----
-
-# Development and the Cold War
-
-.center[
-![:scale 80%](../images/coldwaralliances.png)
-
-Cold War Alliances, "X"s' indicate prominent guerrilla movements ([Wikipedia](https://commons.wikimedia.org/wiki/File:Cold_War_Map_1980.svg))
-]
-
----
-
-# Development and the Cold War: Competing Visions
-
-.pull-left[
 .smaller[
-- Competing ideological visions of political/economic development 
-    - "Capitalism" of the West
-    - "Socialism" of the USSR, Yugoslavia, China
+A relatively high price:
 
-- Countries would pick from both options, many would switch
-    - Consequences were pretty clear, but
-    - We will need to understand both theories of development
-    - What about "Democratic Socialism" or "Social Democracy"?
-]
-]
-.pull-right[
+- .hi-purple[Conveys information]: good is relatively scarce
 
-.center[
-![](../images/capitalismsocialism.png)
+- .hi-purple[Creates incentives for]:
+  - **Buyers**: conserve use of this good, seek substitutes
+  - **Sellers**: produce more of this good
+  - **Entrepreneurs**: find substitutes and innovations to satisfy this unmet need
 ]
 ]
 
 ---
 
-# There Are a LOT of Theories of Development Out There
+# The Social Functions of Prices II
 
 .pull-left[
-
-- Nobody honestly believes in a single causal factor
-
-- Theories have emphasized different elements at different amounts:
-    - Capital accumulation
-    - Geography
-    - Health
-    - Demographics/Fertility
-    - Education
-    - Culture
-    - Warfare
-    - Political institutions
-    - Religion
-    - Foreign Aid
-    - Imperialism/exploitation
+![:scale 100%](../images/brick.jpg)
 ]
 
 .pull-right[
 
-.center[
-![:scale 100%](../images/economicgrowth.jpeg)
-]
-]
+.smaller[
+A relatively low price
 
----
+- .hi-purple[Conveys information]: good is relatively abundant
 
-# There Are a LOT of Theories of Development Out There 
-
-.center[
-![:scale 82%](../images/devbooks.png)
-]
-
----
-
-# Our Focus (and my Specialty)
-
-.pull-left[
-- The role of political and social institutions in fostering economic growth
-
-- Health, education, demographics, geography, foreign aid, etc amount to NOTHING if you have poor institutions!
-
-- We know what works, but we can't just transplant our institutions to other countries (we've tried)
-
-- We need to understand each country's institutions before we can tell cute stories or recommend changes
-]
-
-.pull-right[
-.center[
-![:scale 90%](../images/institution.png)
-]
+- .hi-purple[Creates incentives for]:
+  - **Buyers**: substitute away from expensive goods towards this good
+  - **Sellers**: Produce less of this good, talents better served elsewhere
+  - **Entrepreneurs**: talents better served elsewhere: find more severe unmet needs
 
 ]
-
----
-
-# What am I Leaving Out
-
-.center[
-![](../images/economics1.jpg)
 ]
 
 ---
 
 class: inverse, center, middle
-# About This Class
+
+# When We Must Choose in Groups
+
+---
+
+# When We Must Choose in Groups I
+
+.pull-left[
+
+- Markets allocate resources by **individual choices** between **strangers**
+
+- Possibilities of .hi[market failure]
+  - Externalities
+  - Public Goods
+]
+
+.pull-right[
+.center[
+![:scale 70%](https://www.dropbox.com/s/hdgjre71wggdyp9/teamglobe.png?raw=1)
+]
+]
+
+---
+
+# When We Must Choose in Groups II
+
+.pull-left[
+
+- Circumstances where people must make a **collective choice** or **know each other**
+  - Justice, fairness, equality
+  - Team production, public goods
+
+]
+
+.pull-right[
+.center[
+![:scale 70%](https://www.dropbox.com/s/hdgjre71wggdyp9/teamglobe.png?raw=1)
+]
+]
+
+---
+
+# When We Must Choose in Groups III
+
+.pull-left[
+
+- Construct a **framework** for markets to operate within
+  - Property rights
+  - Transaction costs
+  - Regulation
+]
+
+.pull-right[
+.center[
+![:scale 100%](https://www.dropbox.com/s/0onncp64w82rvu6/goodgovernance.png?raw=1)
+]
+]
+
+---
+
+# Methodological Individualism
+
+.pull-left[
+
+- .hi[Only individual people act]
+
+- The individual is the base unit of all economic analysis
+
+- *"How will action / choice / policy / institution [X] affect each individual's well-being?"*
+]
+
+.pull-right[
+
+.center[
+![](https://www.dropbox.com/s/pjp9bpvqp54ldn4/individual1.png?raw=1)
+]
+]
+
+---
+
+# *Groups* Don't Choose
+
+.pull-left[
+
+- .hi[“Society”] is not a choosing-agent or an optimization problem
+
+- Individuals have **different interests** in their different capacities
+  - Consumers
+  - Producers
+  - Voters
+  - Interest groups
+  - Elected officials
+  - Bureaus
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/aby3cf6ijkrjs7k/benevolentdespot.jpg?raw=1)
+]
+]
+
+---
+
+# They Must Choose In a Unique Environment
+
+.pull-left[
+
+- No .hi[property rights]
+
+- No .hi[prices]
+
+- No .hi[profits or losses]
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/zxfhs2l32zjfy5a/vote.jpg?raw=1)
+]
+]
+
+---
+
+# The "Public Sector"
+
+.pull-left[
+
+- Activities by government(s) occupy a large part of the economy
+
+- A major function of economists is to analyze and suggest public policy
+
+- Positive vs. normative economics
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/g1hpugm68sveriq/cityhall.png?raw=1)
+]
+]
+
+---
+
+# U.S. Federal Spending as % of GDP
+
+```{r, fig.width=14}
+spending<-fredr(
+  series_id = "FYONGDA188S"
+)
+
+ggplot(data = spending)+
+  aes(x = date,
+      y = value,
+      color = series_id)+
+  geom_path(size=2)+
+  scale_x_date(date_labels = "%Y", breaks = "10 years")+
+  scale_y_continuous(breaks=seq(0,50,5),
+               labels=function(x){paste0(x,"%")})+
+  labs(x = "Year",
+       y = "Total Federal Spending (% of GDP)",
+       caption = "Source: FRED")+
+  guides(color=F)+
+  theme_slides
+```
+
+---
+
+# U.S. Federal Revenues as % of GDP
+
+```{r, fig.width=14}
+taxrev<-fredr(
+  series_id = "FYFRGDA188S"
+)
+
+ggplot(data = taxrev)+
+  aes(x = date,
+      y = value,
+      color = series_id)+
+  geom_path(size=2)+
+  scale_x_date(date_labels = "%Y", breaks = "10 years")+
+  scale_y_continuous(breaks=seq(0,30,5),
+               labels=function(x){paste0(x,"%")})+
+  labs(x = "Year",
+       y = "Total Federal Revenues (% of GDP)",
+       caption = "Source: FRED")+
+  guides(color=F)+
+  theme_slides
+```
+
+---
+
+# U.S. Federal Budget Surplus/Deficit as % of GDP
+
+```{r, fig.width=14}
+deficit<-fredr(
+  series_id = "FYFSGDA188S"
+)
+
+ggplot(data = deficit %>% slice(-1))+
+  aes(x = date,
+      y = value,
+      color = series_id)+
+  geom_path(size=2)+
+  geom_hline(yintercept=0, size=1)+
+  scale_x_date(date_labels = "%Y", breaks = "10 years")+
+  scale_y_continuous(breaks=seq(-30,10,5),
+               labels=function(x){paste0(x,"%")})+
+  labs(x = "Year",
+       y = "Budget Surplus or Deficit (% of GDP)",
+       caption = "Source: FRED")+
+  guides(color=F)+
+  theme_slides
+```
+
+---
+
+# U.S. Total Public Debt as % of GDP
+
+```{r, fig.width=14}
+debt<-fredr(
+  series_id = "GFDEGDQ188S"
+)
+
+ggplot(data = debt)+
+  aes(x = date,
+      y = value,
+      color = series_id)+
+  geom_path(size=2)+
+  scale_x_date(date_labels = "%Y", breaks = "10 years")+
+  scale_y_continuous(breaks=seq(30,140,10),
+               labels=function(x){paste0(x,"%")})+
+  labs(x = "Year",
+       y = "Debt (% of GDP)",
+       caption = "Source: FRED")+
+  guides(color=F)+
+  theme_slides
+```
+
+---
+
+# U.S. Federal Spending Breakdown
+
+.center[
+![:scale 70%](../images/usaspending2022.png)
+]
+
+.source[Source: [USAspending.gov](https://www.usaspending.gov/#/explorer/budget_function)]
+
+---
+
+# Motivations I
+
+.center[
+![:scale 80%](https://www.dropbox.com/s/nrelzfdah7k3hce/taxplans.png?raw=1)
+]
+
+---
+
+# Motivations II
+
+.center[
+![:scale 80%](https://www.dropbox.com/s/m6ajij72dps6957/big1.png?raw=1)
+]
+
+---
+
+# Motivations III
+
+.center[
+![:scale 80%](../images/antitrust2.png)
+]
+
+
+---
+
+# Learning Goals I
+
+- Understand the incentives of different participants in a liberal democracy, particularly voters, politicians, bureaucrats, regulators, and special interest groups
+
+- Understand the processes by which *actual* public policy gets made by *actual* people
+
+- Understand the difference between constitutional-level rules and political rules and the importance of each
+
+---
+
+# Learning Goals II
+
+- Explain current events and public policies in terms of individuals accomplishing separate political goals through political exchanges
+
+- Recognize the analytical and practical similarities and differences between individuals acting in markets and non-market institutions
+
+- Understand and explain real world differences in outcomes and in operations between political, cultural, economic, and social institutions in different societies
+
+- Overcome the nirvana fallacy
+
+---
+
+# Politics Without Romance
+
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/yj0i65ksntpselm/civics.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- We will make your high school civics teacher proud
+
+]
+
+---
+
+# Politics Without Romance
+
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/yj0i65ksntpselm/civics.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- We will make your high school civics teacher proud and cry
+
+]
+
+---
+
+# Politics Without Romance
+
+.pull-left[
+
+> What's so great about democracy other than its democratic? - Gordon Tullock
+
+> Democracy is the worst form of government, except for all the other forms that have been tried from time to time," - Winston Churchill
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/irr1i7f7c1fwgas/romansenate.jpg?raw=1)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# About This Course
 
 ---
 
 # Format For the Course
 
 .pull-left[
-- .shout[A conversation, not a lecture]<sup>1<sup>
 
-- Many suggestions but fewer "correct" and concrete answers than you are used to
+- .hi[This is a 400-level seminar]
 
-- Lectures to introduce topic, give background and context
-
-- Discussions based on readings & informed by lectures
+- A .hi-purple[conversation], not *just* a lecture
+  - Lectures to introduce topic, give background and context
+  - Readings-based discussions
 
 ]
 
 .pull-right[
 .center[
-![](../images/roundtable.jpg)
+![](https://www.dropbox.com/s/6g428kr267v1rxu/roundtable.jpg?raw=1)
 ]
 ]
-
-.footnote[<sup>1</sup> Well, okay, I will lecture a fair amount. But please come as a willing participant.]
 
 ---
 
 # Assignments
 
 ```{r}
-library("tidyverse")
+
 assignments <- tribble(
   ~"",  ~Assignment, ~Percent,
-  "n"     , "Participation (Average)", "25%",
-  "1", "Country Profile", "5%",
-  "2"      , "Short Paper", "15% each",
-  "1"     , "Final", "30%"
+  "n"     , "Participation (Average)", "30%",
+  "1", "Policy Paper", "30%",
+  "1"      , "Take-Home Midterm", "20%",
+  "1"     , "Take-Home Final", "20%"
 )
 knitr::kable(assignments, "html")
 ```
 
 .center[
-See more details at the [assignments page](http://devf21.classes.ryansafner.com/assignments)
+See more details at the [assignments page](/assignments)
 ]
 
 ---
@@ -691,23 +922,39 @@ See more details at the [assignments page](http://devf21.classes.ryansafner.com/
 
 .pull-left[
 .center[
-![:scale 60%](../images/whynationsfail.png)
+![:scale 60%](https://www.dropbox.com/s/b4slxtlrypt8b26/publicchoiceholcombe.jpg?raw=1)
 ]
 ]
 .pull-right[
 .center[
-![:scale 60%](../images/elusivequest.jpg)
+![:scale 60%](https://www.dropbox.com/s/lt3x1wfp24q41aq/calculusofconsent.jpg?raw=1)
 ]
 ]
+
+---
+
+# Mechanics
+
+- Office Hours: MW 3:30-5:00PM
+
+- Email: safner@hood.edu
+
+- *New* Room Location: Rosenstock 317?
+
+- Readings pages on website
+
+- .hi-purple[First reading] for next class (.hi[Monday Jan 31]): Coase (1960)
+  - Email 2-3 questions to me before class begins
+  - See more about our discussions on [Assignments Page](/assignments)
 
 ---
 
 # Course Website
 
 .center[
-![:scale 60%](../images/dev_website_f21.png)
+![:scale 60%](../images/public_website_s22.png)
 
-[devF21.classes.ryansafner.com](http://devf21.classes.ryansafner.com)
+[publicS22.classes.ryansafner.com](http://publicS22.classes.ryansafner.com)
 ]
 
 ---
@@ -717,17 +964,15 @@ See more details at the [assignments page](http://devf21.classes.ryansafner.com/
 .pull-left[
 .smallest[
 
-- Office hours: M/W 10:00-11:00 AM & by appt
+- Office hours: TBD & by appt
   - Office: 110 Rosenstock
 
 - `r fa("slack", fill ="#5E81AC")` Slack channel
-  - `#c-3econ-16-dev`
+  - `#c-econ-410-public`
 
-- Recorded videos in Blackboard Panopto
+- Covid/Zoom policy, attendance
 
-- Attendance
-
-- See the [resources page](http://devF21.classes.ryansafner.com/resources) for tips for success and more helpful resources
+- See the [resources page](http://publicS22.classes.ryansafner.com/resources) for tips for success and more helpful resources
 ]
 ]
 .pull-right[
@@ -741,5 +986,5 @@ See more details at the [assignments page](http://devf21.classes.ryansafner.com/
 # Roadmap for the Semester
 
 .center[
-![:scale 100%](../img/dev_flowchart_blankbg.png)
+![:scale 100%](../img/public_flowchart.png)
 ]

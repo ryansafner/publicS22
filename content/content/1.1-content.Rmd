@@ -1,7 +1,7 @@
 ---
-title: "1.1 — The Big Questions — Class Content"
+title: "1.1 — Choosing in Groups — Class Content"
 draft: false
-linktitle: "1.1 — The Big Questions"
+linktitle: "1.1 — Choosing in Groups"
 date: "2020-06-08"
 menu:
   content:
@@ -15,19 +15,14 @@ slides: "1.1-slides"
 ---
 
 {{% alert note %}}
-*Tuesday, August 24, 2021*
+*Wednesday, January 26, 2022*
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
-<span class="newthought">Welcome</span> to ECON 317 — Economic Development! Today's lesson will be an overview of the content and the assignments of the course. Please read and familiarize yourself with the [syllabus](/syllabus).
+<span class="newthought">Welcome</span> to ECON 410 — Public Economics! Today's lesson will be an overview of the content and the assignments of the course. Please read and familiarize yourself with the [syllabus](/syllabus).
 
-This is not just a “syllabus day,” as we need to hit the ground running, but today will give you a “big picture” look at this semester by starting with some of the biggest questions, not just in "development economics" or "economics," but arguably all of social science:
-
-1. Why are some countries wealthy, and others poor?
-2. How did/do countries become wealthy?
-
-We then also consider the history “development economics” as a self-identifying field of economics, as compared to the original motivations for economics or political economy (in Adam Smith's time) as a discipline.
+This is not just a “syllabus day,” as we need to hit the ground running, but today will give you a “big picture” look at this semester by reflecting on the overarching question this semester: **how do we choose in groups?**
 
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
