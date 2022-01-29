@@ -1,0 +1,43 @@
+---
+title: "1.3 — Property Rights — Class Content"
+draft: false
+linktitle: "1.3 — Property Rights"
+date: "2020-06-08"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "1.3-slides"
+---
+
+{{% alert note %}}
+*Wednesday, Feburary 2, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+## Required Reading
+- [<i class="fas fa-file-pdf"></i> Demsetz, 1967, "Toward a Theory of Property Rights"](/readings/Demsetz-1967.pdf)
+
+- What are the benefits and costs of property rights?
+
+- Why don't we make everything property? Why might we leave some things un-"propertized"?
+
+- What is the relationship between property rights and externalities?
+
+- How is this article related to Coase's article? 
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`
