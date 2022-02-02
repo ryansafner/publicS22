@@ -5,7 +5,7 @@ author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:s
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
     lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
@@ -1290,7 +1290,7 @@ class: inverse, center, middle
 .smallest[
 - Return to *Pierson v. Post* — both the majority & dissent implied the ruling *mattered* for efficiency
 
-- Doesn't Coase make the case ruling irrelevant?
+- Doesn’t Coase make the case ruling irrelevant?
   - If Post values it more, can buy it off Pierson, or vice versa, regardless of the ruling
 
 - But it *does* matter because of .hi[transaction costs]!
