@@ -1,7 +1,7 @@
 ---
-title: "1.3 — Property Rights — Class Content"
+title: "1.3 — Property Rights and Transaction Costs — Class Content"
 draft: false
-linktitle: "1.3 — Property Rights"
+linktitle: "1.3 — Property Rights and Transaction Costs"
 date: "2020-06-08"
 menu:
   content:
@@ -20,19 +20,23 @@ slides: "1.3-slides"
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
-
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
 ## Required Reading
 - [<i class="fas fa-file-pdf"></i> Demsetz, 1967, "Toward a Theory of Property Rights"](/readings/Demsetz-1967.pdf)
 
+## Recommended Reading
+- [<i class="fas fa-external-link-square-alt"></i> *Economic Forces*: What is the Deal with NFTs?](https://pricetheory.substack.com/p/what-is-the-deal-with-nfts)
+
+## Questions to Guide Your Reading
+
 - What are the benefits and costs of property rights?
 
-- Why don't we make everything property? Why might we leave some things un-"propertized"?
+- Why don't we make everything property? Why might we leave some things un-“propertized”?
 
 - What is the relationship between property rights and externalities?
 
-- How is this article related to Coase's article? 
+- How is this article related to Coase’s article? 
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 
