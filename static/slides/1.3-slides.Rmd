@@ -896,7 +896,7 @@ Design the law to:
 # Three Ways to Protect Property Rights
 
 .pull-left[
-.smallest[
+.quitesmall[
 1. .hi[Property] rule/.hi[injunctive] relief
   - violation of entitlement punished as a .hi-turquoise[crime] (not mere restitution owed)
   - but entitlement is .hi-turquoise[negotiable] (owner can choose to sell or not exercise the right)
