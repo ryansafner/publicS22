@@ -1,0 +1,61 @@
+---
+title: "1.4 — Team Production & The Problem of Economic Organization — Class Content"
+draft: false
+linktitle: "1.4 — Team Production & The Problem of Economic Organization"
+date: "2020-06-08"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "1.4-slides"
+---
+
+{{% alert note %}}
+*Monday, February 7, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+We are going to take a brief detour in an area of applied microeconomics known as the [“Theory of the Firm.”](https://en.wikipedia.org/wiki/Theory_of_the_firm). This area itself could take weeks to properly study — indeed in my [Industrial Organization course](https://ios20.classes.ryansafner.com/schedule) I spend about 3 weeks on this topic — and a number of Nobel prizes in economics (most recently to [Hart and Holmström in 2016](https://www.nobelprize.org/prizes/economic-sciences/2016/press-release/)). However, we study it for several reasons: to consider situations where team production is required to provide a valuable good, to consider why organization with inherent hierarchy may be necessary, and to consider new economic problems that any organization brings along with it. 
+
+While there are several contested theories of the firm (and the original goes back to a 1937 paper by Coase!), one of the most famous and fruitful is known as the “nexus of contract theory,” which originates in a famous 1972 paper by Armen Alchian and Harold Demsetz, which is your required reading.
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+## Required Reading
+- [<i class="fas fa-file-pdf"></i> Alchian and Demsetz, 1972, "Production, Information Costs, and Economic Organization"](/readings/Alchian-Demsetz-1972.pdf)
+
+## Optional/Referenced Reading
+
+- [<i class="fas fa-file-pdf"></i> Coase, 1937, "The Nature of the Firm"](/readings/Shleifer-Vishny-1997.pdf)
+- [<i class="fas fa-file-pdf"></i> Jensen and Meckling, 1976, "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure"](/readings/Jensen-Meckling-1976.pdf)
+- [<i class="fas fa-file-pdf"></i> Grossman and Hart, 1986, "The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration"](/readings/Grossman-Hart-1986.pdf)
+- [<i class="fas fa-file-pdf"></i> Shleifer and Vishney, 1997, "A Survey of Corporate Governance"](/readings/Shleifer-Vishny-1997.pdf)
+
+## Questions to Guide Your Reading
+
+- Do firms exist in traditional economic models of production?
+
+- If markets are so great at allocating resources, why do firms exist?
+
+- When and why must we resort to hierarchy and command and control systems?
+
+- What do Alchian and Demsetz mean that a firm has no more power or authority than you or I do in the marketplace? Do you agree?
+
+- What is the fundamental economic problem with team production?
+
+- What new economic problems does the hiring of a monitor, an agent, or the establishment of a firm create?
+
+- What is the difference between a firm and other organizations? Like clubs? Like States?
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`

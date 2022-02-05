@@ -17,13 +17,15 @@ lessons:
     slides: "1.3-slides"
     date: "W February 2"
 
-  - title: "1.4 — Public Goods and Club Goods"
+  - title: "1.4 — Team Production & The Problem of Economic Organization"
+    content: "1.4-content"
     date: "M February 7"
   
-  - title: "1.5 — The Commons"
+  - title: "1.5 — Public Goods, Club Goods, and the Commons"
+    content: "1.5-content"
     date: "W February 9"
   
-  - title: "1.6 — Profit Seeking and Rent Seeking"
+  - title: "1.6 — The Problem of Rent-Seeking"
 
   - title: "1.7 — Justice, and Efficiency as a Normative Goal"
 
