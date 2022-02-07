@@ -19,6 +19,7 @@ lessons:
 
   - title: "1.4 — Team Production & The Problem of Economic Organization"
     content: "1.4-content"
+    slides: "1.4-slides"
     date: "M February 7"
   
   - title: "1.5 — Public Goods, Club Goods, and the Commons"
@@ -26,64 +27,84 @@ lessons:
     date: "W February 9"
   
   - title: "1.6 — The Problem of Rent-Seeking"
+    date: "M February 14"
 
   - title: "1.7 — Justice, and Efficiency as a Normative Goal"
+    date: "W February 16"
 
   - title: '<span class="fake-header-table">Constitutional Political Economy and the State</span>'
     header: True
   
   - title: "2.1 — Constituting a Group"
+    date: "M February 21"
 
   - title: "2.2 — Liberalism I: Politics as Constraints"
+    date: "W February 23"
 
   - title: "2.3 — Liberalism II: Beyond the Reach of Majorities"
+    date: "M February 28"
 
   - title: "2.4 — The Optimal Decision Rule"
+    date: "W March 2"
   
   - title: "2.5 — The Status Quo & Constitutional Change"
+    date: "M March 7"
     
   - title: '<span class="fake-header-table">The Institutions of Liberal Democracy</span>'
   
   - title: "3.1 — Voting I: Preference Aggregation & Cycling"
+    date: "W March 9"
     
   - title: "3.2 — Voting II: Ignorance and Irrationality"
+    date: "M March 21"
     
   - title: "3.3 — Voting III: Democracy<sup>2</sup>"
+    date: "W March 23"
     
   - title: "3.4 — Interest Groups"
+    date: "M March 28"
   
   - title: "3.5 — Legislators"
+    date: "W March 30"
   
   - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam**'
-    assignment: "midterm-exam"
 
   - title: "3.6 — Bureaucracy"
+    date: "M April 4"
+    
+  - title: "3.7 — The Judiciary"
+    date: "W April 6"
   
-  - title: "3.7 — Federalism"
+  - title: "3.8 — Federalism"
+    date: "M April 11"
   
   - title: '<span class="fake-header-table">Applications, Proposals, and Insights</span>'
     header: True
 
   - title: "4.1 — Exit, Voice, and Loyalty"
+    date: "W April 13"
 
   - title: "4.2 — The Rise of the Administrative State"
+    date: "M April 18"
   
   - title: "4.3 — Is Our Politics Not “Corrupt” Enough?"
+    date: "W April 20"
 
-  - title: "4.4 — Preference Falsification"
+  - title: "4.4 — TBD"
+    date: "M April 25"
 
-  - title: "4.5 — The Revolt of the Public"
+  - title: "4.5 — TBD"
+    date: "W April 27"
     
-  - title: "4.6 — Taxation"
+  - title: "4.6 — TBD"
+    date: "M May 2"
     
-  - title: "4.7 — Commoon Ownership Self-Assessed Tax"
+  - title: "4.7 — TBD"
+    date: "W May 4"
   
-  - title: "4.8 — Universal Basic Income"
+  - title: "4.8 — TBD"
+    date: "M May 9"
   
-  - title: "4.9 — Governance on the Blockchain"
-  
-  - title: "4.10 — Policy Responses to Covid-19"
-
   - title: '<i class="fas fa-laptop-code"></i> **Policy Paper**'
     assignment: "policy-paper"
 
