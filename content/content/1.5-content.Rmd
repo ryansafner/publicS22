@@ -36,7 +36,7 @@ On the commons, it is difficult to find a good short introduction to the extensi
 
 ### Public Goods and Collective Action
 
-- [<i class="fas fa-file-pdf"></i> Samuelson, 1954, "The Pure Theory ofo Public Expenditures"](/readings/Samuelson-1954.pdf)
+- [<i class="fas fa-file-pdf"></i> Samuelson, 1954, "The Pure Theory of Public Expenditures"](/readings/Samuelson-1954.pdf)
 - [<i class="fas fa-file-pdf"></i> Safner, 2020, "'Public Good,' or 'Good for the Public?' Political Entrepreneurship and the Public Funding of Scientific Research"](https://ryansafner.com/publication/public-good-or-good-for-the-public/)
 - [<i class="fas fa-file-pdf"></i> Iannaconne, 1992, "Sacrifice and Stigma: Reducing Free-riding in Cults, Communes, and Other Collectives"](/readings/Iannaconne-1992.pdf)
 - [<i class="fas fa-podcast"></i> *Econtalk*: Iannaconne on the Economics of Religion](https://www.econtalk.org/the-economics-of-religion/)
