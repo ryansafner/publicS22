@@ -19,7 +19,7 @@ library(kableExtra)
 
 `r blogdown::shortcode("courseinfo")`
 
-<p style="text-align:center"><a target="_blank" href="/syllabus/syllabus-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span></br>**Last Updated**: December 28, 2021</p>
+<p style="text-align:center"><a target="_blank" href="/syllabus/syllabus-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span></br>**Last Updated**: February 11, 2022</p>
 
 > “What’s so great about democracy other than it’s democratic?” <br> [— Gordon Tullock]{style="float:right"}
 
@@ -76,8 +76,6 @@ Given these objectives, this course fulfills all three of the learning outcomes 
 - Use quantitative tools and techniques in the preparation, interpretation, analysis and presentation of data and information for problem solving and decision making [...]
 - Apply economic reasoning and models to understand and analyze problems of public policy [...]
 - Demonstrate effective oral and written communications skills for personal and professional success[...]
-
-<span class="newthought">Content warning:</span> this class will cover sensitive political and cultural topics and compel you to grapple with countries, cultures, and viewpoints very different from your own. To put it mildly, these topics may include themes of violence, slavery, imperialism, and different ideologies inherently wrapped up in the tragic history of both the developed and developing world. 
 
 <span class="newthought">My standard disclaimer:</span> This class may challenge many of your existing beliefs and conceptions about how the world works, and how it should work. This is the most important and exciting part of a liberal arts education. This does *not* mean that I want to make you to see everything "my way." In fact, if you come out of this class thinking exactly like me, then I have probably failed you as a teacher. To the best of my ability, I keep my opinions to myself unless relevant for purposes of discussion, and I respect and invite you to reach your own conclusions on all matters. 
 
@@ -161,7 +159,7 @@ grading %>%
   #             col.names = c("Grade", "Range", "Grade", "Range"))
 ```
 
-See also my [<i class="fas fa-calculator"></i> `Grade Calculator`](https://ryansafner.shinyapps.io/dev_grade_calculator/) app where you can calculate your overall grade using existing assignment grades and forecast "what if" scenarios.
+See also my [<i class="fas fa-calculator"></i> `Grade Calculator`](https://ryansafner.shinyapps.io/public_grade_calculator/) app where you can calculate your overall grade using existing assignment grades and forecast "what if" scenarios.
 
 These grades are firm cutoffs, but I do of course round upwards $(\geq$ 0.5) for final grades. A necessary reminder, as an academic, I am not in the business of *giving* out grades, I merely report the grade that you *earn*. I will not alter your grade unless you provide a reasonable argument that I am in error (which does happen from time to time). 
 
@@ -249,4 +247,4 @@ This course is intended to be accessible for all students, including those with 
 
 # Tentative Schedule 
 
-**You can find a full schedule** with much more details, including the readings, appendices, and other further resources for each class meeting on the [schedule page](schedule/).
+**You can find a full schedule** with much more details, including the readings, appendices, and other further resources for each class meeting on the [schedule page](https://publics22.classes.ryansafner.com/schedule/).

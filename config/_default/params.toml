@@ -178,13 +178,13 @@ sharing = false
   twitter = "ryansafner"
   github = "ryansafner"
   office = "Office: Rosenstock 110"
-  officehours = "Office Hours: TBD & by appt"
+  officehours = "Office Hours: MW 1:30-2:30 & by appt"
 
 [course]
   number = "ECON 410"
   semester = "Spring 2022"
   #days = "MW"
-  time = "TuTh 2:40—4:05 PM"
+  time = "MW 2:40—4:05 PM"
   location = "Rosenstock 101"
   dates = "Jan 25—May 9, 2021"
   github = "ryansafner/publicS22"

@@ -28,9 +28,11 @@ lessons:
     date: "W February 9"
   
   - title: "1.6 — The Problem of Rent-Seeking"
+    content: "1.6-content"
     date: "M February 14"
 
   - title: "1.7 — Justice, and Efficiency as a Normative Goal"
+    content: "1.7-content"
     date: "W February 16"
 
   - title: '<span class="fake-header-table">Constitutional Political Economy and the State</span>'
