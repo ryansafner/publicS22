@@ -2,7 +2,7 @@
 title: "1.6 — The Problem of Rent-Seeking — Class Content"
 draft: false
 linktitle: "1.6 — The Problem of Rent-Seeking"
-date: "2022-06-14"
+date: "2022-02-14"
 menu:
   content:
     parent: Course content
@@ -20,6 +20,7 @@ slides: "1.6-slides"
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
+
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
 ## Required Reading
@@ -34,7 +35,7 @@ slides: "1.6-slides"
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 
-Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides. 
 
 The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
 
