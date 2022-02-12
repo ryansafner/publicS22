@@ -1,0 +1,63 @@
+---
+title: "1.7 — Justice, and Efficiency as a Normative Goal — Class Content"
+draft: false
+linktitle: "1.7 — Justice, and Efficiency as a Normative Goal"
+date: "2020-02-17"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "1.7-slides"
+---
+
+{{% alert note %}}
+*Wednesday, February 16, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+## Required Reading
+- [<i class="fab fa-youtube"></i> Sandel, 2009, "Justice"](http://justiceharvard.org/justicecourse/) Lectures 5 (Free to Choose) and 14 (A Deal is a Deal)
+
+These are lectures from Michael Sandel's *Justice* class at Harvard, one of the most popular courses. Due to the way these videos are cut (on the video pages), I encourage (but don't require) you to watch part of the lecture immediately *following* each lecture mentioned above (e.g. lectures 6 and 15) as it continues the relevant discussions.
+
+If you watch the videos on Youtube, each youtube video appears to contain two lectures per video (so you don't need to watch the whole videos). 
+
+## Optional/Referenced Reading
+
+You may wish to glance at some of the Wikipedia pages on the two major books from which themes and opposing perspectives we discuss come from: 
+
+- [<i class="fab fa-wikipedia-w"></i> Wikipedia: "Anarchy, State, and Utopia"](https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia)
+- [<i class="fab fa-wikipedia-w"></i> Wikipedia: "A Theory of Justice"](https://en.wikipedia.org/wiki/A_Theory_of_Justice)
+
+## Questions to Guide Your Reading
+
+The videos cover a lot of ground on different political philosophies and their consequences, but our main points we want to focus on is Rawls vs. Nozick on "social/distributive justice."
+
+- What is **social/distributive justice**? How might we define it?
+
+- Do you agree more with Nozick or Rawls?
+
+- Where are there points of tension and/or agreement between the two positions?
+
+- Is/how can coercive redistribution (be) just(ified)?
+
+- Is/how can (in)equality (be) just(ified)?
+
+- How do Nozick and Rawls each answer the question: what makes a distribution just or unjust?
+
+- What is the best way to provide for those least well off?
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`

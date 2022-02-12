@@ -19,7 +19,7 @@
   weight = 20
 
 [[main]]
-  name = "Content"
+  name = "Classes"
   url = "/content/"
   weight = 30
 

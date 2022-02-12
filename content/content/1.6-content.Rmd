@@ -2,7 +2,7 @@
 title: "1.6 — The Problem of Rent-Seeking — Class Content"
 draft: false
 linktitle: "1.6 — The Problem of Rent-Seeking"
-date: "2020-06-08"
+date: "2022-06-14"
 menu:
   content:
     parent: Course content
@@ -23,11 +23,14 @@ slides: "1.6-slides"
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
 ## Required Reading
-- [<i class="fas fa-file-pdf"></i> Buchanan (1999), “Rent Seeking and Profit Seeking”](https://www.smbc-comics.com/comic/economist)
+- [<i class="fas fa-file-pdf"></i> Tullock (1967), “The Welfare Costs of Tariffs, Monopoly, and Theft”](/readings/Tullock-1967.pdf)
+- [<i class="fas fa-file-pdf"></i> Buchanan (1999), “Rent Seeking and Profit Seeking”](/readings/Buchanan-1999.pdf)
 
 ## Optional/Referenced Reading
+- [<i class="fas fa-file-pdf"></i>  Klein, Crawford, and Alchian, 1978, “Vertical Integration, Appropriable Rents, and the Competitive Contracting Process””](/readings/Klein-Crawford-Alchian-1978.pdf)
 
 ## Questions to Guide Your Reading
+
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 
