@@ -1,7 +1,7 @@
 ---
-title: "1.6 — Justice, and Efficiency as a Normative Goal — Class Content"
+title: "1.6 — The Problem of Rent-Seeking — Class Content"
 draft: false
-linktitle: "1.6 — Justice, and Efficiency as a Normative Goal"
+linktitle: "1.6 — The Problem of Rent-Seeking"
 date: "2020-02-17"
 menu:
   content:
@@ -15,7 +15,7 @@ slides: "1.6-slides"
 ---
 
 {{% alert note %}}
-*Wednesday, February 16, 2022*
+*Monday, February 14, 2022*
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
@@ -23,36 +23,14 @@ slides: "1.6-slides"
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
 ## Required Reading
-- [<i class="fab fa-youtube"></i> Sandel, 2009, "Justice"](http://justiceharvard.org/justicecourse/) Lectures 5 (Free to Choose) and 14 (A Deal is a Deal)
-
-These are lectures from Michael Sandel's *Justice* class at Harvard, one of the most popular courses. Due to the way these videos are cut (on the video pages), I encourage (but don't require) you to watch part of the lecture immediately *following* each lecture mentioned above (e.g. lectures 6 and 15) as it continues the relevant discussions.
-
-If you watch the videos on Youtube, each youtube video appears to contain two lectures per video (so you don't need to watch the whole videos). 
+- [<i class="fas fa-file-pdf"></i> Tullock (1967), “The Welfare Costs of Tariffs, Monopoly, and Theft”](/readings/Tullock-1967.pdf)
+- [<i class="fas fa-file-pdf"></i> Buchanan (1999), “Rent Seeking and Profit Seeking”](/readings/Buchanan-1999.pdf)
 
 ## Optional/Referenced Reading
-
-You may wish to glance at some of the Wikipedia pages on the two major books from which themes and opposing perspectives we discuss come from: 
-
-- [<i class="fab fa-wikipedia-w"></i> Wikipedia: "Anarchy, State, and Utopia"](https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia)
-- [<i class="fab fa-wikipedia-w"></i> Wikipedia: "A Theory of Justice"](https://en.wikipedia.org/wiki/A_Theory_of_Justice)
+- [<i class="fas fa-file-pdf"></i>  Klein, Crawford, and Alchian, 1978, “Vertical Integration, Appropriable Rents, and the Competitive Contracting Process””](/readings/Klein-Crawford-Alchian-1978.pdf)
 
 ## Questions to Guide Your Reading
 
-The videos cover a lot of ground on different political philosophies and their consequences, but our main points we want to focus on is Rawls vs. Nozick on "social/distributive justice."
-
-- What is **social/distributive justice**? How might we define it?
-
-- Do you agree more with Nozick or Rawls?
-
-- Where are there points of tension and/or agreement between the two positions?
-
-- Is/how can coercive redistribution (be) just(ified)?
-
-- Is/how can (in)equality (be) just(ified)?
-
-- How do Nozick and Rawls each answer the question: what makes a distribution just or unjust?
-
-- What is the best way to provide for those least well off?
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 
