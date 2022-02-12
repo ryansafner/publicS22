@@ -1,7 +1,7 @@
 ---
-title: "1.6 — The Problem of Rent-Seeking — Class Content"
+title: "1.9 — The Problem of Rent-Seeking — Class Content"
 draft: false
-linktitle: "1.6 — The Problem of Rent-Seeking"
+linktitle: "1.9 — The Problem of Rent-Seeking"
 date: "2022-02-14"
 menu:
   content:
@@ -15,7 +15,7 @@ slides: "1.6-slides"
 ---
 
 {{% alert note %}}
-*Monday, February 14, 2022*.
+*Monday, February 14, 2022*
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
@@ -28,10 +28,9 @@ slides: "1.6-slides"
 - [<i class="fas fa-file-pdf"></i> Buchanan (1999), “Rent Seeking and Profit Seeking”](/readings/Buchanan-1999.pdf)
 
 ## Optional/Referenced Reading
-- [<i class="fas fa-file-pdf"></i> Klein, Crawford, and Alchian, 1978, “Vertical Integration, Appropriable Rents, and the Competitive Contracting Process””](/readings/Klein-Crawford-Alchian-1978.pdf)
+- [<i class="fas fa-file-pdf"></i> Klein, Crawford, and Alchian, 1978, “Vertical Integration, Appropriable Rents, and the Competitive Contracting Process”](/readings/Klein-Crawford-Alchian-1978.pdf)
 
 ## Questions to Guide Your Reading
-
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 
