@@ -31,6 +31,15 @@ slides: "1.6-slides"
 
 ## Questions to Guide Your Reading
 
+- What is the difference between profit-seeking and rent-seeking? What role do institutions play in creating/changing the difference?
+
+- What does Tullock argue is the social cost of theft? How is it related to the idea of rent-seeking?
+
+- Why do economists traditionally argue that market power, such as monopoly, is “bad?” How does this connect with Tullock’s argument?
+
+- Is rent-seeking only possible in politics or some relationship to the State? Can it exist privately, without any State intervention?
+
+- How does the role of time affect rents, or profits?
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 
