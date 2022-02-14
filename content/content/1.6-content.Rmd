@@ -41,6 +41,8 @@ slides: "1.6-slides"
 
 - How does the role of time affect rents, or profits?
 
+- Are there “good” rents vs. “bad rents?” How do we tell the difference?
+
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 
 Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
