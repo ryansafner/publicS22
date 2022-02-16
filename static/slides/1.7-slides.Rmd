@@ -122,6 +122,7 @@ class: inverse, center, middle
 
 .pull-left[
 
+.smaller[
 - Preferences are .hi-purple[subjective] and left as given in economics
   - We leave it to individuals to be the best judge of whether they are better off
   - .hi-purple[Egalitarian] to a degree: nobody's preferences are dismissed or discounted
@@ -130,6 +131,7 @@ class: inverse, center, middle
 
 - Harder to directly evaluate outcomes
   - Better to look at basic processes & mechanisms (e.g. exchange)
+]
 ]
 
 .pull-right[
