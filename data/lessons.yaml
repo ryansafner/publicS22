@@ -34,12 +34,14 @@ lessons:
 
   - title: "1.7 — Justice, and Efficiency as a Normative Goal"
     content: "1.7-content"
+    slides: "1.7-slides"
     date: "W February 16"
 
   - title: '<span class="fake-header-table">Constitutional Political Economy and the State</span>'
     header: True
   
   - title: "2.1 — Constituting a Group"
+    content: "2.1-content"
     date: "M February 21"
 
   - title: "2.2 — Liberalism I: Politics as Constraints"
