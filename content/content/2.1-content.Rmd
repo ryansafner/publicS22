@@ -31,8 +31,8 @@ In discussing the State and the Hobbesian dilemma, this will allow me to discuss
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
 ## Recommended Readings (No Required Questions or Discussion)
-- [<i class="fas fa-book-pdf"></i> Munger and Munger (2015), “Becoming a Group: The Constitution”, Ch. 2 in *Choosing in Groups*](/readings/Hobbes-1651.pdf)
-- [<i class="fas fa-book-pdf"></i> Hobbes (1651), Selections from *The Leviathan*](/readings/Hobbes-1651.pdf)
+- [<i class="fas fa-book"></i> Munger and Munger (2015), “Becoming a Group: The Constitution”, Ch. 2 in *Choosing in Groups*](/readings/Hobbes-1651.pdf)
+- [<i class="fas fa-book"></i> Hobbes (1651), Selections from *The Leviathan*](/readings/Hobbes-1651.pdf)
 - [<i class="fas fa-file-pdf"></i>  Klein, Crawford, and Alchian, 1978, “Vertical Integration, Appropriable Rents, and the Competitive Contracting Process””](/readings/Klein-Crawford-Alchian-1978.pdf)
 
 ## Questions to Guide Your Reading

@@ -36,8 +36,8 @@ Finally, we consider Benjamin Constant’s famous essay comparing how the Ancien
 
 ## Required Reading
 - [<i class="fas fa-file-pdf"></i> Locke (1689), Selections from *The Second Treatise on Government*](/readings/Locke-1689.pdf)
-- [<i class="fas fa-file-pdf"></i> Constant, (1819), “The Liberty of the Ancients as Compared with that of the Moderns”](/readings/Klein-Crawford-Alchian-1978.pdf)
 - [<i class="fas fa-file-pdf"></i> Madison (1787-1788), *Federalist* 10 and 51](/readings/Madison-1787.pdf)
+- [<i class="fas fa-file-pdf"></i> Constant, (1819), “The Liberty of the Ancients as Compared with that of the Moderns”](/readings/Constant-1819.pdf)
 
 # Recommended Readings
 
