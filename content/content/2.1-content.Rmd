@@ -1,0 +1,58 @@
+---
+title: "2.1 — Constituting a Group — Class Content"
+draft: false
+linktitle: "2.1 — Constituting a Group"
+date: "2020-02-17"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "2.1-slides"
+---
+
+{{% alert note %}}
+*Monday, February 21, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+This class kicks off our look at Constitutional Political Economy, and we will examine this topic at several levels: 
+
+First, if we are to chose as a group at *any* level (whether a national government, a neighborhood association, or a book club), how do we *constitute* and *decide how to decide* as a group? Second, we will often look at a particular group/institution, the *Nation-State*, and inquire about is its nature and origin. What gives the State the legitimate authority to coerce individuals? Why should we obey it?
+
+We begin with a deep dive to a major point of departure in the Western liberal political philosophy canon.^[We will define next class what we mean by “liberal.” Try to withhold your political judgment and experience with this word in 21st century United States until then.] Thomas Hobbes is often invoked as the first explicit originator of the a **social contract** theory of the State. Writing during the [English Civil War](https://en.wikipedia.org/wiki/English_Civil_War) - the ultimate result of which would set the Western world on a path towards liberal democracy, constitutional republics, and the industrial revolution - Hobbes is famous for his bleak view of the [state of nature](https://en.wikipedia.org/wiki/State_of_nature) (a hypothetical society without government). He is often noted as a supporter of a strong State, whom he saw as an absolute monarch, as the solution to this problem. Hobbes is often written off quickly in political philosophy, as a predecessor to the more celebrated [John Locke](https://en.wikipedia.org/wiki/John_Locke), the clear inspiration fo the U.S. Declaration of Independence and many modern ideas. However, Hobbes provides both deep analytical insight to the nature of the problem (which can be recast in modern game theory terms), as well as a clear break from Ancient political philosophy. We will read selections from Hobbes' famous 1651 book, *Leviathan*. 
+
+In discussing the State and the Hobbesian dilemma, this will allow me to discuss a topic I intended to discuss, but had to skip due to time, during our lecture on rent-seeking: the problem of private rent-seeking. Hence, one of the readings (Klein, Crawford, and Alchian) below is copied from that section.
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+## Recommended Readings (No Required Questions or Discussion)
+- [<i class="fas fa-book-pdf"></i> Munger and Munger (2015), “Becoming a Group: The Constitution”, Ch. 2 in *Choosing in Groups*](/readings/Hobbes-1651.pdf)
+- [<i class="fas fa-book-pdf"></i> Hobbes (1651), Selections from *The Leviathan*](/readings/Hobbes-1651.pdf)
+- [<i class="fas fa-file-pdf"></i>  Klein, Crawford, and Alchian, 1978, “Vertical Integration, Appropriable Rents, and the Competitive Contracting Process””](/readings/Klein-Crawford-Alchian-1978.pdf)
+
+## Questions to Guide Your Reading
+
+- What does Hobbes have to say about an "ultimate good" or "ultimate goal" for humanity?
+
+- Is Hobbes a subjectivist in terms of value and human choice?
+
+- What's the problem with everyone having equal power and limitations?
+
+- When is it in an individual's interest to limit themselves?
+
+- What is the origin of the State or Commonwealth?
+
+- How would you consider Hobbes' analysis in terms of game theory? A prisoners' dilemma? A stag hunt?
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`

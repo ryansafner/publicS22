@@ -1,0 +1,86 @@
+---
+title: "2.1 — Constituting a Group"
+subtitle: "ECON 410 • Public Economics • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/publicS22"><i class="fa fa-github fa-fw"></i>ryansafner/publicS22</a><br> <a href="https://publicS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>publicS22.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F,
+                      fig.retina = 3,
+                      fig.align = "center")
+library("tidyverse")
+library("ggrepel")
+library("fontawesome")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_freezeframe()
+
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+update_geom_defaults("text", list(family = "Fira Sans Condensed"))
+
+set.seed(256)
+
+theme_slides <- theme_light() + 
+  theme(
+    text = element_text(family = "Fira Sans", size = 24)
+  )
+
+```
+
+
+class: inverse, center, middle
+
+# Efficiency
+
+---
+
+# A Puzzle 
+
+.left-column[
+.center[
+![:scale 80%](../images/rousseau.jpg)
+
+.smallest[
+Jean-Jacques Rousseau
+
+1712-1778
+]
+]
+]
+
+.right-column[
+
+> “There is but one law which, from its nature, needs unanimous consent. This is the social compact; for civil association is the most voluntary of all acts”
+
+]
+
+---
+
+hobbes
+
+wicksell
+
+rent-seeking private, appropriable rents
