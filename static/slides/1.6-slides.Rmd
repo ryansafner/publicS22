@@ -1305,7 +1305,7 @@ Economics Nobel 2009
 
 .pull-right[
 
-- This .puple[bilateral dependency] creates .hi-purple[“quasi rents”] from cooperation that might be **appropriated** by a party 
+- This .purple[bilateral dependency] creates .hi-purple[“quasi rents”] from cooperation that might be **appropriated** by a party 
 
 - Need to contract *ex ante* to protect *ex post* possibility of someone threatening to appropriate the rents
 
@@ -1359,7 +1359,7 @@ Benjamin Klein
 .right-column[
 
 .smallest[
-> "An appropriable quasi rent is not a monopoly rent in the usual sense, that is, the increased value of an asset protected from market entry over the value it would have in an open market. [It] can occur with no market closure or restrictions placed on rival assets. Once install, an asset may be so expensive to remove or so specialized to a particular user that if the price paid to the owner was somehow reduced the asset's services to that user would not be reduced," (p.299).
+> "An appropriable quasi rent is not a monopoly rent in the usual sense, that is, the increased value of an asset protected from market entry over the value it would have in an open market. [It] can occur with no market closure or restrictions placed on rival assets. Once installed, an asset may be so expensive to remove or so specialized to a particular user that if the price paid to the owner was somehow reduced the asset's services to that user would not be reduced," (p.299).
 
 ]
 .source[Klein, Benjamin, Robert G Crawford, and Armen A Alchian, 1978, "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process," *Journal of Law and Economics* 21(2): 297-326]
