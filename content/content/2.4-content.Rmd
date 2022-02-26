@@ -32,17 +32,21 @@ Related to this, many recognize flaws in our current constitution, and some go s
 
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
-## Required Reading
+### Required Reading
 - [<i class="fas fa-file-pdf"></i> Hayek (1989), “Between Instinct and Reason”, Ch.1 in *The Fatal Conceit*](/readings/Hayek-1989-Ch1.pdf)
 - [<i class="fas fa-file-pdf"></i> Buchanan, 1999, “The Relatively Absolute Absolutes”](/readings/Buchanan-1999b.pdf)
 
-# Recommended/Referenced Readings
+### Recommended/Referenced Readings
 
-- [NY Times (Dec. 28, 2021), “Chile Writes a New Constitution, Confronting Climate Change Head On”](https://www.nytimes.com/2021/12/28/climate/chile-constitution-climate-change.html)
-- [NBC News (July 8, 2021), “Making history: Chileans start work on first constitution equally drafted by women, men”](https://www.nbcnews.com/news/latino/making-history-chileans-start-work-first-constitution-equally-drafted-rcna1353)
-- [Foreign Policy, (May 21, 2021), “Chile’s Constitution Is Too New for Its Own Good”](https://foreignpolicy.com/2021/05/21/chiles-constitution-is-too-new-for-its-own-good/)
-- [*Econtalk* (Dec 20, 2021): Munger on Constitutions](https://www.econtalk.org/michael-munger-on-constitutions/)
-## Questions to Guide Your Reading
+- [<i class="fas fa-external-link-square-alt"></i> NY Times (Dec. 28, 2021), “Chile Writes a New Constitution, Confronting Climate Change Head On”](https://www.nytimes.com/2021/12/28/climate/chile-constitution-climate-change.html)
+- [<i class="fas fa-external-link-square-alt"></i> NBC News (July 8, 2021), “Making history: Chileans start work on first constitution equally drafted by women, men”](https://www.nbcnews.com/news/latino/making-history-chileans-start-work-first-constitution-equally-drafted-rcna1353)
+- [<i class="fas fa-external-link-square-alt"></i>Foreign Policy, (May 21, 2021), “Chile’s Constitution Is Too New for Its Own Good”](https://foreignpolicy.com/2021/05/21/chiles-constitution-is-too-new-for-its-own-good/)
+- [<i class="fas fa-podcast"></i> *Econtalk* (Dec 20, 2021): Mike Munger on Constitutions](https://www.econtalk.org/michael-munger-on-constitutions/)
+- [<i class="fas fa-podcast"></i> *Econtalk* (May 26, 2014): Yuval Levin on Burke, Paine, and the Great Debate](https://www.econtalk.org/yuval-levin-on-burke-paine-and-the-great-debate/)
+- [<i class="fab fa-wikipedia-w"> French Revolution </i>](https://en.wikipedia.org/wiki/French_Revolution)
+- [<i class="fab fa-wikipedia-w"> Edmund Burke's *Reflections on the Revolution in France* </i>](https://en.wikipedia.org/wiki/Reflections_on_the_Revolution_in_France)
+
+### Questions to Guide Your Reading
 
 - What are Buchanan’s idea of the “relatively absolute absolutes?”
 
