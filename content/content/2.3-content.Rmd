@@ -1,7 +1,7 @@
 ---
-title: "2.3 — Constitution Something — Class Content"
+title: "2.3 — The Calculus of Consent — Class Content"
 draft: false
-linktitle: "2.3 — Liberalism and the State"
+linktitle: "2.3 — The Calculus of Consent"
 date: "2020-02-17"
 menu:
   content:
@@ -11,54 +11,41 @@ type: docs
 output:
   blogdown::html_page:
     toc: true
-slides: "2.2-slides"
+slides: "2.3-slides"
 ---
 
 {{% alert note %}}
-*Wednesday, March 2, 2022*
+*Monday, February 28, 2022*
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
-We are rapping up our discussion of constitutional political economy before diving into politics under the constitution we *have* (i.e. assuming our constitutional rules are fixed) in Unit I. I want to discuss two major concepts and problems, which again will venture into political philosophy and normative territory.
+After we've digested some political philosophy (with a dose of game theory), it's time for a more "rigorous" model of choosing as a group. How should we decide how to decide?
 
-First, a reminder about shifting focus between *pre-*constitutional rules and *post*-constitutional rules. This is one of the things Buchanan is getting at with his somewhat vague and frustrating idea of the “relatively absolute absolutes.” As part of this, Buchanan gives the *status quo* a special status, that it needs no justification, but that changes from it do require justification. The rules, traditions, and customs that we currently follow should be treated as absolute and given, but only *relatively* — in that we can ultimately and eventually change them as needed, but not too hastily. 
-
-This gets us into the second idea that I want to discuss: the role of tradition and in changing constitutional rules. This comes across in Buchanan, but I also gave you a chapter by Hayek where he gives his characteristic account of how rules and rule-following behavior emerge over time in human society. It is more about gradual and unconscious cultural evolution that often *restrains* our moral intuitions as opposed to what he calls “rational constructivism” (humans rationally designing the system of rules and customs). This brings up a conflict between our moral intuitions (that come from the fact that we historically evolved in tribal settings) and the market-based society that Hayek calls “the extended order”. Similar to Buchanan, it also places some level of importance on ingrained tradition. Hayek, while [not a political conservative](https://www.cato.org/sites/cato.org/files/articles/hayek-why-i-am-not-conservative.pdf)^[Note, Buchanan also wrote [a book with a similar title](https://www.amazon.com/Why-Too-Not-Conservative-Liberalism/dp/1845423143)], holds tradition and customs with *some* reverence due to this.
-
-Both Buchanan and Hayek do, however, recognize the need to subject specific norms, traditions, and customs to criticism and change or removal. This is essential to progress, and there are many illiberal customs that are worthy of us abandoning. However, both caution that we should not be too hasty to throw out something we do not fully understand the consequences of, and we should be skeptical of calls for sudden, major social changes, especially of the rational constructivist variety.
-
-Related to this, many recognize flaws in our current constitution, and some go so far as to say we should change the constitution or perhaps even call a new constitutional convention. Right now the country of Chile is in the process of creating a new constitution, something worth examining.
+We read the key chapters of Buchanan and Tullock's classic 1962 *Calculus of Consent*, which (mostly) launched the field of public choice as the economic analysis of politics. Buchanan won the Nobel Prize in Economics in 1986 for his contributions to this field. 
 
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
 ## Required Reading
-- [<i class="fas fa-file-pdf"></i> Hayek (1989), “Between Instinct and Reason”, Ch.1 in *The Fatal Conceit*](/readings/Hayek-1989-Ch1.pdf)
-- [<i class="fas fa-file-pdf"></i> Buchanan, 1999, “The Relatively Absolute Absolutes”](/readings/Buchanan-1999b.pdf)
+- <i class="fas fas fa-book"></i> Buchanan and Tullock (1962), [*The Calculus of Consent*](https://oll.libertyfund.org/titles/buchanan-the-calculus-of-consent-logical-foundations-of-constitutional-democracy), Chs. 3,5,6
 
-# Recommended/Referenced Readings
+Chapters 3 and 5 set up Buchanan and Tullock to talk about their subject — politics and conostitutions — using economic analysis. It may seem a bit dry and excessive but remember, in 1962 almost nobody else thought politics could (or should) be analyzed with economic tools and assumptions like self-interested behavior! You can skim these chapters mostly, but focus on chapter 6 more closely, this is their actual model.
 
-- [NY Times (Dec. 28, 2021), “Chile Writes a New Constitution, Confronting Climate Change Head On”](https://www.nytimes.com/2021/12/28/climate/chile-constitution-climate-change.html)
-- [NBC News (July 8, 2021), “Making history: Chileans start work on first constitution equally drafted by women, men”](https://www.nbcnews.com/news/latino/making-history-chileans-start-work-first-constitution-equally-drafted-rcna1353)
-- [Foreign Policy, (May 21, 2021), “Chile’s Constitution Is Too New for Its Own Good”](https://foreignpolicy.com/2021/05/21/chiles-constitution-is-too-new-for-its-own-good/)
-- [*Econtalk* (Dec 20, 2021): Munger on Constitutions](https://www.econtalk.org/michael-munger-on-constitutions/)
 ## Questions to Guide Your Reading
 
-- What are Buchanan’s idea of the “relatively absolute absolutes?”
+- "When will a society composed of free and rational utility-maximizing individuals choose to undertake action collectively rather than privately?"
 
-- How are the relatively absolute absolutes related to shifting our focus between constitutional rules and political rules?
+- How do we determine the rules that will determine the rules by which we choose as a group?
 
-- How is Hayek’s comparison of writers 
+- What is the moral significance, or special status, if any, of majority rule, i.e. $\frac{n}{2}+1$ for deciding something?
 
-- How does Hayek’s account of where our rules come from conflict with the “social contractarian” view of the State (think about Hobbes and Locke)?
+- When/why is unanimity important? When might it make rational sense to depart from unanimity as a decision rule?
 
-- What is “between instinct and reason?”
+- What sorts of decisions should require more agreement, and what sorts of decisions should require less agreement?
 
-- What does Hayek call “the fatal conceit?”
+- How is the optimal decision rule deduced?
 
-- What does Hayek call “constructivist rationalism?” What is Hayek’s position?
-
-- How should we approach “tradition?”
+- Should majorities decide everything? Why or why not?
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 
