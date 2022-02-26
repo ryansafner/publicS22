@@ -15,47 +15,37 @@ slides: "2.2-slides"
 ---
 
 {{% alert note %}}
-*Wednesday, February 23, 2022*
+*Monday, February 28, 2022*
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
-Last class was about **government placing constraints on citizens**, and it being in everyone's interest to accept these. This class is about **citizens placing constraints on government.** We might summarize this dual dilemma by paraphrasing Madison's Federalist 51:
+After we've digested some political philosophy (with a dose of game theory), it's time for a more "rigorous" model of choosing as a group. How should we decide how to decide?
 
-> "In framing a government which is to be administered by men over men, the great difficulty lies in this: you must first enable the government to control the governed; and in the next place oblige it to control itself."
-
-This class contains three readings, in order to connect with the previous class. The famous counterweight or improvement to Hobbes' 1651 *Leviathan* is John Locke's 1689 *Second Treatise on Government*. Both Locke and Hobbes consider the State as a social contract rational individuals construct to escape the state of nature. In contrast to Hobbes, Locke sees humanity as far more sociable in the state of nature, able to make cooperative agreements, discover, and apply "the laws of nature." Yet, creating a civil government improves on what he sees as the three "inconveniences" of anarchy. We have already seen Locke's view of the origin of legitimate property rights, but I included the relevant passage again for reference. Most importantly, Locke famously arguers that the ultimate aim of the State is to protect individual property rights.
-
-Second, we extend classic political philosophy to the crafting of the United States Constitution in the late 1780s. James Madison - the intellectual "father of the Constitution" - along with Alexander Hamilton and John Jay psudonymously wrote what later became known as *"The Federalist Papers,"*, then a series of newspaper articles arguing in favor of ratifying the proposed Constitution that emerged out of the Philadelphia convention in 1787. These writings are among the most important pieces of Western (and especially, *American*) political philosophy still relevant today. We read the two most cited papers, Federalist 10 and 51 (both allegedly written by Madison) focusing on the danger of factions, and the tyranny of majorities (or minorities). We see that the American Founders, exemplified by Madison, were deeply suspicious of pure democracy and its vices of tyranny, demagoguery, and economic populism (namely, the redistribution of property and cancellation of debts).
-
-I would focus more on Federalist 10 and its important discussion of factions, and Madison's novel argument of how to contain factions, though I included Federalist 51 because it is both short, and full of the era's most memorable phrases. 
-
-Finally, we consider Benjamin Constant’s famous essay comparing how the Ancients view “liberty” as the public privileges and duties of a citizen versus how we “Moderns” view liberty as the right to live our private lives with limited interference. While certainly not the first to advocate the core ideas (Locke, for example is most of the way there) of rule of law, pluralism & toleration of others, and an appreciation of commerce, Constant was the perhaps the first thinker to consciously refer to himself as a “liberal.” This conception of the relationship between the individual and the State —  *liberal democracy* that empowers majorities but protects individual rights — is the bedrock of modern political philosophy in the West. Modern political ideologies (though there are rising *illiberal* tendencies of late) — progressivism, conservatism, and libertarianism — share their origins in liberalism. Don’t get too lost in the frequent references to to ancient societies and legendary figures from Athens, Sparta, and Rome, as well as famous philosophers before/of the French Revolution ([Rousseau](https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau) and [de Mably](https://en.wikipedia.org/wiki/Gabriel_Bonnot_de_Mably)); focus on how he differentiates modern vs. ancient societies, and the distinctions in their liberty.
+We read the key chapters of Buchanan and Tullock's classic 1962 *Calculus of Consent*, which (mostly) launched the field of public choice as the economic analysis of politics. Buchanan won the Nobel Prize in Economics in 1986 for his contributions to this field. 
 
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
 ## Required Reading
-- [<i class="fas fa-file-pdf"></i> Locke (1689), Selections from *The Second Treatise on Government*](/readings/Locke-1689.pdf)
-- [<i class="fas fa-file-pdf"></i> Madison (1787-1788), *Federalist* 10 and 51](/readings/Madison-1787.pdf)
-- [<i class="fas fa-file-pdf"></i> Constant, (1819), “The Liberty of the Ancients as Compared with that of the Moderns”](/readings/Constant-1819.pdf)
+- <i class="fas fas fa-book"></i> Buchanan and Tullock (1962), [*The Calculus of Consent*](https://oll.libertyfund.org/titles/buchanan-the-calculus-of-consent-logical-foundations-of-constitutional-democracy), Chs. 3,5,6
 
-# Recommended Readings
-
-- [<i class="fas fa-external-link-square-alt"></i> July 4, 1776 - U.S. *Declaration of Independence*](https://www.archives.gov/founding-docs/declaration-transcript)
-
-Look at the first two paragraphs of the U.S. Declaration of Independence, which is the foundational document in the political philosophy of America. Observe the connections to Locke in terms of the origin and purpose of government.   
+Chapters 3 and 5 set up Buchanan and Tullock to talk about their subject — politics and conostitutions — using economic analysis. It may seem a bit dry and excessive but remember, in 1962 almost nobody else thought politics could (or should) be analyzed with economic tools and assumptions like self-interested behavior! You can skim these chapters mostly, but focus on chapter 6 more closely, this is their actual model.
 
 ## Questions to Guide Your Reading
 
-- What is the role of faction (interest groups) in power?
+- "When will a society composed of free and rational utility-maximizing individuals choose to undertake action collectively rather than privately?"
 
-- How does Madison suggest we deal with the problem of factions?
+- How do we determine the rules that will determine the rules by which we choose as a group?
 
-- What's wrong with "finding the right people" to rule us?
+- What is the moral significance, or special status, if any, of majority rule, i.e. $\frac{n}{2}+1$ for deciding something?
 
-- What tyranny(ies) should we watch out for? The majority? The minority? The rulers? The ruled?
+- When/why is unanimity important? When might it make rational sense to depart from unanimity as a decision rule?
 
-- What constrains those in the nexus of power to be on their best behavior (or fails to constrain them)?
+- What sorts of decisions should require more agreement, and what sorts of decisions should require less agreement?
+
+- How is the optimal decision rule deduced?
+
+- Should majorities decide everything? Why or why not?
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 

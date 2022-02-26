@@ -51,9 +51,11 @@ lessons:
     date: "W February 23"
 
   - title: "2.3 — The Calculus of Consent"
+    content: "2.3-content"
     date: "W March 2"
   
   - title: "2.4 — The Status Quo, Tradition, & Constitutional Change"
+    content: "2.4-content"
     date: "M March 7"
     
   - title: '<span class="fake-header-table">The Institutions of a Constitutional Republic</span>'
