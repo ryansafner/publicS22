@@ -20,11 +20,11 @@ slides: "2.4-slides"
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
-We are rapping up our discussion of constitutional political economy before diving into politics under the constitution we *have* (i.e. assuming our constitutional rules are fixed) in Unit I. I want to discuss two major concepts and problems, which again will venture into political philosophy and normative territory.
+We are wrapping up our discussion of constitutional political economy before diving into politics under the constitution we *have* (i.e. assuming our constitutional rules are fixed) in Unit III. I want to discuss at least two major concepts and problems, which again will venture into political philosophy and normative territory.
 
-First, a reminder about shifting focus between *pre-*constitutional rules and *post*-constitutional rules. This is one of the things Buchanan is getting at with his somewhat vague and frustrating idea of the “relatively absolute absolutes.” As part of this, Buchanan gives the *status quo* a special status, that it needs no justification, but that changes from it do require justification. The rules, traditions, and customs that we currently follow should be treated as absolute and given, but only *relatively* — in that we can ultimately and eventually change them as needed, but not too hastily. 
+First, a reminder about the constantly shifting focus between *pre-*constitutional rules and *post*-constitutional rules. This is one of the things Buchanan is getting at with his somewhat vague and frustrating idea of the “relatively absolute absolutes.” As part of this, Buchanan gives the *status quo* a special status, that it needs no justification, but that changes from it do require justification. The rules, traditions, and customs that we currently follow should be treated as absolute and given, but only *relatively* so — in that we can ultimately and eventually change them as needed, but not too hastily. 
 
-This gets us into the second idea that I want to discuss: the role of tradition and in changing constitutional rules. This comes across in Buchanan, but I also gave you a chapter by Hayek where he gives his characteristic account of how rules and rule-following behavior emerge over time in human society. It is more about gradual and unconscious cultural evolution that often *restrains* our moral intuitions as opposed to what he calls “rational constructivism” (humans rationally designing the system of rules and customs). This brings up a conflict between our moral intuitions (that come from the fact that we historically evolved in tribal settings) and the market-based society that Hayek calls “the extended order”. Similar to Buchanan, it also places some level of importance on ingrained tradition. Hayek, while [not a political conservative](https://www.cato.org/sites/cato.org/files/articles/hayek-why-i-am-not-conservative.pdf)^[Note, Buchanan also wrote [a book with a similar title](https://www.amazon.com/Why-Too-Not-Conservative-Liberalism/dp/1845423143)], holds tradition and customs with *some* reverence due to this.
+This gets us into the second idea that I want to discuss: the role of tradition and changing constitutional rules. This comes across in Buchanan, but I also gave you a chapter by Hayek where he gives his characteristic account of how rules and rule-following behavior emerge in human society. It is more about gradual and unconscious cultural evolution that often *restrains* our moral intuitions as opposed to what he calls “rational constructivism” (humans rationally designing the system of rules and customs). This brings up a conflict between our moral intuitions (that come from the fact that we historically evolved in tribal settings) and the market-based society that Hayek calls “the extended order”. Similar to Buchanan, it also places some level of importance on ingrained tradition. Hayek, while [not a political conservative](https://www.cato.org/sites/cato.org/files/articles/hayek-why-i-am-not-conservative.pdf)^[Note, Buchanan also wrote [a book with a similar title](https://www.amazon.com/Why-Too-Not-Conservative-Liberalism/dp/1845423143)], holds tradition and customs with *some* reverence due to this.
 
 Both Buchanan and Hayek do, however, recognize the need to subject specific norms, traditions, and customs to criticism and change or removal. This is essential to progress, and there are many illiberal customs that are worthy of us abandoning. However, both caution that we should not be too hasty to throw out something we do not fully understand the consequences of, and we should be skeptical of calls for sudden, major social changes, especially of the rational constructivist variety.
 
@@ -48,15 +48,15 @@ Related to this, many recognize flaws in our current constitution, and some go s
 
 - How are the relatively absolute absolutes related to shifting our focus between constitutional rules and political rules?
 
-- How is Hayek’s comparison of writers 
-
-- How does Hayek’s account of where our rules come from conflict with the “social contractarian” view of the State (think about Hobbes and Locke)?
+- How does Hayek’s account of where our rules come from conflict with the “social contract” view of how States originated — or at least why they should be viewed as legitimate (think about Hobbes, Locke, & Rousseau)?
 
 - What is “between instinct and reason?”
 
 - What does Hayek call “the fatal conceit?”
 
-- What does Hayek call “constructivist rationalism?” What is Hayek’s position?
+- What does Hayek call “constructivist rationalism?” Why is Hayek opposed to this view?
+
+- How is Hayek’s comparison of earlier writers taking a constructivist rationalist view as opposed to the alternative view he presents, similar to the contrast that Constant discussed between the idea of liberty to the Ancients vs. the Moderns?
 
 - How should we approach “tradition?”
 
