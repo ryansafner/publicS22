@@ -29,6 +29,7 @@ We read the key chapters of Buchanan and Tullock's classic 1962 *Calculus of Con
 (**No Required Questions or Discussion**)
 
 - <i class="fas fas fa-book"></i> Buchanan and Tullock (1962), [*The Calculus of Consent*](https://oll.libertyfund.org/titles/buchanan-the-calculus-of-consent-logical-foundations-of-constitutional-democracy), Chs. 3,5,6
+- <i class="fa-external-link-square-alt"></i> [Calculus of Consent Tool](https://ryansafner.shinyapps.io/ccmodel/)
 
 Chapters 3 and 5 set up Buchanan and Tullock to talk about their subject — politics and constitutions — using economic analysis. It may seem a bit dry and excessive but remember, in 1962 almost nobody else thought politics could (or should) be analyzed with economic tools and assumptions like self-interested behavior! You can skim these chapters mostly, but focus on chapter 6 more closely, this is their actual model.
 
