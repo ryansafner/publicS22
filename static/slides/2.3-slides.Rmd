@@ -914,7 +914,7 @@ ggplot(data.frame(x=c(1,100)), aes(x=x))+
 # A Little Tool I Made
 
 .center[
-![](../images/ccmodel.png)
+![:scale 60%](../images/ccmodel.png)
 
 [https://ryansafner.shinyapps.io/ccmodel/](https://ryansafner.shinyapps.io/ccmodel/)
 ]
