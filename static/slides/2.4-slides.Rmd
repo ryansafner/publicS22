@@ -1,0 +1,849 @@
+---
+title: "2.4 — Constitutional Change"
+subtitle: "ECON 410 • Public Economics • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/publicS22"><i class="fa fa-github fa-fw"></i>ryansafner/publicS22</a><br> <a href="https://publicS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>publicS22.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F,
+                      fig.retina = 3,
+                      fig.align = "center")
+library("tidyverse")
+library("ggrepel")
+library("fontawesome")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_freezeframe()
+
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+update_geom_defaults("text", list(family = "Fira Sans Condensed"))
+
+set.seed(256)
+
+```
+
+# Themes for Today
+
+.pull-left[
+
+1. Constitutional vs. political outcomes
+
+2. The role of tradition and status quo
+
+3. Changing our values and traditions
+
+]
+
+.pull-right[
+.center[
+![](../images/goodgovernance.png)
+]
+]
+---
+
+# The Social Compact and the General Will
+
+.left-column[
+.center[
+![:scale 80%](../images/rousseau.jpg)
+
+.smallest[
+Jean-Jacques Rousseau
+
+1712-1778
+]
+]
+]
+
+.right-column[
+
+.smallest[
+> “There is but one law which, from its nature, needs unanimous consent. This is the social compact; for civil association is the most voluntary of all acts...Apart from this primitive contract, the vote of the majority always binds all the rest. This follows from the contract itself. But it is asked how can a man be both free and subject to wills not his own. How are the opponents at once free and subject to laws they have not agreed to?”
+
+> “I retort that the question is wrongly put. The citizen gives his consent to all laws, including those which are passed in spite of his opposition, and even those which punish him when he dares to break any of them,” (Book IV, Ch. 2, “Voting”),
+
+]
+
+.source[Rousseau, Jean-Jacques, 1762, *The Social Contract*]
+]
+
+---
+
+# The Social Compact and the General Will
+
+.left-column[
+.center[
+![:scale 80%](../images/rousseau.jpg)
+
+.smallest[
+Jean-Jacques Rousseau
+
+1712-1778
+]
+]
+]
+
+.right-column[
+
+.smallest[
+> “In order then that the social compact may not be an empty formula, it tacitly includes the undertaking, which alone can give force to the rest, that .hi[whoever refuses to obey the general will shall be compelled to do so by the whole body. This means nothing less than that he will be forced to be free]; for this is the condition which, by giving each citizen to his country, secures him against all personal dependence. In this lies the key to the working of the political machine; this alone legitimises civil undertakings, which, without it, would be absurd, tyrannical, and liable to the most frightful abuses,” (Book I, Ch. 7).
+
+]
+
+.source[Rousseau, Jean-Jacques, 1762, *The Social Contract*]
+]
+
+---
+
+# The Social Compact and the General Will
+
+.left-column[
+.center[
+![:scale 80%](../images/rousseau.jpg)
+
+.smallest[
+Jean-Jacques Rousseau
+
+1712-1778
+]
+]
+]
+
+.right-column[
+
+.smallest[
+> “When therefore the opinion that is contrary to my own [wins a majority], .hi[this proves neither more nor less than that I was mistaken], and that what I thought to be the general will was not so. If my particular opinion had carried the day I should have achieved the opposite of what was my will; and it is in that case that I should not have been free,” (Book I, Ch. 7).
+
+]
+
+.source[Rousseau, Jean-Jacques, 1762, *The Social Contract*]
+]
+
+---
+
+# A Touchstone: The French Revolution (1789—1799)
+
+.center[
+![](../images/frenchrevolutionguilotine.jpg)
+]
+
+---
+
+# The French Revolution (1789—1799)
+
+.pull-left[
+.center[
+![:scale 80%](../images/frenchancienregime.jpg)
+]
+]
+
+.pull-right[
+
+- Discontent with the *Ancien Regime* of the Bourbon Monarchy & feudalism
+  - Profound inequality
+  - nobles and church exempt from taxes
+  - everything heavily regulated
+  - political offices explicitly *bought/sold* 
+
+- Liberal values: “liberté, égalité, fraternité”
+]
+
+---
+
+# The French Revolution (1789—1799)
+
+.pull-left[
+.center[
+![](../images/tenniscourtoath.jpg)
+]
+]
+
+.pull-right[
+
+- Reformers insisted on a new constitution for France, created a National Assembly
+
+- *Declaration of the Rights of Man and of the Citizen* (1789)
+
+.tiny[
+
+]
+
+- Stormed the Bastille
+
+- 1791 Constitution, accepted by Louis XVI
+]
+
+---
+
+# Reconstituting Society from the Ground Up
+
+.pull-left[
+.center[
+![](../images/nationalconvention.jpg)
+]
+]
+
+.pull-right[
+
+- Abolish all institutions and traditions (seen as corrupt and oppressive)
+
+- Create all new institutions from scratch, through the State enacting the “general will”
+
+- Led by ideas of The Enlightenment, Rousseau, Voltaire, science & reason
+
+- Restart calendar at year 0, standardize & decimalize everything (including time), rationalize all of society
+]
+
+---
+
+# In Other Words...A Totalitarian Democracy
+
+.pull-left[
+.center[
+![:scale 100%](../images/laterror.png)
+
+]
+]
+
+.pull-right[
+
+- Execution of King & Queen; declaration of a Republic, but rebellion & foreign war
+
+- More radical elements take over, establish Committee of Public Safety
+
+- .hi[Reign of Terror]: denunciations and executions of citizens for treason and “counter-revolutionary behavior” before a Revolutionary Tribunal
+  - Cycle of purges of previous factions, leaders, etc 
+]
+
+---
+
+# Ending in Dictatorship
+
+.pull-left[
+.center[
+![](../images/napoleonbrumairecoup.jpg)
+]
+]
+
+--
+
+.pull-right[
+.center[
+![](../images/napoleoncoronation.jpg)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Tradition!
+
+---
+
+# Burkean Conservatism
+
+.left-column[
+.center[
+![:scale 80%](../images/burke.jpg)
+
+.smallest[
+Edmund Burke
+
+1729—1797
+]
+]
+]
+
+.right-column[
+
+- Considered a founding figure of political Conservatism (within liberal tradition)
+
+- *Reflections on the Revolution in France*, 1790
+  - critical of the excesses of the French Revolution (he was in favor of the American Revolution)
+
+]
+
+---
+
+# Burkean Conservatism
+
+.left-column[
+.center[
+![:scale 80%](../images/burke.jpg)
+
+.smallest[
+Edmund Burke
+
+1729—1797
+]
+]
+]
+
+.right-column[
+
+- Argues against abstract natural rights and grand schemes of reform and scientism
+  - *de novo* institutions as “castles built upon sand”
+
+- Argues for reverence of the unplanned wisdom embodied in tradition
+  - Gradual, continual, constitutional reform, rather than abrupt revolution and restarting from scratch 
+]
+
+---
+
+# Tradition!
+
+.center[
+<iframe width="980" height="550" src="https://www.youtube.com/embed/kDtabTufxao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+---
+
+# The Embodied Wisdom of Tradition
+
+.pull-left[
+.center[
+![:scale 100%](../images/kosherrules.jpg)
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/safemeathandling.jpg)
+]
+]
+
+---
+
+# The Embodied Wisdom of Tradition
+
+.pull-left[
+.center[
+![](../images/tucanoans.jpg)
+]
+]
+
+.pull-right[
+.center[
+![](../images/yuccaroot.jpg)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Cultural Selection & The Origin of Traditions
+
+---
+
+# Biological vs. Cultural Selection
+
+.pull-left[
+.center[
+![](../images/coyote.jpg)
+]
+]
+
+--
+
+.pull-right[
+.center[
+![](../images/chihuahua.jpg)
+]
+]
+
+---
+
+# Biological vs. Cultural Selection
+
+.center[
+![:scale 50%](../images/dogevolutionmeme.jpg)
+]
+
+---
+
+# Economics as Understanding Spontaneous Order I
+
+.left-column[
+.center[
+![:scale 80%](../images/ferguson.png)
+
+Adam Ferguson
+
+1723-1716
+]
+]
+
+.right-column[
+
+> "Every step and every movement of the multitude, even in what are termed enlightened ages, are made with equal blindness to the future; and nations stumble upon establishments, which are indeed .hi[the result of human action, but not the execution of any human design]," (Book III, Chapter 1).
+
+
+.source[Ferguson, Adam, 1767, [*An Essay on the History of Civil Society*](https://oll.libertyfund.org/titles/ferguson-an-essay-on-the-history-of-civil-society)]
+]
+
+---
+
+# Economics as Understanding Spontaneous Order II
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+
+> "This division of labour, from which so many advantages are derived, is .hi[not originally the effect of any human wisdom], which foresees and intends that general opulence to which it gives occasion. It is the necessary, though very slow and gradual, .hi[consequence of a certain propensity in human nature] which has in view no such extensive utility; the .hi[propensity to truck, barter, and exchange one thing for another,]" (Book I, Chapter 2).
+
+]
+
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
+
+
+---
+
+# Economics as Understanding Spontaneous Order III
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+
+.smallest[
+> "The man of system...is apt to be very wise in his own conceit; and is often so enamoured with the supposed beauty of his own ideal plan of government, that he cannot suffer the smallest deviation from any part of it...He seems to imagine that he can arrange the different members of a great society with as much ease as the hand arranges the different pieces upon a chess-board. He does not consider that...in the great chess-board of human society, every single piece has a principle of motion of its own, altogether different from that which the legislature might chuse to impress upon it...If they are opposite or different, the game will go on miserably, and the society must be at all times in the highest degree of disorder," (Book IV, Chapter II).
+
+]
+.source[Smith, Adam, 1759, [*The Theory of Moral Sentiments*](https://www.econlib.org/library/Smith/smMS.html)]
+
+]
+
+---
+
+# Economics as Understanding Spontaneous Order IV
+
+.left-column[
+.center[
+![:scale 75%](../images/hayek6.jpg)
+
+.smallest[
+F. A. Hayek
+
+1899-1992
+
+Economics Nobel 1974
+]
+]
+]
+
+.right-column[
+
+.smaller[
+> ".hi[The most dangerous stage in the growth of civilization may well be that in which man...refuses to accept or to submit to anything which he does not rationally understand.] The rationalist whose reason is not sufficient to teach him those limitations of the powers of conscious reason, and who despises all the institutions and customs which have not been consciously designed, would thus become the destroyer of the civilization built upon them...Common acceptance of formal rules is indeed the only alternative to direction by a single will man has yet discovered," (p.162).
+
+]
+
+.source[Hayek, F. A., 1980, *The Counterrevolution of Science: Studies in the Abuse of Reason*]
+]
+
+---
+
+# Economics as Understanding Spontaneous Order IV
+
+.left-column[
+.center[
+![:scale 75%](../images/hayek6.jpg)
+
+.smallest[
+F. A. Hayek
+
+1899-1992
+
+Economics Nobel 1974
+]
+]
+]
+
+.right-column[
+
+- .hi[Constructivist rationalism]: view that only things that have rational design should be accepted
+
+- .hi[Scientism]: view that all goals, values, knowledge, etc. must be scientific (i.e. subject to experiment, verification, and discoverable laws)
+
+- Implications: all institutions, organizations, and values that are not rational or scientific ought to be reformed or removed
+  - Religion, morality, law, markets (?)
+]
+
+---
+
+# Economics as Understanding Spontaneous Order IV
+
+.left-column[
+.center[
+![:scale 75%](../images/hayek6.jpg)
+
+.smallest[
+F. A. Hayek
+
+1899-1992
+
+Economics Nobel 1974
+]
+]
+]
+
+.right-column[
+.smaller[
+> "There are .hi[two ways of looking at the pattern of human activities] which lead to very different conclusions concerning both its explanation and the possibilities of deliberately altering it. The first one [rational constructivism] is based on conceptions which are demonstrably false, yet are so pleasing to human vanity that they have gained great influence and are constantly employed even by people who know that they rest on a fiction...The [second]...leads in some respects to conclusions so unwelcome that few are willing to follow through to the end," (p.19).
+
+]
+
+.source[Hayek, F. A., 1973, *Law, Legislation, and Liberty Vol I: Rules and Order*]
+]
+
+
+---
+
+
+# Economics as Understanding Spontaneous Order V
+
+.left-column[
+.center[
+![:scale 75%](../images/hayek6.jpg)
+
+.smallest[
+F. A. Hayek
+
+1899-1992
+
+Economics Nobel 1974
+]
+]
+]
+
+.right-column[
+.smallest[
+> "The .hi[first [rational constructivism] gives us a sense of unlimited power to realize our wishes, while the second leads to the insight that there are limitations to what we can deliberately bring about, and to the recognition that some of our present hopes are delusions.] Yet the effect of allowing ourselves to be deluded by the first view has always been that man has actually limited the scope of what he can achieve. For .hi[it has always been the recognition of the limits of the possible which has enabled man to make full use of his powers...]" (pp.19-20)
+
+> ".hi[The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design.]" (p.76)
+
+]
+
+.source[Hayek, F. A., 1973, *Law, Legislation, and Liberty Vol I: Rules and Order*
+
+Hayek, F. A., 1988, *The Fatal Conceit*]
+
+]
+
+---
+
+# Economics as Understanding Spontaneous Order V
+
+.left-column[
+.center[
+![:scale 75%](../images/hayek6.jpg)
+
+.smallest[
+F. A. Hayek
+
+1899-1992
+
+Economics Nobel 1974
+]
+]
+]
+
+.right-column[
+.quitesmall[
+> "To early thinkers the existence of an order of human activities transcending the vision of an ordering mind seemed impossible," (p. 11).
+			
+> "I call .hi[‘the fatal conceit’] the idea that the ability to acquire skills [to direct society] stems from reason. For it is the other way around: our reason is as much the result of an evolutionary selection process as is our morality...the evolution of the extended order...is ...beyond instinct and often opposed to it, and which is...incapable of being created or designed by reason," (p. 21).
+			
+> "[Too many eminent scientists] call on human reason...to seize the reins and control future [social] development. Such wishful thinking is encouraged by what I have elsewhere called .hi[‘constructivist rationalism’]" (p.22).
+
+> "[The evolution of the extended order] is a process of continuous adaptation to unforeseeable events, to contingent circumstances which could not have been forecast. The is another reason why evolutionary theory can never put us in the position of rationally predicting and controlling future evolution," (p.25)
+]
+
+
+.source[Hayek, F. A., 1988, *The Fatal Conceit*]
+
+]
+
+---
+
+# Economics as Understanding Spontaneous Order VI
+
+.left-column[
+.center[
+![:scale 75%](../images/hayek6.jpg)
+
+.smallest[
+F. A. Hayek
+
+1899-1992
+
+Economics Nobel 1974
+]
+]
+]
+
+.right-column[
+
+.quitesmall[
+
+> "Moreover, the structures of the extended order are made up not only of individuals but also of many, often overlapping, [groups] within which old instinctual responses, such as solidarity and altruism, continue to retain some importance by assisting voluntary collaboration...Part of our present difficulty is that .hi[we must constantly adjust our lives, our thoughts and our emotions, in order to live simultaneously within different kinds of orders according to different rules.] If we were to apply the unmodified, uncurbed, rules of the micro-cosmos (i.e., of the small band or troop, or of, say, our families) to the macro-cosmos (our wider civilisation), as our instincts and sentimental yearnings often make us wish to do, *we would destroy it*. Yet if we were always to apply the rules of the extended order to our more intimate groupings, *we would crush them*. .hi[So we must learn to live in two sorts of worlds at once]," (p.18)
+
+]
+
+.source[Hayek, F. A., 1988, *The Fatal Conceit*]
+
+]
+
+---
+
+# The Source of Our Moral Intuitions
+
+.pull-left[
+.center[
+![](../images/nomads.jpg)
+]
+]
+
+.pull-right[
+
+- Social contract idea of Hobbes, Locke, Rousseau is demonstrably false
+
+- We emerged as a species as members of small, intimate groups
+
+- .hi-purple[Human nature, and our moral intuition, is tribal] — requires solidarity and cooperation
+  - This is why we succeeded evolutionarily as a species!
+]
+
+---
+
+# Our Moral Intuitions vs. the Extendwed Order
+
+.pull-left[
+.center[
+![](../images/nomads.jpg)
+]
+]
+
+.pull-right[
+
+- The problem is, the rules of the modern .hi[“extended order”], or commercial, market-based society *may be incompatible* our tribal instincts
+]
+
+---
+
+# Group Selection
+
+.pull-left[
+.center[
+![](../images/nomads.jpg)
+]
+]
+
+.pull-right[
+
+.smallest[
+> “The cultural heritage into which man is born consists of a complex of practices or rules of conduct which are prevailed because they made a group of men successful but which were not adopted because it was known that they would bring about desired effects.”
+
+]
+
+
+.smaller[
+- .hi[Group selection theory]: some groups adopt practices that make them more successful than other groups; these practices continue and less successful practices die
+  - Individuals or groups **do not** consciously choose these practices
+  - Never know about the success about these practices
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Changing Tradition: The Relatively Absolute Absolutes
+
+---
+
+# The “Relatively Absolute Absolutes”
+
+.left-column[
+.center[
+![:scale 80%](../images/buchanan3.jpg)
+
+.smallest[
+James M. Buchanan 
+
+(1919—2013)
+
+Economics Nobel 1986
+]
+]
+]
+
+.right-column[
+
+- .hi[The Relatively Absolute Absolutes (RAAs)]
+
+- Constant shift between two levels of analysis (compare Marshallian short-run vs. long-run) : 
+  1. activity *within* given rules
+  2. *alternative rules*
+  
+- Again the importance of constitutional political economy: we consent to the rules, not to the outcomes; but must obey the outcomes because we consented to the rules
+
+]
+
+---
+
+# The “Relatively Absolute Absolutes”
+
+.left-column[
+.center[
+![:scale 80%](../images/buchanan3.jpg)
+
+.smallest[
+James M. Buchanan 
+
+(1919—2013)
+
+Economics Nobel 1986
+]
+]
+]
+
+.right-column[
+
+- The status quo where we begin; we are in no state of nature, behind no veil of ignorance!
+
+- We (you) are the product of traditions, cultures, norms, families, education that shaped who you are (and you had no control over) — fixed external constraints.
+  - But these are not beyond questioning and examining, and considering reform and improvements to the rules
+
+- We need consensus *to change* the rules
+]
+
+---
+
+# The “Relatively Absolute Absolutes”
+
+.left-column[
+.center[
+![:scale 80%](../images/buchanan3.jpg)
+
+.smallest[
+James M. Buchanan 
+
+(1919—2013)
+
+Economics Nobel 1986
+]
+]
+]
+
+.right-column[
+
+- Our current political outcomes are unjust, inequality of property, wealth, and power; the result of oppression, etc.
+
+- Why can’t we change it all; abolish it all, etc? Is everything up for grabs (a la French Revolution)?
+
+- Buchanan’s RAAs: we must accept where we are, but everything can be questioned, nothing is sacrosanct 
+]
+
+---
+
+# The “Relatively Absolute Absolutes”
+
+.left-column[
+.center[
+![:scale 80%](../images/buchanan3.jpg)
+
+.smallest[
+James M. Buchanan 
+
+(1919—2013)
+
+Economics Nobel 1986
+]
+]
+]
+
+.right-column[
+
+.quitesmall[
+> “I couldn’t live without the Relatively Absolute Absolutes. It gets me out of lot ofjams. It gets me off of lot of hooks, too! But it’s a concept...that I picked updirectly from Frank Knight and Henry Simons...It prevents the necessity of taking a position either as a relativist in all respects or as an absolutist. I am neither...it’s an in-between position.”
+
+> “There are some moral values that have been in existence a long time, that have been proved by the test of history. [It] is best to live our ordinary lives by treating those as ‘relatively absolute absolutes’”
+
+> “[But] they are not beyond examination; nothing is sacrosanct. At one level of our existence you can evaluate those, you can say ‘are they really as stable, authoritative, or unchallengeable as they might seem?’ We can challenge them in the academy; that’s the job of the academy...But atthe same time that is not just going out and saying ‘anything goes,’at all. So it gets you off that terrible problem of becoming [a relativist or anabsolutist in moral theory]. I am neither.”
+
+]
+
+.source[Interview with James Buchanan (2001), Part II at 27:00]
+]
+
+---
+
+.center[
+![](../images/callsforconstitutionalconvention.png)
+]
+
+---
+
+# The Utility of Keeping Unjust Rules
+
+.quitesmall[
+> I pulled over. The cop pulled in behind. Walked to my window, peered inside, asked for my license and registration. 
+
+> “New in town?”
+
+> Yes, I said. Got in five minutes ago.
+
+> “Know what you did wrong?” 
+
+> “Sorry. There was no stop sign or stop light. The cars on the cross street were stopped, so I kept going.” 
+
+> The cop shook his head. “In this town, sir, we distribute according to desert. Therefore, when motorists meet at an intersection, they stop to compare destinations and ascertain which of them is more worthy of having the right of way. If you attend our high school track meet tomorrow night, you’ll see it’s the same thing. Instead of awarding gold medals for running the fastest, we award them for giving the greatest effort. Anyway, that’s why the other cars honked, because you didn’t stop to compare destinations.” The cop paused, stared, silently.
+
+> “I’m sorry, Officer” I said at last. “I know you must be joking, but I’m afraid I don’t get it.”
+
+> “Justice isn’t a joke, sir. I was going to let you off with a warning. Until you said that.” (2006, 31)
+
+]
+
+.source[Schmidz, David, 2006, *The Elements of Justice*]
