@@ -720,6 +720,38 @@ Economics Nobel 1986
 
 .right-column[
 
+.quitesmall[
+> “I couldn’t live without the Relatively Absolute Absolutes. It gets me out of lot o fjams. It gets me off of lot of hooks, too! But it’s a concept...that I picked up directly from Frank Knight and Henry Simons...It prevents the necessity of taking a position either as a relativist in all respects or as an absolutist. I am neither...it’s an in-between position.”
+
+> “There are some moral values that have been in existence a long time, that have been proved by the test of history. [It] is best to live our ordinary lives by treating those as ‘relatively absolute absolutes’”
+
+> “[But] they are not beyond examination; nothing is sacrosanct. At one level of our existence you can evaluate those, you can say ‘are they really as stable, authoritative, or unchallengeable as they might seem?’ We can challenge them in the academy; that’s the job of the academy...But atthe same time that is not just going out and saying ‘anything goes,’at all. So it gets you off that terrible problem of becoming [a relativist or anabsolutist in moral theory]. I am neither.”
+
+]
+
+.source[Interview with James Buchanan (2001), Part II at 27:00]
+]
+
+---
+
+# The “Relatively Absolute Absolutes”
+
+.left-column[
+.center[
+![:scale 80%](../images/buchanan3.jpg)
+
+.smallest[
+James M. Buchanan 
+
+(1919—2013)
+
+Economics Nobel 1986
+]
+]
+]
+
+.right-column[
+
 - .hi[The Relatively Absolute Absolutes (RAAs)]
 
 - Constant shift between two levels of analysis (compare Marshallian short-run vs. long-run) : 
@@ -785,37 +817,6 @@ Economics Nobel 1986
 - Buchanan’s RAAs: we must accept where we are, but everything can be questioned, nothing is sacrosanct 
 ]
 
----
-
-# The “Relatively Absolute Absolutes”
-
-.left-column[
-.center[
-![:scale 80%](../images/buchanan3.jpg)
-
-.smallest[
-James M. Buchanan 
-
-(1919—2013)
-
-Economics Nobel 1986
-]
-]
-]
-
-.right-column[
-
-.quitesmall[
-> “I couldn’t live without the Relatively Absolute Absolutes. It gets me out of lot ofjams. It gets me off of lot of hooks, too! But it’s a concept...that I picked updirectly from Frank Knight and Henry Simons...It prevents the necessity of taking a position either as a relativist in all respects or as an absolutist. I am neither...it’s an in-between position.”
-
-> “There are some moral values that have been in existence a long time, that have been proved by the test of history. [It] is best to live our ordinary lives by treating those as ‘relatively absolute absolutes’”
-
-> “[But] they are not beyond examination; nothing is sacrosanct. At one level of our existence you can evaluate those, you can say ‘are they really as stable, authoritative, or unchallengeable as they might seem?’ We can challenge them in the academy; that’s the job of the academy...But atthe same time that is not just going out and saying ‘anything goes,’at all. So it gets you off that terrible problem of becoming [a relativist or anabsolutist in moral theory]. I am neither.”
-
-]
-
-.source[Interview with James Buchanan (2001), Part II at 27:00]
-]
 
 ---
 
