@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>3.1 — Preference Aggregation &amp; Paradoxes</title>
+    <title>3.1 — Voting: Preference Aggregation</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/publicS22   publicS22.classes.ryansafner.com " />
     <script src="libs/header-attrs/header-attrs.js"></script>
@@ -19,7 +19,7 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# 3.1 — Preference Aggregation &amp; Paradoxes
+# 3.1 — Voting: Preference Aggregation
 ## ECON 410 • Public Economics • Spring 2022
 ### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/publicS22"><i class="fa fa-github fa-fw"></i>ryansafner/publicS22</a><br> <a href="https://publicS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>publicS22.classes.ryansafner.com</a><br>
 
@@ -71,9 +71,9 @@ class: center, middle, inverse, title-slide
 
 .pull-right[
 
-- .hi["Social choice theory"] studies how to aggregate individual preferences into a consistent group preference to reach a collective decision for a group
+- .hi[“Social choice theory”] studies how to aggregate individual preferences into a consistent group preference to reach a collective decision for a group
 
-- Collective choice aims to maximize "group preferences" within constraints
+- Collective choice aims to maximize “group preferences” within constraints
 
 - In practice: analysis of alternative voting rules
 ]
@@ -126,6 +126,7 @@ class: center, middle, inverse, title-slide
 ]
 
 .pull-right[
+.smaller[
 - Voting of some form is common:
   - Citizens electing official
   - Legislators introducing, amending, and passing bills in committees or in full sessions
@@ -134,6 +135,7 @@ class: center, middle, inverse, title-slide
   - Justices on appeals courts
 
 - Different procedures (pairwise votes, sequencing, etc), &amp; require different levels of agreement (majority, supermajority, etc)
+]
 ]
 
 ---
@@ -193,9 +195,9 @@ Marquis of Condorcet
 - .hi[Condorcet Method]: pairwise voting between two alternatives that will elect a: 
 
 - .hi-purple[Condorcet winner]: can win a majority in any pairwise vote against all other candidates
-  - "pairwise champion" or "beats-all winner"
+  - “pairwise champion” or “beats-all winner”
 
-- But with 3+ candidates, 3+ choosers, and disagreement, we get .hi[Condorcet's paradox]: vote cycling
+- But with &gt;2 candidates, &gt;2 choosers, and disagreement, we get .hi[Condorcet's paradox]: vote cycling
 
 .source[M. Le Marquis de Condorcet, *Essai Sur L'Application de L'Analyse a la Probabilite des Decisions Rendues a la pluralite des voix*]
 ]
@@ -219,7 +221,11 @@ Marquis of Condorcet
 .right-column[
 
 - .hi-purple[Group preferences are often not transitive, even though individual preferences are transitive!]
-  - i.e. `\(A \succ B\)` and `\(B \succ C\)` but `\(C \succ A\)`
+
+- For individual 1: `\(A \succ B \succ C\)`
+- For individual 2: `\(B \succ C \succ A\)`
+- For individual 3: `\(C \succ A \succ B\)`
+- **For group**: `\(A \succ B \succ C \succ A \succ B \succ C \succ A...\)` (intransitive)
   
 ]
 
@@ -231,7 +237,7 @@ Marquis of Condorcet
 
 - This is *not* an .hi[epistomological problem] (problem of knowing the right information), this is an .hi[ontological problem]:
 
-- .hi-purple[A "best alternative" does not exist]!
+- .hi-purple[A “best alternative” does not exist]!
 
 - **Groups do not have preferences** when individual members disagree!
 ]
@@ -247,8 +253,11 @@ Marquis of Condorcet
 # Cycling as an Ontological Problem
 
 .pull-left[
-- So if there is a cycle, what is "the will of the majority"?
-  - Democracy is .hi[radically indeterminate]: it cannot produce a "best outcome"
+- So if there is a cycle, what is .hi-turquoise[“the will of the majority”]?
+
+- Democracy is .hi[radically indeterminate]: it cannot produce a “best outcome”
+
+- When do we resort to voting? (When we need it the most!)
 
 ]
 
@@ -559,8 +568,8 @@ class: inverse, center, middle
 
 .pull-left[
 
-- People will look for "extraconstitutional" solutions to solve the instability
-  - Coups, revolutions, trust in a "strong man" (dictator)
+- People will look for “extraconstitutional” solutions to solve the instability
+  - Coups, revolutions, trust in a “strong man” (dictator)
 ]
 
 .pull-right[
@@ -612,7 +621,7 @@ Both solve democracy's problems!
 # German Democracy in 1930s
 
 .center[
-![:scale 90%](https://www.dropbox.com/s/yachdkjkp2js9or/hitlervoting.jpg?raw=1)
+![:scale 75%](https://www.dropbox.com/s/yachdkjkp2js9or/hitlervoting.jpg?raw=1)
 ]
 
 ---
@@ -833,7 +842,7 @@ Features of Spatial Competition models:
 ]
 
 .pull-right[
-- .hi-green[B] is the .hi["median voter"] who has the .hi[median preference]
+- .hi-green[B] is the .hi[“median voter”] who has the .hi[median preference]
 
 - .hi-purple[Median Voter Theorem (MVT)]: if preferences are single-peaked along a single issue dimension, the median preference will always beat any alternative in a pairwise vote
   - It is a Condorcet winner
