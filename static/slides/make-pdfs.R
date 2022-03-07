@@ -4,8 +4,57 @@ pagedown::chrome_print(input = "https://publicS22.classes.ryansafner.com/slides/
                        timeout = 300)
 
 # create png of first slide
-pagedown::chrome_print(input = "https://publicS22.classes.ryansafner.com/slides/2.4-slides.html",
-                       output = "static/slides/2.4-slides.png",
+pagedown::chrome_print(input = "https://publicS22.classes.ryansafner.com/sli
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
                        selector = "div.remark-slide",
                        format = "png",
                        timeout = 300)

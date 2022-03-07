@@ -62,30 +62,34 @@ lessons:
     
   - title: '<span class="fake-header-table">The Institutions of a Constitutional Republic</span>'
   
-  - title: "3.1 — Voting I: Preference Aggregation & Cycling"
+  - title: "3.1 — Voting I: Preference Aggregation & Paradoxes"
+    content: "3.1-content"
     date: "M March 7"
     
-  - title: "3.2 — Voting II: Ignorance and Irrationality"
+  - title: "3.2 — Voting II: Spatial Competition"
+    date: "W March 7"
+
+  - title: "3.3 — Voting III: Ignorance and Irrationality"
     date: "M March 21"
     
-  - title: "3.3 — Voting III: Democracy<sup>2</sup>"
+  - title: "3.4 — Voting IV: Democracy<sup>2</sup>"
     date: "W March 23"
     
-  - title: "3.4 — Interest Groups"
-    date: "M March 28"
-  
-  - title: "3.5 — Legislators and Regulators"
-    date: "W March 30"
-  
   - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam**'
 
-  - title: "3.6 — Bureaucracy"
+  - title: "3.5 — Interest Groups"
+    date: "M March 28"
+  
+  - title: "3.6 — Legislators and Regulators"
+    date: "W March 30"
+  
+  - title: "3.7 — Bureaucracy"
     date: "M April 4"
     
-  - title: "3.7 — The Judiciary"
+  - title: "3.8 — The Judiciary"
     date: "W April 6"
   
-  - title: "3.8 — Federalism"
+  - title: "3.9 — Federalism"
     date: "M April 11"
   
   - title: '<span class="fake-header-table">Applications, Proposals, and Insights</span>'

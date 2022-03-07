@@ -1,0 +1,47 @@
+---
+title: "3.1 — Voting I: Preference Aggregation & Paradoxes — Class Content"
+draft: false
+linktitle: "3.1 — Voting I: Preference Aggregation & Paradoxes"
+date: "2020-02-17"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "3.1-slides"
+---
+
+{{% alert note %}}
+*Monday March 7 and Wednesday March 9, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+We will **not have a discussion today**, you **do not need to email questions**. This material will be a bit more dense and technical, and I will lecture for the full period. However, doing the reading will also be very helpful, even though you will not be graded on it in any way.
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+- <i class="fas fas fa-book"></i> Holcombe (2016), *Advanced Introduction to Public Choice*, Chs. 2,3,5
+
+### Questions to Guide Your Reading
+
+- How can we measure voters' preferences?
+
+- What are the assumptions of the Median Voter Theorem?
+
+- Why do political rivals often propose very similar policies? Why can't extreme candidates or Third Parties win?
+
+- What are the major differences in electoral systems (e.g. proportional vs. plurality, parliamentary vs. presidential)?
+
+- How might votes "cycle?" 
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`
