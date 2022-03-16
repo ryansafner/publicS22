@@ -1,0 +1,61 @@
+---
+title: "3.4 — Legislators & Regulators I — Class Content"
+draft: false
+linktitle: "3.4 — Legislators & Regulators I"
+date: "2020-02-17"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "3.4-slides"
+---
+
+{{% alert note %}}
+*Monday March 28, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+We now look at politicians as legislators in a representative democracy: agents elected by voters and interest groups within a district to serve their interests by enacting laws in a larger legislature. Weingast and Marshall (1988) do a great job of explaining the "market" for political support to get laws passed, the unique challenges it faces compared to normal markets, and how institutions were created to deal with these challenges.
+
+If you find Weingast and Marshall (1988) difficult to understand, you can look to the chapters recommended in the Holcombe textbook below. Though it is one of the clearest papers I've read on the subject, Weingast & Marshall’s “model” is quite simple and in prose, rather than math. Holcombe's chapters cover a wide variety of items, the majority of which are nicely discussed in Weingast and Marshall (1988).
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+### Required Reading
+
+- [<i class="fas fa-file-pdf"></i> Weingast, Barry R and William J Marshall, 1988, ["The Industrial Organization of Congress; or, Why Legislatures, Like Firms, Are Not Organized as Markets" ](/readings/Weingast-Marshall-1988.pdf) *Journal of Political Economy* 96(1): 132-163
+
+### Recommended Reading
+
+- <i class="fas fas fa-book"></i> Holcombe (2016), *Advanced Introduction to Public Choice*, skim Chs. 4, 7, 8 (review from last class), 10, 11
+
+### Questions to Guide Your Reading
+
+- How does rational ignorance of voters and the incentives of special interest groups affect what politicians pay attention to?
+
+- How is the "political marketplace" within a legislature similar to, or different from, an actual marketplace?
+
+- As economic agents, what are legislators' objectives? What are they maximizing?
+
+- If laws require (at least) majority rule to pass, and legislators have separate or conflicting interests, how do laws get passed? What do these laws tend to look like?
+
+- In one sense, passing laws in a (representative) democracy is just one giant bargain between different interest groups. But what are the shortcomings of this view?
+
+- Does the Coase Theorem apply to politics?
+
+- What are the unique problems of trading votes as opposed to trading in markets?
+
+- What are the function of Congressional committees, how do they work, and what problems do they solve?
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`
