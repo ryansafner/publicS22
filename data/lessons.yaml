@@ -65,59 +65,59 @@ lessons:
   - title: "3.1 — Voting I: Preference Aggregation & Paradoxes"
     content: "3.1-content"
     slides: "3.1-slides"
-    date: "M March 7, W March 9"
+    date: "M/W March 7/9"
     
   - title: "3.2 — Voting II: Ignorance & Irrationality"
     content: "3.2-content"
-    date: "M March 21"
+    slides: "3.2-slides"
+    date: "M/W March 21/23"
     
   - title: "3.3 — Interest Groups"
     content: "3.3-content"
-    date: "W March 23"
+    date: "M March 28"
     
-  - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam**'
-
   - title: "3.4 — Legislators and Regulators I"
     content: "3.4-content"
-    date: "M March 28"
-  
-  - title: "3.5 — Legislators and Regulators II"
     date: "W March 30"
   
-  - title: "3.6 — Bureaucracy"
+  - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam** Due'
+    date: "F April 1"
+    assignment: "01-exam"
+  
+  - title: "3.5 — Legislators and Regulators II"
     date: "M April 4"
+  
+  - title: "3.6 — Bureaucracy"
+    date: "W April 6"
     
   - title: "3.7 — The Judiciary"
-    date: "W April 6"
+    date: "M April 11"
   
   - title: "3.8 — Federalism"
-    date: "M April 11"
+    date: "W April 13"
   
   - title: '<span class="fake-header-table">Applications, Proposals, and Insights</span>'
     header: True
 
   - title: "4.1 — Exit, Voice, and Loyalty"
-    date: "W April 13"
+    date: "M April 18"
 
   - title: "4.2 — The Rise of the Administrative State"
-    date: "M April 18"
+    date: "W April 20"
   
   - title: "4.3 — Corruption and Reform"
-    date: "W April 20"
-
-  - title: "4.4 — Democracy<sup>2</sup>?"
     date: "M April 25"
 
-  - title: "4.5 — TBD"
+  - title: "4.4 — TBD"
     date: "W April 27"
     
-  - title: "4.6 — TBD"
+  - title: "4.5 — TBD"
     date: "M May 2"
     
-  - title: "4.7 — TBD"
+  - title: "4.6 — TBD"
     date: "W May 4"
   
-  - title: "4.8 — TBD"
+  - title: "4.7 — TBD"
     date: "M May 9"
   
   - title: '<i class="fas fa-laptop-code"></i> **Policy Paper**'
