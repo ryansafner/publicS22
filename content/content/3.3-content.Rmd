@@ -37,7 +37,9 @@ I will also cover some background on how Olson’s logic of collective action af
 
 ### Recommended Reading
 
-- [<i class="fas fa-file-pdf"></i> Mitchell, Matthew (2013), “The Pathology of Privilege”](/readings/Mitchell-2013.pdf)
+- [<i class="fas fa-file-pdf"></i> Mitchell, Matthew, 2013, “The Pathology of Privilege”](/readings/Mitchell-2013.pdf)
+- [<i class="fas fa-file-pdf"></i> Carney, Tim, 2016, “In a federal mandate for waste, envelope lobby reveals Washington”, *Washington Examiner*](/readings/Carney-2016.pdf)
+- [<i class="fas fa-file-pdf"></i> Hall, Richard and Alan Deardorff, 2006, “Lobbying as Legislative Subsidy”](/readings/Hall-Deardorff-2006.pdf)
 - [<i class="fas fa-file-pdf"></i> Tarko, Vlad and Ryan Safner, 2022, “The Variety of Regulatory Regimes”](/readings/Tarko-Safner-2022.pdf)
 
 ### Questions to Guide Your Reading
