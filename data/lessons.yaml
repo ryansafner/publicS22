@@ -77,8 +77,9 @@ lessons:
     slides: "3.3-slides"
     date: "M March 28"
     
-  - title: "3.4 — Legislators and Regulators"
+  - title: "3.4 — Politicians"
     content: "3.4-content"
+    slides: "3.4-slides"
     date: "W March 30"
   
   - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam** Due'
