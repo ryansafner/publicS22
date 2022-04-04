@@ -68,69 +68,13 @@ set.seed(256)
 
 ---
 
-# *Politicians* in a Liberal Democracy
-
---
-
-.pull-left[
-.center[
-![](../images/leslie-knope.jpg)
-]
-]
-
---
-
-.pull-right[
-.center[
-![](../images/frankunderwood.jpg)
-]
-]
-
----
-
-class: inverse, center, middle
-
-## [Overview](#3)
-
-## [Modelling Bureaucrats](#14)
-
-## [Congress and the Bureaucracy](#25)
-
----
-
-class: inverse, center, middle
-
-# Overview
-
----
-
-# Major Actors in a Liberal Democracy
-
-.pull-left[
-
-- .hi[Voters] express preferences through elections
-
-- .hi[Special interest groups] provide additional information and advocacy for lawmaking
-
-- .hi[Politicians] create laws reflecting voter and interest gorup preferences
-
-- .hi[Bureaucrats] implement laws according to goals set by politicians
-
-]
-
-.pull-right[
-.center[
-![](https://www.dropbox.com/s/731fum488qxckyq/atheniandemocracy.jpg?raw=1)
-]
-]
-
----
-
 # *Bureaucrats* in a Liberal Democracy
 
 .pull-left[
 
 - .hi[Bureaucrats] create regulations to implement laws written by legislators
+
+- Sometimes called the .hi-purple[“4<sup>th</sup> branch of government”]
 
 - The bureaucrat's problem:
 
@@ -144,7 +88,7 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/tjgr3viplyaygd3/cabinet_trump.jpg?raw=1)
+![](../images/bidencabinet.png)
 
 .smallest[
 The President's Cabinet
@@ -158,8 +102,6 @@ The President's Cabinet
 # Bureaucracy and the Administrative State
 
 .pull-left[
-
-- Sometimes called the .hi-purple["4<sup>th</sup> branch of government"]
 
 - **Today**, an overview of bureaucracy
   - comparisons between firms and bureaus
@@ -170,7 +112,7 @@ The President's Cabinet
 
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/tjgr3viplyaygd3/cabinet_trump.jpg?raw=1)
+![](../images/bidencabinet.png)
 
 .smallest[
 The President's Cabinet
@@ -184,9 +126,7 @@ The President's Cabinet
 
 .pull-left[
 
-- Sometimes called the .hi-purple["4<sup>th</sup> branch of government"]
-
-- **Wednesday**, challenges of the rise of .hi-purple["the administrative State"]
+- **Later**, challenges of the rise of .hi-purple[“the administrative State”]
   - more on regulatory agencies
   - process of making regulation
   - separation of powers concerns between Executive, Legislative, and Judicial
@@ -196,7 +136,7 @@ The President's Cabinet
 
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/tjgr3viplyaygd3/cabinet_trump.jpg?raw=1)
+![](../images/bidencabinet.png)
 
 .smallest[
 The President's Cabinet
@@ -209,9 +149,9 @@ The President's Cabinet
 # Let's First Address: Connotation
 
 .pull-left[
-- **"Bureaucracy,"** **"Bureaucratic,"** and **"Bureaucrat"** all have a negative connotation
+- **“Bureaucracy,” ** **“Bureaucratic,”** and **“Bureaucrat”** all have a negative connotation
 
-- Let's be positive (analytical), not normative (judgmental) about this
+- Let’s be positive (analytical), not normative (judgmental) about this
 
 - Bureaucrats & bureaus are people and organizations too!
 
@@ -238,8 +178,8 @@ The President's Cabinet
 .pull-right[
 
 - .hi-purple[Bureaucrats] are career government employees that work for various government agencies
-  - "Civil service"
-  - "Public administration"
+  - “Civil service”
+  - Field of “Public administration” (MPAs, etc.)
 
 - Point is: **isolated from politics**
   - Not elected, very hard to fire
@@ -249,27 +189,80 @@ The President's Cabinet
 
 ---
 
-# Evolution of Bureaucracy
+# Evolution of Bureaucracy 
 
 .pull-left[
-.center[
-![:scale 80%](https://www.dropbox.com/s/4xd6bku8ieba51l/bosstweed.jpg?raw=1)
+.smallest[
+- State capacity & effective government requires a formal professional bureaucracy
 
-"Boss Tweed" of Tammany Hall
+- Max Weber’s “ideal types” of bureaucracy:
+
+1) **Traditional/patrimonial**
+  - rules and power arbitrary (come from ruler)
+  - hiring/firing/promotion based on personal connection
 ]
 ]
-
 .pull-right[
-
-- Weak or underdeveloped States suffer from .hi-purple[political patronage], .hi-purple[clientelism], or the .hi-purple["spoils system"]
-
-- Politicians appoint their friends, allies, and cronies to public offices regardless of qualification
+.center[
+![](../images/ruralbureaucrat.png)
+]
 
 ]
 
 ---
 
-# Developed Bureaucracies
+# Evolution of Bureaucracy 
+
+.pull-left[
+.center[
+![](../images/spoilssystem2.jpg)
+
+.smallest[
+*Puck* satirical cartoon of U.S. President Chester Arthur doling out patronage to his cronies
+]
+]
+]
+
+.pull-right[
+
+.smallest[
+- In United States, political offices were clientelist<sup>.magenta[1]</sup>, no professional bureaucracy 
+
+- Elected officials merely appointed their friends, donors, and cronies with political offices in administration, regardless of qualification or merit
+
+.footnote[
+<sup>.magenta[1]</sup> Also called “patronage” or “the spoils system”. 
+]
+]
+
+.center[
+![:scale 70%](../images/merit.jpg)
+]
+]
+
+---
+
+# Evolution of Bureaucracy 
+
+.pull-left[
+.smallest[
+2) **Rational and legal**
+  - staffed by professionals
+  - meritocratic hiring, firing, and internal promotion
+  - governed by objective legal rules
+
+]
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/hu4xbni8f95uo6e/publicadmin.jpg?raw=1)
+]
+]
+
+---
+
+# Evolution of Bureaucracy 
 
 .pull-left[
 .center[
@@ -288,6 +281,7 @@ The President's Cabinet
 - Divorce .hi-purple[politics] from .hi-purple[administration]
   - Conversely, anti-democratic
 ]
+
 ---
 
 # What Constitutes the U.S. Federal Bureaucracy
@@ -621,7 +615,7 @@ class: inverse, center, middle
 .pull-right[
 
 - Note: often Congress fails to (agree upon and) pass their appropriations bills in time
-  - .hi-purple["Continuing Resolutions" (CR)] to keep budget items from last year
+  - .hi-purple[“Continuing Resolutions” (CR)] to keep budget items from last year
 
 - .hi-purple[Government shutdowns]
   - 13 since 1980
@@ -720,11 +714,11 @@ class: inverse, center, middle
 
 .pull-right[
 
-- Bureaus can try to "oversell" Congress importance and need for budget
+- Bureaus can try to “oversell“ Congress importance and need for budget
 
-- Holdout, ["Washington monument syndrome"](https://en.wikipedia.org/wiki/Washington_Monument_Syndrome), Pandacam
+- Holdout, [“Washington monument syndrome”](https://en.wikipedia.org/wiki/Washington_Monument_Syndrome), Pandacam
 
-- Niskanen's budget-maximizing hypothesis
+- Niskanen’s budget-maximizing hypothesis
 ]
 
 ---
@@ -749,7 +743,7 @@ Dwight Eisenhower
 
 ---
 
-# Towards Next Class: Rise of the Administrative State
+# A Future Class: Rise of the Administrative State
 
 .pull-left[
 .center[
@@ -768,11 +762,15 @@ Dwight Eisenhower
 
 ---
 
+# Bureaucracy in Media
+
 .center[
 <iframe width="980" height="550" src="https://www.youtube.com/embed/aXQ2lO3ieBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 ---
+
+# Bureaucracy in Media
 
 .center[
 <iframe width="980" height="550" src="https://www.youtube.com/embed/gmOvEwtDycs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

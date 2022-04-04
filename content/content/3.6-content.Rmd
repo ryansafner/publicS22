@@ -1,0 +1,42 @@
+---
+title: "3.6 — The Judiciary — Class Content"
+draft: false
+linktitle: "3.6 — The Judiciary"
+date: "2020-02-17"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "3.6-slides"
+---
+
+{{% alert note %}}
+*Wednesday April 6, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+We will have a discussion, but **you are not required to submit questions in advance.**
+
+### Recommended Reading
+
+- <i class="fas fas fa-book"></i> Landes, William M and Richard A Posner, 1975, [“The Independent Judiciary in an Interest-Group Perspective”](/readings/Landes-Posner-1975.pdf)
+- <i class="fas fas fa-book"></i> Posner, Richard A, 1993, [“What Do Judges Maximize? (The Same Thing Everybody Elses Does”](/readings/Posner-1993.pdf)
+- <i class="fas fas fa-book"></i> Epstein, Lee, William M Landes, and Richard A Posner, 2011, [“Why (and When) Judges Dissent: A Theoretical and Empirical Analysis”](/readings/Epstein-Landes-Posner-2011.pdf)
+
+### Questions to Guide Your Reading
+
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`
