@@ -20,17 +20,35 @@ slides: "3.6-slides"
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
+Today we discuss the judiciary and the role of judges and juries in interpreting the laws.
+
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
 We will have a discussion, but **you are not required to submit questions in advance.**
 
-### Recommended Reading
+### Primary Reading
 
 - <i class="fas fas fa-book"></i> Landes, William M and Richard A Posner, 1975, [“The Independent Judiciary in an Interest-Group Perspective”](/readings/Landes-Posner-1975.pdf)
-- <i class="fas fas fa-book"></i> Posner, Richard A, 1993, [“What Do Judges Maximize? (The Same Thing Everybody Elses Does”](/readings/Posner-1993.pdf)
+
+### Recommended/Referenced Reading
+
+- <i class="fas fas fa-book"></i> Berdejo, Carlos and Noam Yuchtman, 2011, [“Crime, Punishment, and Politics: An Analysis of Political Cycles in Criminal Sentencing”](/readings/Berdejo-Yuchtman-2011.pdf)
 - <i class="fas fas fa-book"></i> Epstein, Lee, William M Landes, and Richard A Posner, 2011, [“Why (and When) Judges Dissent: A Theoretical and Empirical Analysis”](/readings/Epstein-Landes-Posner-2011.pdf)
+- <i class="fas fas fa-book"></i> Gordon, Sanford Clark and Gregory Huber, 2007, [“The Effect of Electoral Competitiveness on Incumbent Behavior”](/readings/Gordon-Huber-2007.pdf)
+- [<i class="fas fa-file-pdf"></i> Helland and Tabarrok, 2002, "The Effect of Electoral Institutions on Tort Awards"](/readings/Tabarrok-2002.pdf)
+- <i class="fas fas fa-book"></i> Higgins, Richard S and Paul H Rubin, 1980, [“Judicial Discretion”](/readings/Higgins-Rubin-1980.pdf)
+- <i class="fas fas fa-book"></i> Landes, William M and Richard A Posner, 2009, [“Rational Judicial Behavior: A Statistical Study”](/readings/Landes-Posner-2009.pdf)
+- <i class="fas fas fa-book"></i> Posner, Richard A, 1993, [“What Do Judges Maximize? (The Same Thing Everybody Elses Does”](/readings/Posner-1993.pdf)
+- [<i class="fab fa-youtube"></i> *Last Week Tonight with John Oliver*: Elected Judges](https://www.youtube.com/watch?v=poL7l-Uk3I8)
+- [<i class="fas fa-file-pdf"></i> Viscusi and Zeckhauser, 2004, "The Denominator Blindness Effect: Accident Frequiencies and Misjudgment of Recklessness"](/readings/Viscusi-Zeckhauser-2004.pdf)
 
 ### Questions to Guide Your Reading
+
+- What do judges maximize?
+
+- How dis/connected are judges and judicial decisions from politics?
+
+- How do juries compare to voters?
 
 
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
