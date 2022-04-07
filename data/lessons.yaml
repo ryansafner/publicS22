@@ -98,11 +98,13 @@ lessons:
     
   - title: "3.7 — Federalism"
     date: "M April 11"
+    content: "3.7-content"
   
   - title: '<span class="fake-header-table">Applications, Proposals, and Insights</span>'
     header: True
 
   - title: "4.1 — Exit, Voice, and Loyalty"
+    content: "4.1-content"
     date: "W April 13"
 
   - title: "4.2 — The Rise of the Administrative State"

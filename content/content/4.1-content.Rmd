@@ -1,0 +1,56 @@
+---
+title: "4.1 — Exit, Voice, and Loyalty — Class Content"
+draft: false
+linktitle: "4.1 — Exit, Voice, and Loyalty"
+date: "2020-02-17"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "4.1-slides"
+---
+
+{{% alert note %}}
+*Monday, April 11, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+One of the benefits of federalism we saw from last class is the Tiebout competition that allows citizens to "vote with their feet," which constrains governmental units from abusing their power or financial responsibilities. This class, we extend this idea in a much broader way, using a very famous frameowrk from a book by [Albert Hirschman](https://en.wikipedia.org/wiki/Albert_O._Hirschman)^[The most interesting 20th Century economist you've never heard of.], [*Exit, Voice, and Loyalty*](https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty)^[Wikipedia's entry is quite useful to make sure you understand the book].
+
+The main concepts I want you to familiarize yourself with are *exit*, *voice*, and the difference between the two. Hence, I am having you focus your attention on those two chapters in his book, though I recommend you also skim the introduction (pages 15-20 discuss useful implications of the differences between exit and voice). 
+
+His book is interesting throughout, and has a lot of interesting implications for our study of economics and politics. I have added two additional chapters if you find this interesting. 
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+### Required Reading
+
+- [<i class="fas fas fa-book"></i> Hirschmann (1970), *Exit, Voice, and Loyalty*, Chs. 1 (skim, but especially see pp.15-20), 2, 3](/readings/Hirschman-1970-Chs1-3.pdf)
+
+### Recommended Reading
+
+- [<i class="fas fas fa-book"></i> Hirschmann (1970), *Exit, Voice, and Loyalty*, Chs. 4-5](/readings/Hirschman-1970-Chs4-5.pdf)
+- [<i class="fas fa-file-pdf"></i> Clark et. al (2012), "Power and Politics: Insights from an Exit, Voice, and Loyalty Game"](/readings/Clark-Golder-2012.pdf)
+
+### Questions to Guide Your Reading
+
+- This is a very famous and often-used model. Hirschman largely applies it only to *profit-maximizing firms* in the book, but it is much more generally applicable than that.
+- How would Hirschman's model be applied to the State (or different political administrative units, like U.S. States)? What do exit, voice, and loyalty mean in this context?
+- Hirschman assumes in the book that the decline in quality is random. How do things change when it is deliberate (i.e. intentional fraud, malevolence, corruption, authoritarianism, etc), both for a company and for a State?
+- Hirschman (particularly in the intro/Ch.1) calls attention to economists' inability to deal with voice, and that our analysis focuses too much on "silent exit." Do you agree?
+- When do you use the exit option, the voice option, and the loyalty option open to you in different areas of society? What factors change how you decide this?
+- Chapters 4 and 5 invert the economist's typical assumptions about the dangers of monopoly and the benefits of competition. Under what circumstances is monopoly "good" and competition "bad?" Do you agree with Hirschman's conditions?
+- This is a model explained verbally and intuitively, but it is one that is crying out to be put in a game theoretic framework. What might that look like? 
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`
