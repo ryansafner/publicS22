@@ -99,6 +99,7 @@ lessons:
   - title: "3.7 — Federalism"
     date: "M April 11"
     content: "3.7-content"
+    slides: "3.7-slides"
   
   - title: '<span class="fake-header-table">Applications, Proposals, and Insights</span>'
     header: True
