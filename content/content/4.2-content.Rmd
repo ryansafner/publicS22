@@ -1,0 +1,57 @@
+---
+title: "4.2 — The Rise of the Administrative State — Class Content"
+draft: false
+linktitle: "4.2 — Rise of the Administrative State"
+date: "2020-02-17"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "4.2-slides"
+---
+
+{{% alert note %}}
+*Monday, April 18, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+We return to reexamine bureaucracy and the role of independent agencies and regulatory commissions, and examine their tension with democracy and, some may argue, the constitution. Naturally, this conversation begins to have an ideological tinge to it, so we look at both the progressive and conservative takes on "the administrative state."
+
+More "law" is actually created these days by independent agencies and regulatory bodies that Congress has delegated quasi legislative, executive, and judicial powers to. This raises issues about accountability, democracy, expertise, and separation of powers questions.
+
+The Cooper article comes from National Affairs (a moderately conservative-leaning, non-Trumpian, publication) and does a good job in describing the history and evolution of the administrative state - from progressive ideas through many Supreme Court cases and Congressional statutes - as well as the debate about constitutionality and threats to liberty (he takes a side, as you might expect). Note the framing is slightly dated (2015, during the Obama Administration), but the larger points still hold.
+
+I have also included a few other readings of interest. Lawson’s law review article “The Rise and Rise of the Administrative State” gives the argument for why the administrative state is problematic and possibly unconstitutional (in that it is a radical departure from the original style and method of government before the New Deal). McCubbins, Noll, and Weingast (affectionately called [“Mcnollgast”](https://www.google.com/search?client=firefox-b-1-d&q=mcnollgast+)) argue using a principle-agent model that Congress actually has tighter control over the administrative agencies than it first appears. 
+
+The other article you might choose to read is an academic journal article by Woodrow Wilson, 28th President of the U.S., back when he was a professor at Princeton. He is one of the quintessential leaders and thinkers of the Progressive movement, with its focus on efficiency, scientific expertise, and rationalization of society and the economy. His well-known article separates politics from administration, setting forth many of the ideas that would define public administration as a field and build the 20th century administrative state.
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+Note we will be holding our discussions on the Blackboard discussion board for this topic. You do not need to email questions in advance. 
+
+### Primary Reading
+
+- <i class="fas fa-external-link-square-alt"></i> Cooper, Charles J, 2015, ["Confronting the Administrative State,"](https://www.nationalaffairs.com/publications/detail/confronting-the-administrative-state) *National Affairs*
+
+### Recommended Readings
+
+- [<i class="fas fa-file-pdf"></i> Lawson, 1994, “The Rise and Rise of the Administrative State”](/readings/Lawson-1994.pdf)
+- [<i class="fas fa-file-pdf"></i> McCubbins, Noll, and Weingast, 1987, “Administrative Procedures as Instruments of Political Control”](/readings/Lawson-1994.pdf)
+- <i class="fas fa-external-link-square-alt"></i> Wilson, Woodrow, 1887, ["The Study of Administration,"](/readings/Wilson-1887.pdf) *Political Science Quarterly*
+
+### Questions to Guide Your Reading
+
+- Check back here soon!
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`

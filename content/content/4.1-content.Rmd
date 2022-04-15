@@ -15,7 +15,7 @@ slides: "4.1-slides"
 ---
 
 {{% alert note %}}
-*Monday, April 11, 2022*
+*Wednesday, April 13, 2022*
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
@@ -28,7 +28,9 @@ His book is interesting throughout, and has a lot of interesting implications fo
 
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
-### Required Reading
+Note we will be holding our discussions on the Blackboard discussion board for this topic. You do not need to email questions in advance. 
+
+### Primary Reading
 
 - [<i class="fas fas fa-book"></i> Hirschmann (1970), *Exit, Voice, and Loyalty*, Chs. 1 (skim, but especially see pp.15-20), 2, 3](/readings/Hirschman-1970-Chs1-3.pdf)
 

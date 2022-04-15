@@ -110,9 +110,11 @@ lessons:
     date: "W April 13"
 
   - title: "4.2 — The Rise of the Administrative State"
+    content: "4.2-content"
     date: "M April 18"
   
   - title: "4.3 — Corruption and Reform"
+    content: "4.3-content"
     date: "W April 20"
 
   - title: "4.4 — TBD"
