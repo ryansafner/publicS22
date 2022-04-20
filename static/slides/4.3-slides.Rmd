@@ -328,10 +328,12 @@ James Q. Wilson
 ]
 .right-column[
 
+.smaller[
 > "[The professional] is preoccupied with the outcome of politics in terms of winning or losing. Politics, to him, consists of concrete questions and specific persons who must be dealt with in a manner that will 'keep everybody happy' and thus minimize the possibility of defeat at the next election...Although he is not oblivious to the ends implied by political outcomes, he sees...the good of society as a by-product of efforts that are aimed, not at producing the good society, but at gaining power and place for one's self and one's party," (p.4).
 
 > "Issues will be avoided except in the most general terms or if the party is confident that a majority supports its position," (p.17).
 
+]
 ]
 
 .source[Wilson, James Q, 1962, *The Amateur Democrat: Club Politics in Three Cities*]
@@ -460,6 +462,7 @@ class: center, middle, inverse
 
 .pull-right[
 
+.smaller[
 - Decades ago, many internal divisions within both the Republicans and Democratic parties on issues
   - conservative Democrats
   - liberal Republicans
@@ -470,6 +473,7 @@ class: center, middle, inverse
 
 - Results: less governing gets done, more gridlock
 
+]
 ]
 
 
@@ -518,7 +522,7 @@ Source: [Facing History and Ourselves (2014)](https://www.facinghistory.org/educ
 # Polarizing Around Issues
 
 .center[
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tEczkhfLwqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="980" height="550" src="https://www.youtube.com/embed/tEczkhfLwqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 ---
