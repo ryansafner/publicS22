@@ -119,16 +119,18 @@ lessons:
     slides: "4.3-slides"
     date: "W April 20"
 
-  - title: "4.4 — TBD"
+  - title: "4.4 — Taxation"
+    content: "4.4-content"
     date: "M April 25"
     
-  - title: "4.5 — TBD"
+  - title: "4.5 — Common Ownership Self-Assessed Tax"
+    content: "4.5-content"
     date: "W April 27"
     
-  - title: "4.6 — TBD"
+  - title: "4.6 — Democracy<sup>2</sup>"
     date: "M May 2"
   
-  - title: "4.7 — TBD"
+  - title: "4.7 — The Dark Web"
     date: "W May 4"
     
   - title: "4.7 — TBD"

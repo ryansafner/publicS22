@@ -1,0 +1,44 @@
+---
+title: "4.4 — Taxation — Class Content"
+draft: false
+linktitle: "4.4 — Taxation"
+date: "2020-02-17"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "4.4-slides"
+---
+
+{{% alert note %}}
+*Monday, April 25, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+TBD
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+### Recommended Readings
+
+There is no reading for today (and you do not need to submit questions). However, you may be interested in some of the articles mentioned in the slides/videos, linked below.
+
+- [Bellafiore, 2018, "Summary of the Latest Federal Income Tax Data, 2018 Update," *Tax Foundation*](https://taxfoundation.org/summary-latest-federal-income-tax-data-2018-update/)
+- [Huseman, 2017, "Filing Taxes Could Be Free and Simple. But H&R Block and Intuit Are Still Lobbying Against It," *Pro Publica*](https://www.propublica.org/article/filing-taxes-could-be-free-simple-hr-block-intuit-lobbying-against-it)
+- [Michell, 2018, "Government Privilege: Using and Abusing the Tax Code," *Mercatus Center: The Bridge*](https://www.mercatus.org/bridge/commentary/government-privilege-using-and-abusing-tax-code)
+- [Myers, 2019, "Amazon will pay $0 in taxes on $11,200,000,000 in profit for 2018," *Yahoo Finance*](https://finance.yahoo.com/news/amazon-taxes-zero-180337770.html?soc_src=newsroom&soc_trk=com.apple.UIKit.activity.CopyToPasteboard&.tsrc=newsroom)
+- [Nocera, 2019, "The Golden Age of Hollywood Tax Avoidance," *Bloomberg Opinion*](https://www.bloomberg.com/opinion/articles/2019-01-29/hollywood-stars-didn-t-pay-90-percent-tax-they-created-loopholes)
+- [Rubin, 2019, "Democrats' Emerging Tax Idea: Look Beyond Income, Target Wealth," *Wall Street Journal*](https://www.wsj.com/articles/democrats-emerging-tax-idea-look-beyond-income-target-wealth-11566916571?mod=hp_lead_pos5)
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`
