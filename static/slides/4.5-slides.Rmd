@@ -1,5 +1,5 @@
 ---
-title: "4.5 — Common Ownership Self-Assessed Tax"
+title: "4.5 — C.O.S.T. Tax"
 subtitle: "ECON 410 • Public Economics • Spring 2022"
 author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/publicS22"><i class="fa fa-github fa-fw"></i>ryansafner/publicS22</a><br> <a href="https://publicS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>publicS22.classes.ryansafner.com</a><br>'
 #date:
@@ -845,7 +845,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   geom_segment(x=0, xend=5, y=3, yend=3, size=1, linetype="dotted")+
   
 annotate("segment", x = 2.5, xend = 2.5, y = 5, yend = 3, color = "purple", size=2.5, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-  geom_label(aes(x=2.5,y=4), color = "purple", label=expression(tau), size = 5)+
+  geom_label(aes(x=2.5,y=4), color = "purple", label="t", size = 5)+
 
     scale_x_continuous(breaks=c(0,5),
                        labels=c(0,"T*"),
@@ -864,7 +864,7 @@ annotate("segment", x = 2.5, xend = 2.5, y = 5, yend = 3, color = "purple", size
 
 .pull-left[
 
-- A tax on land, $\color{purple}{\tau}$, (if supply is perfectly inelastic) is *not distortionary*!
+- A tax on land, $\color{purple}{t}$, (if supply is perfectly inelastic) is *not distortionary*!
 
 - Gross price to buyers $(r_g)$ remains the same
 
@@ -900,7 +900,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   geom_segment(x=0, xend=5, y=3, yend=3, size=1, linetype="dotted")+
   
 annotate("segment", x = 2.5, xend = 2.5, y = 5, yend = 0, color = "purple", size=2.5, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-  geom_label(aes(x=2.5,y=2.5), color = "purple", label=paste0(expression(tau==100),"%"), size = 5)+
+  geom_label(aes(x=2.5,y=2.5), color = "purple", label=("t=100%"), size = 5)+
 
     scale_x_continuous(breaks=c(0,5),
                        labels=c(0,"T*"),
@@ -919,7 +919,7 @@ annotate("segment", x = 2.5, xend = 2.5, y = 5, yend = 0, color = "purple", size
 
 .pull-left[
 
-- A tax on land, $\color{purple}{\tau}$, (if supply is perfectly inelastic) is *not distortionary*!
+- A tax on land, $\color{purple}{t}$, (if supply is perfectly inelastic) is *not distortionary*!
 
 - Gross price to buyers $(r_g)$ remains the same
 
