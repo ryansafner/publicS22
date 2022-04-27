@@ -897,8 +897,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
     geom_label(aes(x=5,y=10), color = "red", label="Supply", size = 5)+
   geom_segment(x=5, xend=5, y=0, yend=5, size=1, linetype="dotted")+
   geom_segment(x=0, xend=5, y=5, yend=5, size=1, linetype="dotted")+
-  geom_segment(x=0, xend=5, y=3, yend=3, size=1, linetype="dotted")+
-  
+
 annotate("segment", x = 2.5, xend = 2.5, y = 5, yend = 0, color = "purple", size=2.5, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
   geom_label(aes(x=2.5,y=2.5), color = "purple", label=("t=100%"), size = 5)+
 
