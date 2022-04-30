@@ -1,0 +1,59 @@
+---
+title: "4.6 — Democracy<sup>2</sup>: Quadratic Voting — Class Content"
+draft: false
+linktitle: "4.6 — Democracy<sup>2</sup>: Quadratic Voting"
+date: "2020-02-17"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "4.6-slides"
+---
+
+{{% alert note %}}
+*Monday, May 1, 2022*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+Today we discuss one of the more interesting (and radical) proposals put forth to reform politics in a fundamental (and economic) way: to dispense with “one person one vote,” allowing people to express the intensity of their preferences with (essentially) “multiple votes” that they can “buy” at an increasing cost (allowing them to make tradeoffs). Due to the typical cost function proposed for this system, this is known as **"quadratic voting"**. 
+
+This is another of stimulating proposals from Weyl and Posner’s book, *Radical Markets* that much of the intelligentsia [has been debating](https://marginalrevolution.com/marginalrevolution/2015/01/my-thoughts-on-quadratic-voting-and-politics-as-education.html) over the past few years. Aside from politics, this has also found some interest in [corporate governance](https://corpgov.law.harvard.edu/2013/06/06/quadratic-vote-buying-square-root-voting-and-corporate-governance/), and [on](https://vitalik.ca/general/2019/12/07/quadratic.html) the [blockchain](https://medium.com/eximchain/what-makes-quadratic-voting-an-effective-democratic-voting-mechanism-d7a555de8f6b).
+
+You can certainly skim some parts in the beginning and the applications towards the end (unless you find them interesting), as this is from a book for the general public - so they need to clear a lot of ground to set this up (some of which we have covered in this course already - about public goods, externalities, strategic voting, etc). Focus on what Quadratic Voting is, how it might work, and why the authors argue it would improve our current system.
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+### Required Reading
+
+- [<i class="fas fas fa-book"></i> Posner and Weyl (2017), *Radical Markets*, Ch.2, “Radical Democracy”](/readings/Posner-Weyl-2017-Ch2.pdf)
+
+### Recommended Readings
+
+- [<i class="fas fa-external-link-square-alt"></i> Buterin, 2019, “Quadratic Payments: A Primer”](https://vitalik.ca/general/2019/12/07/quadratic.html)
+- [<i class="fas fa-file-pdf"></i> Buterin, Hitzig, and Weyl, 2019, “A Flexible Mechanism for Funding Public Goods”](/readings/Buterin-Hitzig-Weyl-2019.pdf)
+- [<i class="fab fa-wikipedia-w"></i> Quadratic Voting](https://en.wikipedia.org/wiki/Quadratic_voting)
+- [<i class="fas fa-external-link-square-alt"></i> *RadicalXChange*: “Quadratic Voting in Colorado: 2020”](https://www.radicalxchange.org/media/blog/quadratic-voting-in-colorado-2020/)
+- [<i class="fas fa-external-link-square-alt"></i> *Wired*: Colorado Tried a New Way to Vote: Make People Pay—Quadratically](https://www.wired.com/story/colorado-quadratic-voting-experiment/)
+
+### Questions to Guide Your Reading
+
+- What are some problems with "one person one vote"?
+
+- What is good, bad, or objectionable about people buying, selling, or trading their votes (i.e. under our current system)?
+
+- What realms of possibility (and problems) do we open if we start dealing with *intensities* of preferences?
+
+- Why *quadratic*?
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`

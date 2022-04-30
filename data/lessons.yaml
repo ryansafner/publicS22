@@ -129,16 +129,16 @@ lessons:
     slides: "4.5-slides"
     date: "W April 27"
     
-  - title: "4.6 — Democracy<sup>2</sup>"
+  - title: "4.6 — Democracy<sup>2</sup>: Quadratic Voting"
+    content: "4.6-content"
     date: "M May 2"
   
   - title: "4.7 — The Dark Web"
+    content: "4.7-content"
     date: "W May 4"
     
-  - title: "4.7 — TBD"
-    date: "M May 9"
-
-  - title: '<i class="fas fa-laptop-code"></i> **Policy Paper**'
+  - title: '<i class="fas fa-laptop-code"></i> **Policy Paper** due'
     assignment: "policy-paper"
-
+    date: "M May 9"
+    
   - title: '<i class="fas fa-laptop-code"></i> **Final Exam**'
