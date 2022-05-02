@@ -194,7 +194,7 @@ Glen Weyl
 .pull-right[
 .center[
 ![](https://www.dropbox.com/s/07v22dns4us9ksj/integrationtroops.jpg?raw=1)
-.smallest[Federal troops protecting the "Little Rock Nine" during racial integration of schools.]
+.smallest[Federal troops protecting the “Little Rock Nine” during racial integration of schools]
 ]
 ]
 
@@ -541,17 +541,17 @@ changes+
 ]
 
 .pull-right[
-
+.smaller[
 - But this ruling is going to be determined by **votes**, not market prices or transactions
 
-- Under 1p1v, marginal cost of "buying" votes is constant
+- Under 1p1v, marginal cost of “buying” votes is constant
 
-- Those that care very much try to buy all the votes
+- Those that **care very much** try to buy all the votes
   - Cost per vote to them is too low
 
-- Those that don't care very much
+- Those that **don’t care** very much
   - Cost per vote to them is too high
-
+]
 ]
 
 ---
@@ -566,7 +566,7 @@ changes+
 
 .pull-right[
 
-- Posner & Weyl's proposal: .hi["Quadratic Voting"]
+- Posner & Weyl's proposal: .hi[“Quadratic Voting”]
 
 1.  What if people could "buy" votes to spend on an issue
 
@@ -582,7 +582,7 @@ changes+
 
 .pull-left[
 .smallest[
-| Votes | Total Cost | Marginal Cost |
+| Votes Cast | Total Cost | Marginal Cost |
 |------:|-----:|--------------:|
 | 1 | 1 | - |
 | 2 | 4 | 3 |
@@ -613,10 +613,10 @@ changes+
 
 - Reduces strategic voting, cycling, free-rider problem
 
-- More of an incentive to inform oneself - have one's votes count proportionate to degree of interest
+- More of an incentive to inform oneself - have one’s votes count proportionate to degree of interest
 
 - .hi-purple[A passionate minority can now outvote an indifferent majority]
-  - Is that what we want??
+  - Is that what we want (?)
 ]
 
 .pull-right[
@@ -631,11 +631,11 @@ changes+
 
 .pull-left[
 
-- Imagine each person is given a budget of "voice credits" $Q$ per year (e.g. 100 $Q)$
+- Imagine each person is given a budget of “voice credits” $Q$ per year (e.g. 100 $Q)$
 
 - For each issue, individual can expend $x$ $Q$-credits to cast $\sqrt{x}$ votes
 
-- $Q$-credits "rollover" if not spent on issues
+- $Q$-credits “rollover” if not spent on issues
 
 - Can save credits for issues you care more about
 ]
@@ -698,4 +698,242 @@ Screenshot from ["Collective Decision Engines"](https://collectivedecisionengine
 
 .center[
 ![:scale 70%](https://www.dropbox.com/s/r4w4nkplbihpocy/blockchainqv.png?raw=1)
+]
+
+---
+
+# One-Dollar-One-Vote
+
+.left-column[
+.center[
+![](../images/buterin.jpeg)
+
+.smallest[
+Vitalik Buterin
+]
+]
+]
+
+.right-column[
+> “Phrased less mathematically, either you value the [good] enough (and/or are rich enough) to pay, and if that's the case it's in your interest to keep paying (and influencing) quite a lot, or you don't value the [good] enough and you contribute nothing. Hence, the only [goods that get produced] would be ... where some single person is willing to basically pay for it themselves (in my experiment in 2011, this prediction was experimentally verified: in most rounds, over half of the total contribution came from a single donor).”
+
+.source[Buterin, Vitalk, 2009, [“Quadratic Payments: A Primer”](https://vitalik.ca/general/2019/12/07/quadratic.html)]
+]
+
+---
+
+# One-Dollar-One-Vote
+
+.left-column[
+.center[
+**One Dollar One Vote**
+![](../images/1d1v.png)
+]
+]
+
+.right-column[
+> “Phrased less mathematically, either you value the [good] enough (and/or are rich enough) to pay, and if that's the case it's in your interest to keep paying (and influencing) quite a lot, or you don't value the [good] enough and you contribute nothing. Hence, the only [goods that get produced] would be ... where some single person is willing to basically pay for it themselves (in my experiment in 2011, this prediction was experimentally verified: in most rounds, over half of the total contribution came from a single donor).”
+
+.source[Buterin, Vitalk, 2009, [“Quadratic Payments: A Primer”](https://vitalik.ca/general/2019/12/07/quadratic.html)]
+
+]
+
+---
+
+# One-Person-One-Vote
+
+.left-column[
+.center[
+**One Person One Vote**
+
+![](../images/1p1v.png)
+]
+]
+
+.right-column[
+.smallest[
+> “We can also consider a different mechanism: .hi[one-person-one-vote.] Let's say you can either vote that I deserve a reward for writing this article, or you can vote that I don't, and my reward is proportional to the number of votes in my favor. We can interpret this as follows: your first "contribution" costs only a small amount of effort, so you'll support an article if you care about it enough, but after that point there is no more room to contribute further; your second contribution "costs" infinity.”
+
+> “Now, you might notice that neither of the graphs above look quite right. The first graph over-privileges people who care a lot (or are wealthy), the second graph over-privileges people who care only a little, which is also a problem. The single sheep's desire to live is more important than the two wolves' desire to have a tasty dinner.”
+
+]
+
+.source[Buterin, Vitalk, 2009, [“Quadratic Payments: A Primer”](https://vitalik.ca/general/2019/12/07/quadratic.html)]
+
+]
+
+---
+
+# Quadratic Voting/Funding
+
+.left-column[
+.center[
+![](../images/buterin.jpeg)
+
+.smallest[
+Vitalik Buterin
+]
+]
+]
+
+.right-column[
+> “But what do we actually want? Ultimately, we want a scheme where how much influence you "buy" is proportional to how much you care...But here's the problem: your [valuation] determines how much you're willing to pay for one unit of influence. If Alice were willing to pay $100 for the [good] if she had to fund it herself, then she would be willing to pay $1 for an increased 1% chance it will get [produced], and if Bob were only willing to pay $50 for the [good] then he would only be willing to pay $0.5 for the same "unit of influence".”
+
+.source[Buterin, Vitalk, 2009, [“Quadratic Payments: A Primer”](https://vitalik.ca/general/2019/12/07/quadratic.html)]
+
+]
+
+---
+
+# Quadratic Voting/Funding
+
+.left-column[
+.center[
+**Quadratic Voting**
+![](../images/quadvote.png)
+
+]
+]
+
+.right-column[
+> “So how do we match these two up? The answer is clever: .hi[your n'th unit of influence costs you $n]. That is, for example, you could buy your first vote for $0.01, but then your second would cost $0.02, your third $0.03, and so forth. Suppose you were Alice in the example above; in such a system she would keep buying units of influence until the cost of the next one got to $1, so she would buy 100 units. Bob would similarly buy until the cost got to $0.5, so he would buy 50 units. Alice's 2x higher valuation turned into 2x more units of influence purchased.”
+
+.source[Buterin, Vitalk, 2009, [“Quadratic Payments: A Primer”](https://vitalik.ca/general/2019/12/07/quadratic.html)]
+
+]
+
+---
+
+# Quadratic Voting/Funding
+
+.left-column[
+.center[
+![](../images/qv_triangle.png)
+]
+
+]
+
+.right-column[
+
+> “Now, you might ask, where does the quadratic come from? Well, the marginal cost of the n'th vote is $n (or $0.01 * n), but the total cost of n votes is $\approx \frac{n^2}{2}$. You can view this geometrically as follows:”
+
+> “The total cost is the area of a triangle, and you probably learned in math class that area is base * height / 2. And since here base and height are proportionate, that basically means that total cost is proportional to number of votes squared - hence, "quadratic". But honestly it's easier to think .hi["your n'th unit of influence costs $n.]”
+
+.source[Buterin, Vitalk, 2009, [“Quadratic Payments: A Primer”](https://vitalik.ca/general/2019/12/07/quadratic.html)]
+
+]
+---
+
+# Quadratic Voting/Funding
+
+.center[
+![:scale 100%](../images/quadraticvotingcompare.png)
+]
+
+---
+
+# Quadratic *Voting*
+
+.left-column[
+.center[
+![](../images/buterin.jpeg)
+
+.smallest[
+Vitalik Buterin
+]
+]
+]
+
+.right-column[
+.smaller[
+> “Imagine that some organization is trying to choose between two choices for some decision that affects all of its members. For example, this could be a company or a nonprofit deciding which part of town to make a new office in, or a government deciding whether or not to implement some policy, or an internet forum deciding whether or not its rules should allow discussion of cryptocurrency prices. Within the context of the organization, the choice made is a public good (or public bad, depending on whom you talk to): everyone "consumes" the results of the same decision, they just have different opinions about how much they like the result.”
+]
+
+.source[Buterin, Vitalk, 2009, [“Quadratic Payments: A Primer”](https://vitalik.ca/general/2019/12/07/quadratic.html)]
+]
+
+---
+
+# Quadratic *Voting*
+
+.left-column[
+.center[
+![](../images/buterin.jpeg)
+
+.smallest[
+Vitalik Buterin
+]
+]
+]
+
+.right-column[
+.smallest[
+> “This seems like a perfect target for quadratic voting. The goal is that option A gets chosen if in total people like A more, and option B gets chosen if in total people like B more. With simple voting ("one person one vote"), the distinction between stronger vs weaker preferences gets ignored, so on issues where one side is of very high value to a few people and the other side is of low value to more people, simple voting is likely to give wrong answers. With a private-goods market mechanism where people can buy as many votes as they want at the same price per vote, the individual with the strongest preference (or the wealthiest) carries everything. Quadratic voting, where you can make $n$ votes in either direction at a cost of $n^2$, is right in the middle between these two extremes, and creates the perfect balance.”
+]
+
+.source[Buterin, Vitalk, 2009, [“Quadratic Payments: A Primer”](https://vitalik.ca/general/2019/12/07/quadratic.html)]
+]
+
+---
+
+# Quadratic *Voting*
+
+
+.center[
+![](../images/qv_compare2.png)
+
+]
+
+---
+
+# Experiments in QV
+
+.pull-left[
+.center[
+![](../images/coloradoqv.png)
+]
+]
+
+.pull-right[
+.quitesmall[
+> “Hansen and the Colorado Democrats had tried to solve these kinds of problems before. Last year they arbitrarily assigned everyone 15 tokens to put on their 15 favorite bills. This might work for priorities at a company retreat, but for budgeting, it “didn’t give us as good a signal,” Hansen says. So after talking to Weyl and working with software developers he knew, the caucus put together a computer interface to serve a modified version of quadratic voting. No dollars here. The members weren’t using their own money—each of them got 100 virtual tokens to buy votes. And unlike Weyl’s original version, the tokens didn’t get redistributed to all the voters at the end.
+
+]
+
+.source[Source:: [Wired](https://www.wired.com/story/colorado-quadratic-voting-experiment/)]
+]
+
+---
+
+# Experiments in QV
+
+.pull-left[
+.center[
+![](../images/coloradoqv.png)
+]
+]
+
+.pull-right[
+.quitesmall[
+> So in mid-April, the representatives voted. Sure, each one could have put ten tokens on their pet project. But consider the or: Nine votes on one (cost: 81 tokens) but then three votes on another (cost: nine tokens). Or five votes each (25 tokens) on four different bills!”
+]
+
+.source[Source:: [Wired](https://www.wired.com/story/colorado-quadratic-voting-experiment/)]
+]
+
+---
+# Experiments in QV
+
+.center[
+![:scale 70%](../images/colorado-qv-distribution.png)
+]
+
+.source[Source: [RadicalXchange: Quadratic Voting in Colorado 2020](https://www.radicalxchange.org/media/blog/quadratic-voting-in-colorado-2020/)]
+
+---
+
+# QV on the Blockchain
+
+.center[
+![:scale 80%](../images/gitcoin.png)
 ]
