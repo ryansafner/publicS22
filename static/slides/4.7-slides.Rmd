@@ -1,0 +1,552 @@
+---
+title: "4.7 — The Dark Web & Reputation"
+subtitle: "ECON 410 • Public Economics • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/publicS22"><i class="fa fa-github fa-fw"></i>ryansafner/publicS22</a><br> <a href="https://publicS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>publicS22.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F,
+                      fig.retina = 3,
+                      fig.align = "center")
+library("tidyverse")
+library("ggrepel")
+library("fontawesome")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_freezeframe()
+
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+update_geom_defaults("text", list(family = "Fira Sans Condensed"))
+
+set.seed(256)
+
+```
+
+
+# Credible Commitment Problems
+
+.pull-left[
+
+- Agreements are always incomplete contracts, actions for many (unforeseen) contingencies are unspecified
+
+- Even for specified actions and contingencies, outcomes are indeterminate due to .hi-purple[enforcement costs]
+  - argument about interpretation
+  - slow litigation process, legal fees
+
+- Gives rise to .hi[post-contractual opportunism] (shirking, fraud, renegotiation, hold-up, etc)
+
+
+]
+
+.pull-right[
+.center[
+![](../images/negotiation.jpg)
+]
+]
+
+
+---
+
+# Asides: I/O & Theory of Firm
+
+.pull-left[
+.pull-left[
+.center[
+![:scale 75%](../images/io_hex.png)
+
+.smallest[
+[ECON 326 — Industrial Organization](https://ios20.classes.ryansafner.com)
+]
+]
+]
+.pull-right[
+.center[
+![:scale 75%](../images/law_hex.png)
+.smallest[
+[ECON 315 — Economics of the Law](https://laws21.classes.ryansafner.com)
+]
+]
+]
+]
+
+.pull-right[
+.smallest[
+- Research in industrial organization about how .hi-purple[firms solve these problems of transaction costs]
+  - **vertical integration** to prevent post-contractual opportunism
+  - **contractual restraints** (that look like they create market power but are actually efficient)
+
+- In general .hi-purple[firms are a solution to high transaction cost situations]; .hi-purple[the law] is another
+]
+]
+
+---
+
+# Using Market Forces to Enforce Contracts: Reputation
+
+> "Since every contingency cannot be cheaply specified in a contract or even known and because legal redress is expensive, transactors will generally also rely on an implicit type of long-term contract that employs a market rather than legal enforcement mechanism, namely, the imposition of a capital loss by the withdrawal of expected future business. This goodwill market-enforcement mechanism undoubtedly is a major element of the contractual alternative to vertical integration," (p.303)
+
+.source[Klein, Benjamin, Robert G Crawford, and Armen A Alchian, 1978, "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process," *Journal of Law and Economics* 21(2): 297-326]
+
+---
+
+# Using Market Forces to Enforce Contracts: Reputation
+
+.smaller[
+> "One way in which this market mechanism of contract enforcement may operate is by offering to the potential cheater a future 'premium,' more precisely, a price sufficiently greater than average variable (that is, avoidable) cost to assure a quasi-rent stream that will exceed the potential gain from cheating. The present-discounted value of this future premium stream must be greater than any increase in wealth that could be obtained by the potential cheater if he, in fact, cheated and were terminated. The offer of such a long-term relationship with the potential cheater will eliminate systematic opportunistic behavior," (p.304).
+
+]
+
+.source[Klein, Benjamin, Robert G Crawford, and Armen A Alchian, 1978, "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process," *Journal of Law and Economics* 21(2): 297-326]
+
+---
+
+# Using Market Forces to Enforce Contracts: Reputation
+
+.smaller[
+
+> "The larger the potential one-time 'theft' by cheating (the longer and more costly to detect a violation, enforce the contract, switch suppliers, and so forth) and the shorter the expected continuing business relationship, the higher this premium will be in a nondeceiving equilibrium. This may therefore partially explain both the reliance by firms on long-term implicit contracts with particular suppliers and the existence of reciprocity agreements among firms...The threat of termination of this relationship mutually suppresses opportunistic behavior. The premium stream can be usefully thought of as insurance payments made by the firm to prevent cheating," (pp.304-5)
+
+]
+.source[Klein, Benjamin, Robert G Crawford, and Armen A Alchian, 1978, "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process," *Journal of Law and Economics* 21(2): 297-326]
+
+---
+
+# Using Market Forces to Enforce Contracts: Reputation
+
+.pull-left[
+- Essentially playing an infinitely repeated Prisoners' Dilemma
+  - Cooperate = fulfill contract
+  - Defect = don't buy, cheat, renege, hold up, opportunism
+
+]
+
+.pull-right[
+.center[
+![](../images/pdpayoffs3.png)
+]
+]
+
+---
+
+# Payoffs in Grim Trigger Strategy
+
+.pull-left[
+- Cooperation (grim trigger strategy) is a Nash equilibrium as long there's no incentive to deviate: 
+
+.smallest[
+$$\begin{align*}
+\text{Payoff to cooperation} & > \text{Payoff to one-time defection}\\
+\frac{3}{1-\delta} & >  4+\frac{2\delta}{1-\delta}\\
+\delta & > 0.5\\
+\end{align*}$$
+
+]
+
+- If `\\(\delta > 0.5\\)`, then player will cooperate and not defect
+
+]
+
+.pull-right[
+.center[
+![](../images/pdpayoffs3.png)
+]
+]
+
+---
+
+# Payoffs in Grim Trigger Strategy
+
+.pull-left[
+- $\delta > 0.5$ is sufficient to sustain cooperation under the grim trigger strategy
+    - This is the most extreme strategy with the strongest threat
+
+]
+
+.pull-right[
+.center[
+![](../images/pdpayoffs3.png)
+]
+]
+
+---
+
+# Payoffs in Grim Trigger Strategy
+
+.pull-left[
+- Two interpretations of $\delta > 0.5$ as a sufficient condition for cooperation:
+
+1.  $\delta$ as .hi-purple[sufficiently high discount rate]
+    - Players are patient enough and care about the future (reputation, etc), will not defect
+2.  $\delta$ as .hi-purple[sufficiently high probability of repeat interaction]
+    - Players expect to encounter each other again and play future games together
+
+]
+
+.pull-right[
+.center[
+![](../images/pdpayoffs3.png)
+]
+]
+
+---
+
+# Using Market Forces to Enforce Contracts: Reputation
+
+.smallest[
+> “Any profits are competed away in equilibrium by competitive expenditures on fixed (sunk) assets, such as initial specific investments (for example, a sign) with low or zero salvage value if the firm cheats, necessary to enter and obtain this preferred position of collecting the premium stream. These fixed (sunk) costs of supplying credibility of future performance are repaid or covered by future sales on which a premium is earned. .hi[In equilibrium,the premium stream is then merely a normal rate of return on the 'reputation,' or 'brand-name' capital created by the firm by these initial expenditures.] This brand-name capital, .hi[the value of which is highly specific to contract fulfillment by the firm], is analytically .hi[equivalent to a forfeitable collateral bond put up by the firm which is anticipated to face an opportunity to take advantage of appropriable quasi rents in specialized assets],” (p.306).
+
+]
+
+.source[Klein, Benjamin, Robert G Crawford, and Armen A Alchian, 1978, "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process," *Journal of Law and Economics* 21(2): 297-326]
+
+---
+
+# Using Market Forces to Enforce Contracts: Reputation
+
+.smallest[
+
+> “We can generally say that .hi[the larger the appropriable specialized quasi rents] (and therefore .hi[the larger the potential short-run gain from opportunistic behavior]) and .hi[the larger the premium payments necessary to prevent contractual reneging, the more costly this implicit contractual solution will be]...the lower the appropriable specialized quasi rents, the more likely that transactors will rely on a contractual relationship rather than common ownership. And conversely, .hi[integration by common or joint ownership is more likely], the higher the appropriable specialized quasi rents of the assets involved,” (pp.306-307).
+
+]
+
+.source[Klein, Benjamin, Robert G Crawford, and Armen A Alchian, 1978, "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process," *Journal of Law and Economics* 21(2): 297-326]
+
+---
+
+# The Revival of International Trade (c.1100)
+.center[
+![](../images/medievaltradefairs.png)
+]
+
+---
+
+# The Revival of International Trade (c.1100)
+
+.pull-left[
+- Commercial Revolution in the 12<sup>th</sup> Century, developments in economy and technology
+
+- Resumption of long distance international trade (not since Roman era) took place in fairs, like the Champagne Fair
+
+
+]
+
+.pull-right[
+.center[
+![](../images/medievaltown2.jpg)
+]
+]
+
+---
+
+
+# The Revival of International Trade (c.1100)
+
+.pull-left[
+- No established commercial law or State enforcement of contracts
+
+- *International* merchants can’t depend on weak & biased local governments to enforce *international* contracts!
+
+- Transactions at fairs: transfer of goods in exchange for promissory note to be paid *at next fair*
+  - Ample room for dishonest merchants to trade
+  
+]
+
+.pull-right[
+.center[
+![](../images/medievaltown2.jpg)
+]
+]
+
+---
+
+# *Lex Mercatoria*
+
+.pull-left[
+.smallest[
+- Merchants adopted their own “laws” and best practices to facilitate commerce & minimize transaction costs
+  - *Lex Mercatoria*
+
+- For-profit merchant courts emerge to settle disputes and enforce international contracts
+  - More efficient, cheaper, and less partisan than Royal courts
+  - Legal and jurisdictional competition
+  
+- Developed contract law and advanced legal instruments — debt, credit, loans, equity contracts
+]
+]
+
+.pull-right[
+.center[
+![](../images/merchantlaw.png)
+]
+]
+
+---
+
+# *Lex Mercatoria*
+
+.pull-left[
+- Not part of government, had no official power to enforce judgments!
+
+- Was successful (and foundation of most international and commercial law today), so must have worked
+  
+]
+
+.pull-right[
+.center[
+![](../images/merchantlaw.png)
+]
+]
+
+---
+
+# Reputation Again
+
+.pull-left[
+
+.smaller[
+- What prevents a merchant from cheating?
+  - Reputation and sanction by other merchants
+  - If two specific merchants repeatedly interact, honesty can be sustained by trigger strategies (sufficiently high $\delta$ or $\theta$, etc)
+
+- Then why need a legal system? 
+  - Merchants require *information* about other merchants and their histories
+  - Role of third party
+]
+]
+
+.pull-right[
+.center[
+![:scale 80%](../images/merchant3.png)
+]
+]
+
+---
+
+# Reputation Again
+
+.pull-left[
+
+.smallest[
+Milgrom, North, and Weingast (1990) model these interactions as a multi-stage repeated game (p.11):
+
+1. Traders may (at a cost $Q>0$) ask LM (publicly reports whether any trader has any unpaid judgments) about their current partner
+2. Two traders play a prisoners' dilemma (**Honest** or **Cheat**)
+3. If LM was asked before (in stage 1), either player may **Appeal** outcome to LM at a cost $C>0$
+4. If **Appealed**, LM awards damages $(J)$ to Plaintiff if he was Honest and his partner Cheated; otherwise nothing 
+5. Defendant chooses to **Pay** $J$ or **Not**
+6. Unpaid judgments recorded by LM
+
+]
+
+.source[
+Milgrom, Paul R, Douglass C North, and Barry R Weingast, 1990, “The Role of Institutions in the Revival of Trade: The Law Merchant, Private Judges, and the Champagne Fairs,” *Economics and Politics* 2(1): 1-23
+]
+]
+
+.pull-right[
+.center[
+![](../images/milgromPD.png)
+]
+]
+
+---
+
+# Reputation Again
+
+.pull-left[
+
+- If costs of asking judge are not too high, and if players are sufficiently patient (high enough $\delta$ or $\theta)$, can sustain honest trade
+
+- Merchant courts have strong incentive to be quick and efficient (promotes commerce)
+  - State/local courts biased against foreigners, inefficient
+
+.source[
+Milgrom, Paul R, Douglass C North, and Barry R Weingast, 1990, “The Role of Institutions in the Revival of Trade: The Law Merchant, Private Judges, and the Champagne Fairs,” *Economics and Politics* 2(1): 1-23
+]
+]
+
+.pull-right[
+.center[
+![:scale 80%](../images/merchant3.png)
+]
+]
+
+---
+
+# The Dark Web
+
+.center[
+![:scale 65%](../images/darkweb.jpg)
+]
+
+---
+
+# Unique Features of Darkweb as Black Market
+
+.pull-left[
+.center[
+![](../images/tor.png)
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/bitcoin.jpg)
+]
+]
+
+---
+
+# The Silk Road
+
+.center[
+![](../images/silkroaddarkweb.jpg)
+]
+
+---
+
+# The Silk Road: Product Page
+
+.center[
+![](../images/silkroad_seller.png)
+]
+
+---
+
+# The Silk Road: Product Page — Seller Reviews
+
+.center[
+![](../images/silkroad_reviews.png)
+]
+
+---
+
+# The Silk Road: Product Page — Seller Reviews
+
+.center[
+![](../images/silkroad_pricing.png)
+]
+
+---
+
+# Hardy and Norgaard, (2016)
+
+> “This paper investigates a market place where feedback mechanisms and reputation are the only things keeping the market functioning, without any government taxation and regulation...Deep Web markets are an empirical example of the depth of robustness of spontaneous order. It shows that the principles of an unfettered market rooted in reputation and accountability can be applied to an extremely vast array of goods and services...We are fundamentally analyzing how individuals interact with each other and without government,” (516-517)
+
+> “We empirically answer the questions; Does investment in reputation allow sellers to charge premium prices, or to simply remain in the market? How does reputation play a role in this marketplace?” (516).
+
+.source[Hardy, Robert August and Julia R Norgaard, 2016, “Reputation in the Internet black market: an empirical and theoretical analysis of the Deep Web,” *Journal of Institutional Economics* 12(3): 515-539]
+
+---
+
+# Hardy and Norgaard, (2016)
+
+
+> “A primary difference between traditional online sites, such as eBay, and the Silk Road is escrow implementation. Standard escrow requires the ability to undo a transaction. Fraudulent items are returned to the seller, and then the escrow service refunds the buyer...Silk Road purchases cannot be undone; drug dealers do not provide return addresses.An escrow service cannot exist which simultaneously satisfies buyer and seller” (518).
+
+
+.source[Hardy, Robert August and Julia R Norgaard, 2016, “Reputation in the Internet black market: an empirical and theoretical analysis of the Deep Web,” *Journal of Institutional Economics* 12(3): 515-539]
+
+---
+
+# Hardy and Norgaard, (2016)
+
+
+> “Because the users in this marketplace cannot seek legal recourse for their illegal transactions, they must police themselves...The Deep Web Culture promotes transparency with respect to the quality of the goods and services as well as honesty amongst buyers and sellers. Users have created checks and balances on each other to feel confident and safe on the Deep Web...buyers use checks and balances to constrain seller predation. In the absence of a central coercive force for recursive action, users must rely on each other for feedback and information. The security and reliability of this network is what keeps users confident in the marketplace because they provide internal checks on each other. Many forums contain information about people who are masquerading as prominent sellers, or users that are committing fraud” (518-519).
+
+
+.source[Hardy, Robert August and Julia R Norgaard, 2016, “Reputation in the Internet black market: an empirical and theoretical analysis of the Deep Web,” *Journal of Institutional Economics* 12(3): 515-539]
+
+---
+
+# Hardy and Norgaard, (2016)
+
+
+> “In terms of the global drug market, the Silk Road is a small fraction. Kilmer and Pacula (2009) estimate a 2003 trade volume of $142 billion. Court documents used in the trial of Silk Road founder Ross Ulbrict (U.S. v. Ross ULbricht, 2013) allege the original Silk Road grossed approximately $214 million during its two years of operation,” (519).
+
+
+.source[Hardy, Robert August and Julia R Norgaard, 2016, “Reputation in the Internet black market: an empirical and theoretical analysis of the Deep Web,” *Journal of Institutional Economics* 12(3): 515-539]
+
+---
+
+# Hardy and Norgaard, (2016)
+
+
+> “Because of the nature of the goods sold in the Deep Web, on the Silk Road in particular, sellers are anonymous to buyers and buyers are anonymous to sellers. Before a first transaction, they have no personal knowledge of another’s personality and no formal enforcement mechanism if a transaction goes awry. The characteristics of this particular marketplace pose risks to the traders involved. The buyer could refuse to pay the seller after their items have been received, or, if the buyer pays first, the seller could fail to send the purchased items because they received the payment upfront. There is no way to recoup lost BTCs or products once the transaction is finalized. This marketplace exists due to the importance of a bilateral reputation mechanism that instills confidence in the traders and facilitates repeated transactions,” (519-520).
+
+.source[Hardy, Robert August and Julia R Norgaard, 2016, “Reputation in the Internet black market: an empirical and theoretical analysis of the Deep Web,” *Journal of Institutional Economics* 12(3): 515-539]
+
+
+---
+
+# Hardy and Norgaard, (2016)
+
+> “Recognizing this potential risk, traders utilize forums such as Reddit and the Silk Road itself for feedback, bringing attention to fraudulent behavior and informing traders of transaction malfeasance.” (520)
+
+> “A user’s feedback profile in this marketplace is made up of the comments and ratings left on the Silk Road site as well as other feedback forums. This feedback is both comments and a number rating. The collection of this user feedback on other users makes up the reputation of the trader in the marketplace. Due to the anonymity aspects of The Silk Road, buyer information is not formally posted like seller information and feedback is on the site. Unlike Surface Web marketplaces, if a buyer leaves a comment and/or rating, an individual identifier is not attached to their message. The reason for this is to protect buyer anonymity. The only information that we can glean about the buyer in particular is that they did in fact make a purchase; buyers cannot leave feedback on a product they did not buy,” (520).
+
+.source[Hardy, Robert August and Julia R Norgaard, 2016, “Reputation in the Internet black market: an empirical and theoretical analysis of the Deep Web,” *Journal of Institutional Economics* 12(3): 515-539]
+
+---
+
+# Forums Discussing Silk Road Transactions
+
+.pull-left[
+.center[
+![](../images/silkroad_forum1.png)
+]
+]
+
+.pull-right[
+.center[
+![](../images/silkroad_forum2.png)
+]
+]
+
+---
+
+# Hardy and Norgaard, (2016)
+
+.smaller[
+> “Applying these characteristics to the Silk Road marketplace, the seller feedback mechanisms of readily observable ratings, comments, and thus reputation fit these criteria and send a signal that the seller is honest or dishonest. It would be difficult for a repeatedly dishonest seller to trick its buyers to leave positive reviews and ratings even though the products and services were a sham. On the other hand, if an honest seller provides their customers with quality products in a timely manner, it will be relatively easy to receive truthful positive reviews about the seller’s quality performance. This dovetails very nicely with what we know about the Silk Road community from studying Silk Road forums: the community is very active at giving feedback. These criteria, easily observable signaling and costly signaling for cheaters, do not necessarily apply to the buyers in this marketplace. This failure of buyer feedback to meet the strong signal criteria proposes that buyer signals could contain a great deal of noise and potential for misread signals. For the purposes of this paper, we will analyze the impact of seller’s reputation as a signal,” (521).
+
+]
+
+.source[Hardy, Robert August and Julia R Norgaard, 2016, “Reputation in the Internet black market: an empirical and theoretical analysis of the Deep Web,” *Journal of Institutional Economics* 12(3): 515-539]
+
+---
+
+# Hardy and Norgaard, (2016)
+
+.smaller[
+> “Deep Web traders do not have an identity in the traditional sense; however, they foster an identity through their
+online reputation. The Leeson model makes it clear that people cheat because they have higher discount rates than their cooperators. Their gains from future exchange are more heavily discounted, thus they invest less because it is more costly for them,” (521).
+
+> “Our analysis in this paper estimates the discount factors of all users. An essential component to the reputation system is that, if reputation does allow sellers to charge their customers a premium, it behooves the sellers to increase their reputation so as to be able to collect premium profits. Therefore, the existence of the reputation system itself acts to ensure honesty with each transaction. This particular phenomenon is what this paper analyzes in great detail, whether or not an increase in reputation empirically and statistically significantly allows sellers to actually charge premium prices”
+
+]
+
+.source[Hardy, Robert August and Julia R Norgaard, 2016, “Reputation in the Internet black market: an empirical and theoretical analysis of the Deep Web,” *Journal of Institutional Economics* 12(3): 515-539]
