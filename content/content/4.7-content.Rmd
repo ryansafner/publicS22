@@ -31,6 +31,7 @@ TBD
 ### Recommended Readings
 
 - [<i class="fas fa-file-pdf"></i> Norgaard, Walbert, and Hardy, 2018, “Shadow markets and hierarchies: comparing and modeling networks in the Dark Net”](/readings/Norgaard-Welbert-Hardy-2018.pdf)
+- [<i class="fas fa-podcast"></i> *NPR Planet Money* 585: “Chasing the Dread Pirate Roberts”](https://www.npr.org/sections/money/2014/11/26/365510643/episode-585-chasing-the-dread-pirate-roberts)
 
 ### Questions to Guide Your Reading
 
