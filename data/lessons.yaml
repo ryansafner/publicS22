@@ -141,6 +141,7 @@ lessons:
     
   - title: '<i class="fas fa-laptop-code"></i> **Policy Paper** due'
     assignment: "policy-paper"
-    date: "M May 9"
+    date: "F May 13"
     
-  - title: '<i class="fas fa-laptop-code"></i> **Final Exam**'
+  - title: '<i class="fas fa-laptop-code"></i> **Final Exam** due'
+    assignment: "final"
